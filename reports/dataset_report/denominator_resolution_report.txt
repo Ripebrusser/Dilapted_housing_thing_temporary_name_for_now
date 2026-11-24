@@ -1,0 +1,50 @@
+PHASE 1 DENOMINATOR RESOLUTION REPORT
+======================================================================
+
+1. ALTERNATIVE DENOMINATOR (Rural_Households + Urban_Households)
+   d1_households_labeled_sum: 330,835,767
+   d1_rural_plus_urban_sum: 330,835,767
+   d1_rural_sum: 220,695,914
+   d1_urban_sum: 110,139,853
+   d5_no_hh_sum: 247,577,528
+   published_total_households_2011: 246,740,228
+   alt_over_d5: 1.336291583782192
+   alt_over_published: 1.3408262190630706
+   exact_equals_d5_count: 0
+   within_0_5pct_of_d5: 0
+   n_districts: 640
+   corr_alt_vs_d5: 0.9876244733662513
+   median_abs_pct_diff_vs_d5: 32.11582757412543
+
+2. HOUSEHOLD ASSET PROBE (national sums vs published 2011 shares)
+   LPG_or_PNG_Households: {'national_sum': 70422883, 'share_of_published_households': 28.54, 'published_2011_share_pct': 58.0, 'share_of_d1_households_labeled': 21.29, 'share_of_alt_denominator': 21.29}
+   Housholds_with_Electric_Lighting: {'national_sum': 165897294, 'share_of_published_households': 67.24, 'published_2011_share_pct': 67.0, 'share_of_d1_households_labeled': 50.14, 'share_of_alt_denominator': 50.14}
+   Households_with_Television: {'national_sum': 116493624, 'share_of_published_households': 47.21, 'published_2011_share_pct': 47.0, 'share_of_d1_households_labeled': 35.21, 'share_of_alt_denominator': 35.21}
+   Having_latrine_facility_within_the_premises_Total_Households: {'national_sum': 115737458, 'share_of_published_households': 46.91, 'published_2011_share_pct': 47.0, 'share_of_d1_households_labeled': 34.98, 'share_of_alt_denominator': 34.98}
+
+3. SHARED DISTRICT NAME RESOLUTION VIA POPULATION
+   AURANGABAD: d5_population=2317966 matched=None
+      unmatched: ['BIHAR||AURANGABAD', 'MAHARASHTRA||AURANGABAD']
+   BIJAPUR: d5_population=1704953 matched=None
+      unmatched: ['CHHATTISGARH||BIJAPUR', 'KARNATAKA||BIJAPUR']
+   BILASPUR: d5_population=2008888 matched=None
+      unmatched: ['HIMACHAL PRADESH||BILASPUR', 'CHHATTISGARH||BILASPUR']
+   HAMIRPUR: d5_population=925867 matched=None
+      unmatched: ['HIMACHAL PRADESH||HAMIRPUR', 'UTTAR PRADESH||HAMIRPUR']
+   PRATAPGARH: d5_population=3105706 matched=None
+      unmatched: ['RAJASTHAN||PRATAPGARH', 'UTTAR PRADESH||PRATAPGARH']
+   RAIGARH: d5_population=1910307 matched=None
+      unmatched: ['CHHATTISGARH||RAIGARH', 'MAHARASHTRA||RAIGARH']
+
+4. GEOGRAPHY.csv VINTAGE
+   years=['2016'] n_states=36 has_telangana=True
+   delhi entries: [{'geo_code': '7', 'name': 'NCT OF DELHI'}]
+   New Delhi district rows: []
+
+5. T4 (dilapidated / Rural+Urban households) vs D2 share
+   n: 640
+   national_pooled_pct: 3.991
+   median_abs_diff_pp: 1.116
+   share_within_0_5pp: 0.148
+   corr: 0.9847
+   distribution: {'min': 0.127, 'median': 3.297, 'mean': 3.763, 'max': 13.871, 'sd': 2.457}

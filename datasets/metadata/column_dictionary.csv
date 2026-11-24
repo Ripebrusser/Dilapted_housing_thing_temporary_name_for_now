@@ -1,0 +1,534 @@
+dataset_id,column_name,dtype,non_null,null_count,null_pct,n_unique,min,max,numeric_share,sample_values,role
+D1,District code,int64,640,0,0.0,640,1.0,640.0,1.0,1 | 2 | 3,identifier
+D1,State name,str,640,0,0.0,35,,,0.0,JAMMU AND KASHMIR | HIMACHAL PRADESH | PUNJAB,identifier
+D1,District name,str,640,0,0.0,634,,,0.0,Kupwara | Badgam | Leh(Ladakh),identifier
+D1,Population,int64,640,0,0.0,640,8004.0,11060148.0,1.0,870354 | 753745 | 133487,candidate_predictor
+D1,Male,int64,640,0,0.0,640,4414.0,5865078.0,1.0,474190 | 398041 | 78971,candidate_predictor
+D1,Female,int64,640,0,0.0,640,3590.0,5195070.0,1.0,396164 | 355704 | 54516,candidate_predictor
+D1,Literate,int64,640,0,0.0,640,4436.0,8227161.0,1.0,439654 | 335649 | 93770,candidate_predictor
+D1,Male_Literate,int64,640,0,0.0,640,2614.0,4591396.0,1.0,282823 | 207741 | 62834,candidate_predictor
+D1,Female_Literate,int64,640,0,0.0,640,1822.0,3635765.0,1.0,156831 | 127908 | 30936,candidate_predictor
+D1,SC,int64,640,0,0.0,610,0.0,2464032.0,1.0,1048 | 368 | 488,candidate_predictor
+D1,Male_SC,int64,640,0,0.0,608,0.0,1266504.0,1.0,1046 | 343 | 444,candidate_predictor
+D1,Female_SC,int64,640,0,0.0,604,0.0,1197528.0,1.0,2 | 25 | 44,candidate_predictor
+D1,ST,int64,640,0,0.0,584,0.0,1580850.0,1.0,70352 | 23912 | 95857,candidate_predictor
+D1,Male_ST,int64,640,0,0.0,583,0.0,793305.0,1.0,36913 | 12383 | 47543,candidate_predictor
+D1,Female_ST,int64,640,0,0.0,582,0.0,787545.0,1.0,33439 | 11529 | 48314,candidate_predictor
+D1,Workers,int64,640,0,0.0,640,3555.0,4492767.0,1.0,229064 | 214866 | 75079,candidate_predictor
+D1,Male_Workers,int64,640,0,0.0,640,2228.0,3363123.0,1.0,190899 | 162578 | 53265,candidate_predictor
+D1,Female_Workers,int64,640,0,0.0,640,1327.0,1239177.0,1.0,38165 | 52288 | 21814,candidate_predictor
+D1,Main_Workers,int64,640,0,0.0,640,2525.0,3930511.0,1.0,123837 | 132003 | 57125,candidate_predictor
+D1,Marginal_Workers,int64,640,0,0.0,640,1030.0,998611.0,1.0,105227 | 82863 | 17954,candidate_predictor
+D1,Non_Workers,int64,640,0,0.0,640,4449.0,6567381.0,1.0,641290 | 538879 | 58408,candidate_predictor
+D1,Cultivator_Workers,int64,640,0,0.0,639,0.0,1013050.0,1.0,34680 | 55299 | 20869,candidate_predictor
+D1,Agricultural_Workers,int64,640,0,0.0,640,0.0,1227956.0,1.0,56759 | 36630 | 1645,candidate_predictor
+D1,Household_Workers,int64,640,0,0.0,632,68.0,466007.0,1.0,7946 | 29102 | 1020,candidate_predictor
+D1,Other_Workers,int64,640,0,0.0,640,2091.0,3944496.0,1.0,129679 | 93835 | 51545,candidate_predictor
+D1,Hindus,int64,640,0,0.0,640,873.0,8716055.0,1.0,37128 | 10110 | 22882,candidate_predictor
+D1,Muslims,int64,640,0,0.0,639,74.0,4707573.0,1.0,823286 | 736054 | 19057,candidate_predictor
+D1,Christians,int64,640,0,0.0,622,171.0,1248137.0,1.0,1700 | 1489 | 658,candidate_predictor
+D1,Sikhs,int64,640,0,0.0,565,3.0,1863408.0,1.0,5600 | 5559 | 1092,candidate_predictor
+D1,Buddhists,int64,640,0,0.0,511,1.0,668050.0,1.0,66 | 47 | 88635,candidate_predictor
+D1,Jains,int64,640,0,0.0,546,0.0,343639.0,1.0,39 | 6 | 103,candidate_predictor
+D1,Others_Religions,int64,640,0,0.0,436,0.0,945864.0,1.0,13 | 2 | 54,candidate_predictor
+D1,Religion_Not_Stated,int64,640,0,0.0,612,13.0,62142.0,1.0,2522 | 478 | 1006,candidate_predictor
+D1,LPG_or_PNG_Households,int64,640,0,0.0,637,120.0,1788912.0,1.0,15828 | 15118 | 13645,candidate_predictor
+D1,Housholds_with_Electric_Lighting,int64,640,0,0.0,640,1074.0,2330631.0,1.0,83071 | 90190 | 17250,candidate_predictor
+D1,Households_with_Internet,int64,640,0,0.0,619,17.0,430880.0,1.0,762 | 1999 | 574,candidate_predictor
+D1,Households_with_Computer,int64,640,0,0.0,637,133.0,790103.0,1.0,5256 | 5892 | 2150,candidate_predictor
+D1,Rural_Households,int64,640,0,0.0,632,0.0,1568802.0,1.0,158438 | 160649 | 36920,candidate_predictor
+D1,Urban_Households,int64,640,0,0.0,637,0.0,3078829.0,1.0,23226 | 27190 | 17474,candidate_predictor
+D1,Households,int64,640,0,0.0,640,3230.0,3618151.0,1.0,181664 | 187839 | 54394,target_component_leakage_risk
+D1,Below_Primary_Education,int64,640,0,0.0,640,696.0,1280809.0,1.0,60616 | 68336 | 10452,candidate_predictor
+D1,Primary_Education,int64,640,0,0.0,640,1258.0,1874051.0,1.0,101642 | 80862 | 15181,candidate_predictor
+D1,Middle_Education,int64,640,0,0.0,640,1060.0,2094743.0,1.0,99947 | 83141 | 17900,candidate_predictor
+D1,Secondary_Education,int64,640,0,0.0,640,809.0,2018079.0,1.0,74948 | 66459 | 16265,candidate_predictor
+D1,Higher_Education,int64,640,0,0.0,640,656.0,1196965.0,1.0,39709 | 41367 | 8923,candidate_predictor
+D1,Graduate_Education,int64,640,0,0.0,637,356.0,1733274.0,1.0,21751 | 27950 | 6197,candidate_predictor
+D1,Other_Education,int64,640,0,0.0,630,15.0,198399.0,1.0,6402 | 6857 | 575,candidate_predictor
+D1,Literate_Education,int64,640,0,0.0,640,4926.0,8886074.0,1.0,405015 | 374972 | 75493,candidate_predictor
+D1,Illiterate_Education,int64,640,0,0.0,638,2185.0,3031841.0,1.0,289765 | 342646 | 32637,candidate_predictor
+D1,Total_Education,int64,640,0,0.0,640,7111.0,10190122.0,1.0,694780 | 717618 | 108130,candidate_predictor
+D1,Age_Group_0_29,int64,640,0,0.0,640,5113.0,6184519.0,1.0,600759 | 503223 | 70703,candidate_predictor
+D1,Age_Group_30_49,int64,640,0,0.0,640,2088.0,3241888.0,1.0,178435 | 160933 | 41515,candidate_predictor
+D1,Age_Group_50,int64,640,0,0.0,639,786.0,1921143.0,1.0,89679 | 88978 | 21019,candidate_predictor
+D1,Age not stated,int64,640,0,0.0,606,16.0,135852.0,1.0,1481 | 611 | 250,candidate_predictor
+D1,Households_with_Bicycle,int64,640,0,0.0,639,46.0,1279632.0,1.0,3019 | 10013 | 609,candidate_predictor
+D1,Households_with_Car_Jeep_Van,int64,640,0,0.0,632,79.0,414862.0,1.0,2988 | 5091 | 4271,candidate_predictor
+D1,Households_with_Radio_Transistor,int64,640,0,0.0,638,386.0,1008239.0,1.0,59480 | 66814 | 15210,candidate_predictor
+D1,Households_with_Scooter_Motorcycle_Moped,int64,640,0,0.0,638,172.0,1053876.0,1.0,1808 | 5848 | 1289,candidate_predictor
+D1,Households_with_Telephone_Mobile_Phone_Landline_only,int64,640,0,0.0,629,55.0,211852.0,1.0,1445 | 2509 | 2646,candidate_predictor
+D1,Households_with_Telephone_Mobile_Phone_Mobile_only,int64,640,0,0.0,637,662.0,1609899.0,1.0,53437 | 65783 | 6331,candidate_predictor
+D1,Households_with_TV_Computer_Laptop_Telephone_mobile_phone_and_Scooter_Car,int64,640,0,0.0,631,28.0,560098.0,1.0,495 | 1655 | 971,candidate_predictor
+D1,Households_with_Television,int64,640,0,0.0,639,685.0,2042977.0,1.0,26828 | 54170 | 13597,candidate_predictor
+D1,Households_with_Telephone_Mobile_Phone,int64,640,0,0.0,639,816.0,2180792.0,1.0,56495 | 72197 | 13836,candidate_predictor
+D1,Households_with_Telephone_Mobile_Phone_Both,int64,640,0,0.0,635,70.0,449691.0,1.0,1613 | 3905 | 4859,candidate_predictor
+D1,Condition_of_occupied_census_houses_Dilapidated_Households,int64,640,0,0.0,635,24.0,263800.0,1.0,8463 | 3733 | 371,target_component_leakage_risk
+D1,Households_with_separate_kitchen_Cooking_inside_house,int64,640,0,0.0,640,1824.0,2375413.0,1.0,104172 | 88806 | 20134,candidate_predictor
+D1,Having_bathing_facility_Total_Households,int64,640,0,0.0,640,947.0,2330659.0,1.0,66361 | 83385 | 10304,candidate_predictor
+D1,Having_latrine_facility_within_the_premises_Total_Households,int64,640,0,0.0,640,1200.0,2254599.0,1.0,54335 | 83615 | 18780,candidate_predictor
+D1,Ownership_Owned_Households,int64,640,0,0.0,640,1308.0,1918212.0,1.0,104807 | 98036 | 19387,candidate_predictor
+D1,Ownership_Rented_Households,int64,640,0,0.0,634,265.0,1394999.0,1.0,618 | 609 | 893,candidate_predictor
+D1,Type_of_bathing_facility_Enclosure_without_roof_Households,int64,640,0,0.0,640,48.0,289405.0,1.0,3667 | 3959 | 920,candidate_predictor
+D1,Type_of_fuel_used_for_cooking_Any_other_Households,int64,640,0,0.0,450,0.0,67852.0,1.0,167 | 971 | 1,candidate_predictor
+D1,Type_of_latrine_facility_Pit_latrine_Households,int64,640,0,0.0,634,43.0,865412.0,1.0,9791 | 7013 | 14980,candidate_predictor
+D1,Type_of_latrine_facility_Other_latrine_Households,int64,640,0,0.0,603,0.0,69264.0,1.0,21902 | 43953 | 2117,candidate_predictor
+D1,Type_of_latrine_facility_Night_soil_disposed_into_open_drain_Households,int64,640,0,0.0,558,0.0,43095.0,1.0,2269 | 1779 | 53,candidate_predictor
+D1,Type_of_latrine_facility_Flush_pour_flush_latrine_connected_to_other_system_Households,int64,640,0,0.0,627,22.0,271137.0,1.0,10919 | 9208 | 695,candidate_predictor
+D1,Not_having_bathing_facility_within_the_premises_Total_Households,int64,640,0,0.0,639,92.0,1363655.0,1.0,40416 | 15834 | 10473,candidate_predictor
+D1,Not_having_latrine_facility_within_the_premises_Alternative_source_Open_Households,int64,640,0,0.0,639,46.0,916194.0,1.0,44123 | 10642 | 1781,candidate_predictor
+D1,Main_source_of_drinking_water_Un_covered_well_Households,int64,640,0,0.0,629,1.0,508118.0,1.0,11127 | 699 | 64,candidate_predictor
+D1,Main_source_of_drinking_water_Handpump_Tubewell_Borewell_Households,int64,640,0,0.0,636,0.0,1419053.0,1.0,5030 | 9864 | 5991,candidate_predictor
+D1,Main_source_of_drinking_water_Spring_Households,int64,640,0,0.0,493,0.0,88433.0,1.0,1902 | 453 | 620,candidate_predictor
+D1,Main_source_of_drinking_water_River_Canal_Households,int64,640,0,0.0,572,0.0,39475.0,1.0,24776 | 13064 | 6115,candidate_predictor
+D1,Main_source_of_drinking_water_Other_sources_Households,int64,640,0,0.0,618,2.0,114728.0,1.0,6597 | 1052 | 1565,candidate_predictor
+D1,Main_source_of_drinking_water_Other_sources_Spring_River_Canal_Tank_Pond_Lake_Other_sources__Households,int64,640,0,0.0,634,4.0,221537.0,1.0,34882 | 14705 | 8355,candidate_predictor
+D1,Location_of_drinking_water_source_Near_the_premises_Households,int64,640,0,0.0,637,452.0,793503.0,1.0,37849 | 33558 | 10962,candidate_predictor
+D1,Location_of_drinking_water_source_Within_the_premises_Households,int64,640,0,0.0,640,281.0,1826106.0,1.0,22747 | 51358 | 3031,candidate_predictor
+D1,Main_source_of_drinking_water_Tank_Pond_Lake_Households,int64,640,0,0.0,559,0.0,158868.0,1.0,1607 | 136 | 55,candidate_predictor
+D1,Main_source_of_drinking_water_Tapwater_Households,int64,640,0,0.0,640,1185.0,1964564.0,1.0,50339 | 73303 | 6254,candidate_predictor
+D1,Main_source_of_drinking_water_Tubewell_Borehole_Households,int64,640,0,0.0,621,0.0,437410.0,1.0,2066 | 2321 | 135,candidate_predictor
+D1,Household_size_1_person_Households,int64,640,0,0.0,631,184.0,106098.0,1.0,911 | 845 | 1630,candidate_predictor
+D1,Household_size_2_persons_Households,int64,640,0,0.0,636,260.0,314411.0,1.0,4036 | 2173 | 1483,candidate_predictor
+D1,Household_size_1_to_2_persons,int64,640,0,0.0,638,587.0,420509.0,1.0,4947 | 3018 | 3113,candidate_predictor
+D1,Household_size_3_persons_Households,int64,640,0,0.0,640,257.0,542351.0,1.0,6396 | 3743 | 2302,candidate_predictor
+D1,Household_size_3_to_5_persons_Households,int64,640,0,0.0,639,726.0,1589908.0,1.0,31982 | 23640 | 10528,candidate_predictor
+D1,Household_size_4_persons_Households,int64,640,0,0.0,639,247.0,711895.0,1.0,10700 | 7998 | 4422,candidate_predictor
+D1,Household_size_5_persons_Households,int64,640,0,0.0,639,222.0,442943.0,1.0,14886 | 11899 | 3804,candidate_predictor
+D1,Household_size_6_8_persons_Households,int64,640,0,0.0,640,401.0,451745.0,1.0,42727 | 59121 | 5378,candidate_predictor
+D1,Household_size_9_persons_and_above_Households,int64,640,0,0.0,635,87.0,180500.0,1.0,27121 | 13440 | 1758,candidate_predictor
+D1,Location_of_drinking_water_source_Away_Households,int64,640,0,0.0,638,51.0,747851.0,1.0,46181 | 14303 | 6784,candidate_predictor
+D1,Married_couples_1_Households,int64,640,0,0.0,640,982.0,1769316.0,1.0,80569 | 71441 | 12742,candidate_predictor
+D1,Married_couples_2_Households,int64,640,0,0.0,639,114.0,280248.0,1.0,14618 | 15255 | 3492,candidate_predictor
+D1,Married_couples_3_Households,int64,640,0,0.0,629,8.0,84826.0,1.0,2218 | 2962 | 716,candidate_predictor
+D1,Married_couples_3_or_more_Households,int64,640,0,0.0,634,8.0,121720.0,1.0,2622 | 3493 | 835,candidate_predictor
+D1,Married_couples_4_Households,int64,640,0,0.0,594,0.0,29276.0,1.0,330 | 452 | 87,candidate_predictor
+D1,Married_couples_5__Households,int64,640,0,0.0,465,0.0,16806.0,1.0,74 | 79 | 32,candidate_predictor
+D1,Married_couples_None_Households,int64,640,0,0.0,636,744.0,371990.0,1.0,8968 | 9030 | 3708,candidate_predictor
+D1,Power_Parity_Less_than_Rs_45000,int64,640,0,0.0,414,1.0,1744.0,1.0,259 | 201 | 33,candidate_predictor
+D1,Power_Parity_Rs_45000_90000,int64,640,0,0.0,504,0.0,4956.0,1.0,494 | 436 | 76,candidate_predictor
+D1,Power_Parity_Rs_90000_150000,int64,640,0,0.0,482,0.0,10334.0,1.0,94 | 126 | 46,candidate_predictor
+D1,Power_Parity_Rs_45000_150000,int64,640,0,0.0,545,0.0,13819.0,1.0,588 | 562 | 122,candidate_predictor
+D1,Power_Parity_Rs_150000_240000,int64,640,0,0.0,345,0.0,10835.0,1.0,71 | 72 | 15,candidate_predictor
+D1,Power_Parity_Rs_240000_330000,int64,640,0,0.0,324,0.0,3595.0,1.0,101 | 89 | 22,candidate_predictor
+D1,Power_Parity_Rs_150000_330000,int64,640,0,0.0,432,0.0,14430.0,1.0,172 | 161 | 37,candidate_predictor
+D1,Power_Parity_Rs_330000_425000,int64,640,0,0.0,295,0.0,5027.0,1.0,74 | 96 | 20,candidate_predictor
+D1,Power_Parity_Rs_425000_545000,int64,640,0,0.0,315,0.0,7597.0,1.0,10 | 28 | 14,candidate_predictor
+D1,Power_Parity_Rs_330000_545000,int64,640,0,0.0,407,0.0,12624.0,1.0,84 | 124 | 34,candidate_predictor
+D1,Power_Parity_Above_Rs_545000,int64,640,0,0.0,290,0.0,18289.0,1.0,15 | 18 | 17,candidate_predictor
+D1,Total_Power_Parity,int64,640,0,0.0,562,9.0,60163.0,1.0,1119 | 1066 | 242,candidate_predictor
+D2,State Code,int64,1908,0,0.0,35,1.0,35.0,1.0,1 | 2 | 3,identifier
+D2,State Name,str,1908,0,0.0,35,,,0.0,JAMMU & KASHMIR | HIMACHAL PRADESH | PUNJAB,identifier
+D2,District Code,int64,1908,0,0.0,640,1.0,640.0,1.0,1 | 2 | 3,identifier
+D2,District Name,str,1908,0,0.0,634,,,0.0,Kupwara | Badgam | Leh(Ladakh),identifier
+D2,Tehsil Code,int64,1908,0,0.0,1,0.0,0.0,1.0,0,identifier
+D2,Tehsil Name,str,1908,0,0.0,634,,,0.0,Kupwara | Badgam | Leh(Ladakh),identifier
+D2,Town Code/Village code,int64,1908,0,0.0,1,0.0,0.0,1.0,0,identifier
+D2,Ward No,int64,1908,0,0.0,1,0.0,0.0,1.0,0,identifier
+D2,Area Name,str,1908,0,0.0,634,,,0.0,District - Kupwara | District - Badgam | District - Leh(Ladakh),identifier
+D2,Rural/Urban,str,1908,0,0.0,3,,,0.0,Rural | Total | Urban,identifier
+D2,Total Number of households,int64,1908,0,0.0,1,100.0,100.0,1.0,100,denominator_crosscheck_leakage_risk
+D2,Total Number of Good,float64,1908,0,0.0,573,11.5,92.1,1.0,33.6 | 34.8 | 45.7,candidate_predictor_or_supporting
+D2,Total Number of Livable,float64,1908,0,0.0,519,6.7,75.9,1.0,58.1 | 57.3 | 49.5,candidate_predictor_or_supporting
+D2,Total Number of Dilapidated,float64,1908,0,0.0,154,0.0,19.7,1.0,8.3 | 7.9 | 4.8,target_crosscheck_leakage_risk
+D2,Total Number of Residence households,float64,1908,0,0.0,164,41.3,99.9,1.0,90.9 | 91.0 | 91.8,candidate_predictor_or_supporting
+D2,Total Number of Residence Good,float64,1908,0,0.0,585,11.3,90.1,1.0,32.7 | 33.8 | 45.0,candidate_predictor_or_supporting
+D2,Total Number of Residence Livable,float64,1908,0,0.0,512,6.4,73.8,1.0,51.0 | 50.2 | 42.2,candidate_predictor_or_supporting
+D2,Total Number of Residence Dilapidated,float64,1908,0,0.0,154,0.0,19.5,1.0,7.2 | 6.9 | 4.5,candidate_predictor_or_supporting
+D2,Total Number of Residence cum other,float64,1908,0,0.0,164,0.1,58.7,1.0,9.1 | 9.0 | 8.2,candidate_predictor_or_supporting
+D2,Number of Residence cum Good,float64,1908,0,0.0,88,0.1,17.7,1.0,1.0 | 0.9 | 0.7,candidate_predictor_or_supporting
+D2,Residence_cum_Livable,float64,1908,0,0.0,111,0.0,38.9,1.0,7.1 | 7.3 | 1.8,candidate_predictor_or_supporting
+D2,Residence_cum_Dilapidated,float64,1908,0,0.0,20,0.0,3.7,1.0,1.1 | 1.0 | 0.2,candidate_predictor_or_supporting
+D2,Material_Roof_GTBW,float64,1908,0,0.0,482,0.0,97.3,1.0,7.8 | 7.3 | 2.9,candidate_predictor_or_supporting
+D2,Material_Roof_PP,float64,1908,0,0.0,55,0.0,7.7,1.0,0.1 | 0.2 | 0.3,candidate_predictor_or_supporting
+D2,Material_Roof_HMT,float64,1908,0,0.0,491,0.0,93.9,1.0,0.3 | 0.4 | 0.5,candidate_predictor_or_supporting
+D2,Material_Roof_MMT,float64,1908,0,0.0,360,0.0,89.5,1.0,0.2 | 0.0 | 0.1,candidate_predictor_or_supporting
+D2,Material_Roof_BB,float64,1908,0,0.0,306,0.0,85.6,1.0,0.1 | 0.2 | 0.0,candidate_predictor_or_supporting
+D2,Material_Roof_SS,float64,1908,0,0.0,381,0.0,89.9,1.0,1.1 | 0.8 | 0.7,candidate_predictor_or_supporting
+D2,Material_Roof_GMAS,float64,1908,0,0.0,591,0.1,95.5,1.0,87.1 | 87.5 | 91.3,candidate_predictor_or_supporting
+D2,Material_Roof_Concrete,float64,1908,0,0.0,654,0.0,96.5,1.0,0.6 | 0.7 | 2.0,candidate_predictor_or_supporting
+D2,Material_Roof_AOM,float64,1908,0,0.0,41,0.0,29.3,1.0,2.6 | 2.2 | 2.1,candidate_predictor_or_supporting
+D2,Material_Roof_GTB,float64,1908,0,0.0,411,0.0,92.5,1.0,0.5 | 0.4 | 0.2,candidate_predictor_or_supporting
+D2,Material_Roof_PP1,float64,1908,0,0.0,40,0.0,5.0,1.0,0.4 | 0.2 | 0.1,candidate_predictor_or_supporting
+D2,Material_Roof_MUB,float64,1908,0,0.0,624,0.0,96.5,1.0,11.1 | 11.4 | 14.0,candidate_predictor_or_supporting
+D2,Material_Roof_Wood,float64,1908,0,0.0,166,0.0,84.3,1.0,31.1 | 28.6 | 4.8,candidate_predictor_or_supporting
+D2,Material_Wall_SNPWM,float64,1908,0,0.0,220,0.0,66.6,1.0,7.3 | 7.9 | 13.2,candidate_predictor_or_supporting
+D2,Material_Wall_SPWM,float64,1908,0,0.0,415,0.0,95.6,1.0,2.2 | 2.4 | 4.6,candidate_predictor_or_supporting
+D2,Material_Wall_GIMAS,float64,1908,0,0.0,100,0.0,72.4,1.0,0.3 | 0.2 | 0.0,candidate_predictor_or_supporting
+D2,Material_Wall_Bb,float64,1908,0,0.0,816,0.0,99.0,1.0,44.7 | 46.2 | 60.6,candidate_predictor_or_supporting
+D2,Material_Wall_Concrete,float64,1908,0,0.0,188,0.0,67.4,1.0,1.4 | 0.8 | 1.2,candidate_predictor_or_supporting
+D2,Material_Wall_AOM,float64,1908,0,0.0,80,0.0,54.5,1.0,1.0 | 1.2 | 1.8,candidate_predictor_or_supporting
+D2,Material_Floor_Mud,float64,1908,0,0.0,800,0.1,97.2,1.0,55.9 | 53.7 | 32.3,candidate_predictor_or_supporting
+D2,Material_Floor_WB,float64,1908,0,0.0,207,0.0,92.4,1.0,6.6 | 6.3 | 3.3,candidate_predictor_or_supporting
+D2,Material_Floor_BB,float64,1908,0,0.0,181,0.0,35.8,1.0,0.3 | 0.4 | 1.1,candidate_predictor_or_supporting
+D2,Material_Floor_Stone,float64,1908,0,0.0,326,0.0,85.9,1.0,3.6 | 3.5 | 2.7,candidate_predictor_or_supporting
+D2,Material_Floor_Cement,float64,1908,0,0.0,698,1.1,89.1,1.0,33.5 | 36.0 | 60.5,candidate_predictor_or_supporting
+D2,Material_Floor_MF,float64,1908,0,0.0,358,0.0,75.9,1.0,0.1 | 0.2 | 0.6,candidate_predictor_or_supporting
+D2,Material_Floor_AOM,float64,1908,0,0.0,46,0.0,5.4,1.0,0.1 | 0.0 | 0.7,candidate_predictor_or_supporting
+D2,Dwelling_R_NER,float64,1908,0,0.0,176,0.2,43.9,1.0,2.7 | 2.1 | 2.2,candidate_predictor_or_supporting
+D2,Dwelling_R_OR,float64,1908,0,0.0,550,3.1,85.2,1.0,21.3 | 20.6 | 14.0,candidate_predictor_or_supporting
+D2,Dwelling_R_TR,float64,1908,0,0.0,295,9.5,58.9,1.0,27.0 | 26.2 | 25.9,candidate_predictor_or_supporting
+D2,Dwelling_R_TH_R,float64,1908,0,0.0,311,1.4,37.3,1.0,25.3 | 25.7 | 29.8,candidate_predictor_or_supporting
+D2,Dwelling_R_FR,float64,1908,0,0.0,218,0.2,26.6,1.0,12.8 | 12.9 | 18.2,candidate_predictor_or_supporting
+D2,Dwelling_R_FI_R,float64,1908,0,0.0,110,0.1,14.47,1.0,3.5 | 3.6 | 4.6,candidate_predictor_or_supporting
+D2,Dwelling_R_SRA,float64,1908,0,0.0,148,0.1,22.8,1.0,7.3 | 7.6 | 10.4,candidate_predictor_or_supporting
+D2,H_size_1,float64,1908,0,0.0,124,0.5,25.0,1.0,0.8 | 0.9 | 1.0,candidate_predictor_or_supporting
+D2,H_size_2,float64,1908,0,0.0,166,1.8,20.1,1.0,3.8 | 3.5 | 2.1,candidate_predictor_or_supporting
+D2,H_size_3,float64,1908,0,0.0,194,3.4,29.4,1.0,5.9 | 6.0 | 6.4,candidate_predictor_or_supporting
+D2,H_size_4,float64,1908,0,0.0,265,7.1,37.8,1.0,10.0 | 10.2 | 7.1,candidate_predictor_or_supporting
+D2,H_size_5,float64,1908,0,0.0,130,11.0,24.8,1.0,13.9 | 14.6 | 11.0,candidate_predictor_or_supporting
+D2,H_size_6_8,float64,1908,0,0.0,361,6.2,61.5,1.0,40.3 | 40.0 | 37.3,candidate_predictor_or_supporting
+D2,H_size_9,float64,1908,0,0.0,242,0.0,29.0,1.0,25.2 | 25.4 | 27.0,candidate_predictor_or_supporting
+D2,O_status_O,float64,1908,0,0.0,486,8.7,99.2,1.0,98.2 | 97.5 | 98.9,candidate_predictor_or_supporting
+D2,O_status_R,float64,1908,0,0.0,433,0.4,80.8,1.0,0.4 | 0.6 | 2.2,candidate_predictor_or_supporting
+D2,O_status_AO,float64,1908,0,0.0,142,0.4,33.3,1.0,1.4 | 1.3 | 0.4,candidate_predictor_or_supporting
+D2,Married_C_N,float64,1908,0,0.0,222,5.1,44.0,1.0,8.4 | 8.9 | 9.1,candidate_predictor_or_supporting
+D2,Married_C_1,float64,1908,0,0.0,296,47.4,85.4,1.0,75.6 | 75.5 | 74.1,candidate_predictor_or_supporting
+D2,Married_C_2,float64,1908,0,0.0,232,0.6,27.3,1.0,13.6 | 13.7 | 14.6,candidate_predictor_or_supporting
+D2,Married_C_3,float64,1908,0,0.0,113,0.0,12.2,1.0,2.0 | 2.1 | 2.4,candidate_predictor_or_supporting
+D2,Married_C_4,float64,1908,0,0.0,49,0.0,5.2,1.0,0.3 | 0.4 | 0.5,candidate_predictor_or_supporting
+D2,Married_C_5,float64,1908,0,0.0,30,0.0,3.6,1.0,0.1 | 0.2 | 0.5,candidate_predictor_or_supporting
+D2,DW_TFTS,float64,1908,0,0.0,737,0.1,100.0,1.0,11.8 | 13.0 | 25.1,candidate_predictor_or_supporting
+D2,DW_TFUS,float64,1908,0,0.0,465,0.0,91.3,1.0,33.5 | 34.1 | 40.0,candidate_predictor_or_supporting
+D2,DW_CW,float64,1908,0,0.0,134,0.0,47.6,1.0,5.0 | 5.1 | 5.4,candidate_predictor_or_supporting
+D2,DW_UW,float64,1908,0,0.0,404,0.0,75.7,1.0,10.7 | 10.4 | 7.7,candidate_predictor_or_supporting
+D2,DW_Handpump,float64,1908,0,0.0,709,0.0,97.2,1.0,2.8 | 2.6 | 8.2,candidate_predictor_or_supporting
+D2,DW_TB,float64,1908,0,0.0,306,0.0,49.9,1.0,1.7 | 1.9 | 3.8,candidate_predictor_or_supporting
+D2,DW_Spring,float64,1908,0,0.0,159,0.0,53.4,1.0,1.8 | 1.1 | 0.5,candidate_predictor_or_supporting
+D2,DW_RC,float64,1908,0,0.0,131,0.0,40.3,1.0,24.8 | 23.2 | 8.0,candidate_predictor_or_supporting
+D2,DW_TPL,float64,1908,0,0.0,140,0.0,62.8,1.0,1.6 | 1.5 | 0.3,candidate_predictor_or_supporting
+D2,DW_OS,float64,1908,0,0.0,117,0.0,60.1,1.0,6.2 | 6.0 | 1.2,candidate_predictor_or_supporting
+D2,Within_premises,float64,1908,0,0.0,805,0.1,99.8,1.0,19.0 | 21.3 | 43.9,candidate_predictor_or_supporting
+D2,Near_premises,float64,1908,0,0.0,609,0.0,84.0,1.0,36.0 | 35.4 | 29.7,candidate_predictor_or_supporting
+D2,Away,float64,1908,0,0.0,469,0.1,77.6,1.0,45.0 | 43.2 | 26.4,candidate_predictor_or_supporting
+D2,MSL_Electricty,float64,1908,0,0.0,706,1.3,99.8,1.0,76.5 | 77.8 | 90.2,candidate_predictor_or_supporting
+D2,MSL_Kerosene,float64,1908,0,0.0,684,0.1,95.3,1.0,11.1 | 10.4 | 3.2,candidate_predictor_or_supporting
+D2,MSL_SE,float64,1908,0,0.0,75,0.0,25.0,1.0,3.0 | 2.8 | 0.3,candidate_predictor_or_supporting
+D2,MSL_OO,float64,1908,0,0.0,19,0.0,2.6,1.0,1.2 | 1.1 | 1.0,candidate_predictor_or_supporting
+D2,MSL_AO,float64,1908,0,0.0,60,0.0,10.7,1.0,4.9 | 4.8 | 3.5,candidate_predictor_or_supporting
+D2,MSL_NL,float64,1908,0,0.0,68,0.0,57.4,1.0,3.2 | 3.1 | 1.7,candidate_predictor_or_supporting
+D2,Latrine_premise,float64,1908,0,0.0,798,2.2,99.4,1.0,48.9 | 50.9 | 70.2,candidate_predictor_or_supporting
+D2,Latrine_PSS,float64,1908,0,0.0,377,0.1,97.9,1.0,4.6 | 4.8 | 6.6,candidate_predictor_or_supporting
+D2,Latrine_ST,float64,1908,0,0.0,648,0.0,97.11,1.0,4.4 | 6.2 | 23.5,candidate_predictor_or_supporting
+D2,Latrine_OS,float64,1908,0,0.0,174,0.0,52.9,1.0,10.2 | 10.9 | 9.8,candidate_predictor_or_supporting
+D2,Pit_latrine_SVI,float64,1908,0,0.0,318,0.0,73.0,1.0,2.8 | 3.0 | 5.2,candidate_predictor_or_supporting
+D2,Pit_latrine_SOP,float64,1908,0,0.0,219,0.0,44.5,1.0,6.3 | 6.2 | 5.1,candidate_predictor_or_supporting
+D2,disposed_drain,float64,1908,0,0.0,80,0.0,22.5,1.0,2.2 | 2.1 | 1.3,candidate_predictor_or_supporting
+D2,Service_Latrine_NRH,float64,1908,0,0.0,79,0.0,45.8,1.0,17.8 | 17.6 | 16.2,candidate_predictor_or_supporting
+D2,Service_Latrine_NSA,float64,1908,0,0.0,40,0.0,23.2,1.0,0.7 | 0.8 | 1.4,candidate_predictor_or_supporting
+D2,H_latrine_premoses,float64,1908,0,0.0,798,0.6,97.8,1.0,51.1 | 49.1 | 29.8,candidate_predictor_or_supporting
+D2,Alternative_Source,float64,1908,0,0.0,162,0.0,42.9,1.0,8.1 | 7.8 | 4.4,candidate_predictor_or_supporting
+D2,Alternative_Source_Open,float64,1908,0,0.0,836,0.2,97.3,1.0,43.0 | 41.3 | 25.4,candidate_predictor_or_supporting
+D2,Households_Bathroom,float64,1908,0,0.0,814,1.3,98.1,1.0,57.9 | 58.7 | 66.4,candidate_predictor_or_supporting
+D2,Households_EWR,float64,1908,0,0.0,401,0.1,51.2,1.0,3.4 | 3.7 | 4.1,candidate_predictor_or_supporting
+D2,Households_No,float64,1908,0,0.0,782,0.8,96.7,1.0,38.7 | 37.9 | 29.9,candidate_predictor_or_supporting
+D2,Waste_water_CD,float64,1908,0,0.0,497,0.1,98.1,1.0,3.6 | 3.8 | 5.3,candidate_predictor_or_supporting
+D2,Waste_water_OD,float64,1908,0,0.0,734,0.0,92.1,1.0,25.5 | 27.1 | 42.3,candidate_predictor_or_supporting
+D2,Waste_water_ND,float64,1908,0,0.0,840,1.0,98.0,1.0,70.9 | 69.1 | 52.4,candidate_predictor_or_supporting
+D2,Cooking_FW,float64,1908,0,0.0,845,0.5,98.8,1.0,82.9 | 79.9 | 50.8,candidate_predictor_or_supporting
+D2,Cooking_CR,float64,1908,0,0.0,308,0.0,81.0,1.0,2.6 | 2.4 | 0.7,candidate_predictor_or_supporting
+D2,Cooking_CC,float64,1908,0,0.0,341,0.0,74.3,1.0,0.9 | 0.8 | 0.1,candidate_predictor_or_supporting
+D2,Cooking_CLC,float64,1908,0,0.0,147,0.0,73.5,1.0,0.0 | 0.1 | 0.2,candidate_predictor_or_supporting
+D2,Cooking_kerosene,float64,1908,0,0.0,166,0.0,38.8,1.0,0.7 | 0.8 | 2.1,candidate_predictor_or_supporting
+D2,Cooking_LPG_PNG,float64,1908,0,0.0,726,0.0,99.3,1.0,11.7 | 14.8 | 45.3,candidate_predictor_or_supporting
+D2,Cooking_Electricity,float64,1908,0,0.0,41,0.0,11.8,1.0,0.1 | 0.3 | 0.2,candidate_predictor_or_supporting
+D2,Cooking_Biogas,float64,1908,0,0.0,44,0.0,14.1,1.0,0.9 | 0.6 | 1.1,candidate_predictor_or_supporting
+D2,Cooking_AO,float64,1908,0,0.0,52,0.0,17.0,1.0,0.2 | 0.0 | 1.1,candidate_predictor_or_supporting
+D2,Cooking_NC,float64,1908,0,0.0,27,0.0,3.0,1.0,0.1 | 0.2 | 0.3,candidate_predictor_or_supporting
+D2,Total,int64,1908,0,0.0,1,100.0,100.0,1.0,100,candidate_predictor_or_supporting
+D2,Cooking_IH,float64,1908,0,0.0,364,29.7,99.6,1.0,97.4 | 97.6 | 98.7,candidate_predictor_or_supporting
+D2,Has_kitchen,float64,1908,0,0.0,756,7.3,99.1,1.0,93.7 | 94.0 | 97.0,candidate_predictor_or_supporting
+D2,DNHK,float64,1908,0,0.0,672,0.5,84.1,1.0,3.7 | 3.5 | 1.7,candidate_predictor_or_supporting
+D2,Cooking_OH,float64,1908,0,0.0,364,0.2,70.1,1.0,2.5 | 2.3 | 1.2,candidate_predictor_or_supporting
+D2,has_kitchen1,float64,1908,0,0.0,261,0.0,61.7,1.0,0.9 | 0.8 | 8.0,candidate_predictor_or_supporting
+D2,DNH_Kitchen,float64,1908,0,0.0,228,0.0,49.1,1.0,1.5 | 1.4 | 0.4,candidate_predictor_or_supporting
+D2,No_Cooking,float64,1908,0,0.0,27,0.0,3.0,1.0,0.1 | 0.2 | 0.3,candidate_predictor_or_supporting
+D2,TNHAB,float64,1908,0,0.0,636,4.9,99.4,1.0,49.1 | 50.2 | 61.1,candidate_predictor_or_supporting
+D2,assets_RT,float64,1908,0,0.0,430,2.8,88.9,1.0,54.4 | 55.7 | 68.4,candidate_predictor_or_supporting
+D2,assets_Tel,float64,1908,0,0.0,782,3.4,96.0,1.0,23.1 | 25.1 | 44.3,candidate_predictor_or_supporting
+D2,assets_CL_WI,float64,1908,0,0.0,157,0.0,41.7,1.0,0.6 | 0.7 | 1.7,candidate_predictor_or_supporting
+D2,assets_CLWI,float64,1908,0,0.0,170,0.8,25.3,1.0,4.0 | 4.2 | 6.3,candidate_predictor_or_supporting
+D2,assets_TM_LO,float64,1908,0,0.0,142,0.4,20.8,1.0,1.2 | 1.4 | 2.6,candidate_predictor_or_supporting
+D2,assets_TM_MO,float64,1908,0,0.0,571,3.7,87.9,1.0,49.4 | 50.0 | 56.5,candidate_predictor_or_supporting
+D2,assets_TM_Both,float64,1908,0,0.0,256,0.2,44.2,1.0,1.2 | 1.5 | 4.1,candidate_predictor_or_supporting
+D2,assets_Bicycle,float64,1908,0,0.0,702,0.0,87.6,1.0,2.7 | 2.8 | 3.8,candidate_predictor_or_supporting
+D2,assets_SMM,float64,1908,0,0.0,512,0.7,66.2,1.0,1.6 | 1.7 | 2.7,candidate_predictor_or_supporting
+D2,assets_CJV,float64,1908,0,0.0,224,0.2,44.7,1.0,2.5 | 2.8 | 6.1,candidate_predictor_or_supporting
+D2,Household_TV_LP,float64,1908,0,0.0,220,0.0,51.6,1.0,0.4 | 0.5 | 1.5,candidate_predictor_or_supporting
+D2,None_AS,float64,1908,0,0.0,468,0.0,68.1,1.0,26.1 | 25.0 | 13.9,candidate_predictor_or_supporting
+D2,Permanents,float64,1908,0,0.0,800,0.9,99.7,1.0,52.9 | 55.1 | 76.0,candidate_predictor_or_supporting
+D2,Semi_Permanent,float64,1908,0,0.0,667,0.1,92.8,1.0,37.7 | 36.0 | 19.6,candidate_predictor_or_supporting
+D2,Total_Temporary,float64,1908,0,0.0,420,0.0,87.9,1.0,6.0 | 5.6 | 1.3,candidate_predictor_or_supporting
+D2,Serviceable,float64,1908,0,0.0,281,0.0,84.8,1.0,5.6 | 5.2 | 1.1,candidate_predictor_or_supporting
+D2,Non_Serviceable,float64,1908,0,0.0,275,0.0,87.7,1.0,0.4 | 0.2 | 0.3,candidate_predictor_or_supporting
+D2,Unclassifiable,float64,1908,0,0.0,85,0.0,54.6,1.0,3.4 | 3.3 | 3.1,candidate_predictor_or_supporting
+D2,TC_VC,int64,1908,0,0.0,1,0.0,0.0,1.0,0,candidate_predictor_or_supporting
+D2,Contition_T_Total,int64,1908,0,0.0,1,100.0,100.0,1.0,100,denominator_crosscheck_leakage_risk
+D2,Contition_T_Good,float64,1908,0,0.0,573,11.5,92.1,1.0,33.6 | 34.8 | 45.7,candidate_predictor_or_supporting
+D2,Contition_T_Livable,float64,1908,0,0.0,519,6.7,75.9,1.0,58.1 | 57.3 | 49.5,candidate_predictor_or_supporting
+D2,Contition_T_Dilapidated,float64,1908,0,0.0,154,0.0,19.7,1.0,8.3 | 7.9 | 4.8,target_crosscheck_leakage_risk
+D2,Contition_R_Total,float64,1908,0,0.0,164,41.3,99.9,1.0,90.9 | 91.0 | 91.8,candidate_predictor_or_supporting
+D2,Residence_Good,float64,1908,0,0.0,585,11.3,90.1,1.0,32.7 | 33.8 | 45.0,candidate_predictor_or_supporting
+D2,Residence_Livable,float64,1908,0,0.0,512,6.4,73.8,1.0,51.0 | 50.2 | 42.2,candidate_predictor_or_supporting
+D2,Residence_Dilapidated,float64,1908,0,0.0,154,0.0,19.5,1.0,7.2 | 6.9 | 4.5,candidate_predictor_or_supporting
+D2,Residence_cum_other,float64,1908,0,0.0,164,0.1,58.7,1.0,9.1 | 9.0 | 8.2,candidate_predictor_or_supporting
+D2,Residence_cum_Good,float64,1908,0,0.0,88,0.1,17.7,1.0,1.0 | 0.9 | 0.7,candidate_predictor_or_supporting
+D3,source_column_code,str,145,0,0.0,145,,,0.0,State Code | State Name | District Code,candidate_predictor
+D3,source_column_description,str,145,0,0.0,143,,,0.0,State Code | State Name | District Code,candidate_predictor
+D4,Unnamed: 0,int64,32,0,0.0,32,0.0,31.0,1.0,0 | 1 | 2,identifier
+D4,#,str,32,0,0.0,32,1.0,31.0,0.969,- | 1 | 2,identifier
+D4,State,str,32,0,0.0,32,,,0.0,India | Maharashtra | Andhra Pradesh,identifier
+D4,Slums,str,32,0,0.0,31,,,0.0,5.41% | 10.54% | 12.04%,candidate_predictor
+D4,Slum HH,str,32,0,0.0,32,,,0.0,"13,920,191 | 2,499,948 | 2,431,474",candidate_predictor
+D4,Slum Pop,str,32,0,0.0,32,,,0.0,"65,494,604 | 11,848,423 | 10,186,934",candidate_predictor
+D4,Male,str,32,0,0.0,32,,,0.0,"33,968,203 | 6,328,217 | 5,103,377",candidate_predictor
+D4,Female,str,32,0,0.0,32,,,0.0,"31,526,401 | 5,520,206 | 5,083,557",candidate_predictor
+D4,Child (0-6),str,32,0,0.0,32,,,0.0,"8,082,743 | 1,428,850 | 1,149,779",candidate_predictor
+D4,SC,str,32,0,0.0,30,,,0.156,"13,354,080 | 1,863,882 | 1,428,212",candidate_predictor
+D4,ST,str,32,0,0.0,28,,,0.281,"2,216,533 | 364,254 | 270,556",candidate_predictor
+D4,Literacy,str,32,0,0.0,32,,,0.0,77.72 % | 84.55 % | 75.32 %,candidate_predictor
+D5,LEVEL,str,1342,0,0.0,3,,,0.0,STATE | India | DISTRICT,identifier
+D5,YEAR,int64,1342,0,0.0,1,2011.0,2011.0,1.0,2011,identifier
+D5,NAME,str,1342,0,0.0,671,,,0.0,WEST BENGAL | UTTARAKHAND | UTTAR PRADESH,identifier
+D5,AREA,str,1342,0,0.0,2,,,0.0,Urban | Rural,identifier
+D5,NO_HH,float64,1340,2,0.15,1322,0.0,168612897.0,1.0,6567150.0 | 13813165.0 | 631889.0,candidate_predictor
+D5,TOT_P,float64,1340,2,0.15,1323,0.0,833748852.0,1.0,29093002.0 | 62183113.0 | 3049338.0,candidate_predictor
+D5,TOT_M,float64,1340,2,0.15,1323,0.0,427781058.0,1.0,14964082.0 | 31844945.0 | 1618731.0,candidate_predictor
+D5,TOT_F,float64,1340,2,0.15,1322,0.0,405967794.0,1.0,14128920.0 | 30338168.0 | 1430607.0,candidate_predictor
+D5,P_06,float64,1340,2,0.15,1320,0.0,121322865.0,1.0,2760756.0 | 7820710.0 | 365038.0,candidate_predictor
+D5,M_06,float64,1340,2,0.15,1313,0.0,63084449.0,1.0,1417741.0 | 3992655.0 | 195407.0,candidate_predictor
+D5,F_06,float64,1340,2,0.15,1315,0.0,58238416.0,1.0,1343015.0 | 3828055.0 | 169631.0,candidate_predictor
+D5,P_SC,float64,1340,2,0.15,1242,0.0,153850848.0,1.0,4368163.0 | 17095107.0 | 395851.0,candidate_predictor
+D5,M_SC,float64,1340,2,0.15,1240,0.0,79118287.0,1.0,2239010.0 | 8764294.0 | 207483.0,candidate_predictor
+D5,F_SC,float64,1340,2,0.15,1223,0.0,74732561.0,1.0,2129153.0 | 8330813.0 | 188368.0,candidate_predictor
+D5,P_ST,float64,1340,2,0.15,1187,0.0,94083844.0,1.0,441838.0 | 4855115.0 | 27084.0,candidate_predictor
+D5,M_ST,float64,1340,2,0.15,1157,0.0,47263733.0,1.0,221917.0 | 2428057.0 | 13978.0,candidate_predictor
+D5,F_ST,float64,1340,2,0.15,1166,0.0,46820111.0,1.0,219921.0 | 2427058.0 | 13106.0,candidate_predictor
+D5,P_LIT,float64,1340,2,0.15,1322,0.0,482793835.0,1.0,22324502.0 | 39213779.0 | 2266903.0,candidate_predictor
+D5,M_LIT,float64,1340,2,0.15,1321,0.0,281361374.0,1.0,11970613.0 | 21848197.0 | 1267537.0,candidate_predictor
+D5,F_LIT,float64,1340,2,0.15,1322,0.0,201432461.0,1.0,10353889.0 | 17365582.0 | 999366.0,candidate_predictor
+D5,P_ILL,float64,1340,2,0.15,1322,0.0,350955017.0,1.0,6768500.0 | 22969334.0 | 782435.0,candidate_predictor
+D5,M_ILL,float64,1340,2,0.15,1321,0.0,146419684.0,1.0,2993469.0 | 9996748.0 | 351194.0,candidate_predictor
+D5,F_ILL,float64,1340,2,0.15,1319,0.0,204535333.0,1.0,3775031.0 | 12972586.0 | 431241.0,candidate_predictor
+D5,TOT_WORK_P,float64,1340,2,0.15,1318,0.0,348743092.0,1.0,10673874.0 | 24082481.0 | 986742.0,candidate_predictor
+D5,TOT_WORK_M,float64,1340,2,0.15,1322,0.0,226837013.0,1.0,8504867.0 | 18211180.0 | 825247.0,candidate_predictor
+D5,TOT_WORK_F,float64,1340,2,0.15,1321,0.0,121906079.0,1.0,2169007.0 | 5871301.0 | 161495.0,candidate_predictor
+D5,MAINWORK_P,float64,1340,2,0.15,1323,0.0,245868421.0,1.0,9197145.0 | 16489485.0 | 873292.0,candidate_predictor
+D5,MAINWORK_M,float64,1340,2,0.15,1319,0.0,178095330.0,1.0,7658364.0 | 14019915.0 | 748237.0,candidate_predictor
+D5,MAINWORK_F,float64,1340,2,0.15,1313,0.0,67773091.0,1.0,1538781.0 | 2469570.0 | 125055.0,candidate_predictor
+D5,MAIN_CL_P,float64,1340,2,0.15,1303,0.0,92838752.0,1.0,122286.0 | 4081481.0 | 17751.0,candidate_predictor
+D5,MAIN_CL_M,float64,1340,2,0.15,1293,0.0,70518883.0,1.0,110343.0 | 3830056.0 | 13003.0,candidate_predictor
+D5,MAIN_CL_F,float64,1340,2,0.15,1182,0.0,22319869.0,1.0,11943.0 | 251425.0 | 4748.0,candidate_predictor
+D5,MAIN_AL_P,float64,1340,2,0.15,1281,0.0,80960135.0,1.0,229143.0 | 5640355.0 | 21727.0,candidate_predictor
+D5,MAIN_AL_M,float64,1340,2,0.15,1275,0.0,51639997.0,1.0,198155.0 | 4744931.0 | 18427.0,candidate_predictor
+D5,MAIN_AL_F,float64,1340,2,0.15,1206,0.0,29320138.0,1.0,30988.0 | 895424.0 | 3300.0,candidate_predictor
+D5,MAIN_HH_P,float64,1340,2,0.15,1265,0.0,7245894.0,1.0,643037.0 | 875091.0 | 30355.0,candidate_predictor
+D5,MAIN_HH_M,float64,1340,2,0.15,1239,0.0,4171000.0,1.0,398759.0 | 470280.0 | 24037.0,candidate_predictor
+D5,MAIN_HH_F,float64,1340,2,0.15,1145,0.0,3074894.0,1.0,244278.0 | 404811.0 | 6318.0,candidate_predictor
+D5,MAIN_OT_P,float64,1340,2,0.15,1321,0.0,103298010.0,1.0,8202679.0 | 5892558.0 | 803459.0,candidate_predictor
+D5,MAIN_OT_M,float64,1340,2,0.15,1319,0.0,85580763.0,1.0,6951107.0 | 4974648.0 | 692770.0,candidate_predictor
+D5,MAIN_OT_F,float64,1340,2,0.15,1305,0.0,17717247.0,1.0,1251572.0 | 917910.0 | 110689.0,candidate_predictor
+D5,MARGWORK_P,float64,1340,2,0.15,1319,0.0,102874671.0,1.0,1476729.0 | 7592996.0 | 113450.0,candidate_predictor
+D5,MARGWORK_M,float64,1340,2,0.15,1305,0.0,48741683.0,1.0,846503.0 | 4191265.0 | 77010.0,candidate_predictor
+D5,MARGWORK_F,float64,1340,2,0.15,1310,0.0,54132988.0,1.0,630226.0 | 3401731.0 | 36440.0,candidate_predictor
+D5,MARG_CL_P,float64,1340,2,0.15,1205,0.0,22245886.0,1.0,41859.0 | 871062.0 | 4042.0,candidate_predictor
+D5,MARG_CL_M,float64,1340,2,0.15,1126,0.0,9376425.0,1.0,21416.0 | 538226.0 | 1788.0,candidate_predictor
+D5,MARG_CL_F,float64,1340,2,0.15,1104,0.0,12869461.0,1.0,20443.0 | 332836.0 | 2254.0,candidate_predictor
+D5,MARG_AL_P,float64,1340,2,0.15,1276,0.0,56038173.0,1.0,115883.0 | 4203461.0 | 8733.0,candidate_predictor
+D5,MARG_AL_M,float64,1340,2,0.15,1237,0.0,26292225.0,1.0,82060.0 | 2427668.0 | 6204.0,candidate_predictor
+D5,MARG_AL_F,float64,1340,2,0.15,1221,0.0,29745948.0,1.0,33823.0 | 1775793.0 | 2529.0,candidate_predictor
+D5,MARG_HH_P,float64,1340,2,0.15,1183,0.0,4703586.0,1.0,214559.0 | 731437.0 | 7017.0,candidate_predictor
+D5,MARG_HH_M,float64,1340,2,0.15,1024,0.0,1693786.0,1.0,68682.0 | 176962.0 | 3358.0,candidate_predictor
+D5,MARG_HH_F,float64,1340,2,0.15,1104,0.0,3009800.0,1.0,145877.0 | 554475.0 | 3659.0,candidate_predictor
+D5,MARG_OT_P,float64,1340,2,0.15,1304,0.0,19887026.0,1.0,1104428.0 | 1787036.0 | 93658.0,candidate_predictor
+D5,MARG_OT_M,float64,1340,2,0.15,1293,0.0,11379247.0,1.0,674345.0 | 1048409.0 | 65660.0,candidate_predictor
+D5,MARG_OT_F,float64,1340,2,0.15,1265,0.0,8507779.0,1.0,430083.0 | 738627.0 | 27998.0,candidate_predictor
+D5,MARGWORK_3_6_P,float64,1340,2,0.15,1311,0.0,83052011.0,1.0,1222464.0 | 5825830.0 | 98009.0,candidate_predictor
+D5,MARGWORK_3_6_M,float64,1340,2,0.15,1304,0.0,40044579.0,1.0,698161.0 | 3317706.0 | 66778.0,candidate_predictor
+D5,MARGWORK_3_6_F,float64,1340,2,0.15,1300,0.0,43007432.0,1.0,524303.0 | 2508124.0 | 31231.0,candidate_predictor
+D5,MARG_CL_3_6_P,float64,1340,2,0.15,1193,0.0,17314593.0,1.0,37072.0 | 661134.0 | 3448.0,candidate_predictor
+D5,MARG_CL_3_6_M,float64,1340,2,0.15,1103,0.0,7329916.0,1.0,18495.0 | 421969.0 | 1570.0,candidate_predictor
+D5,MARG_CL_3_6_F,float64,1340,2,0.15,1065,0.0,9984677.0,1.0,18577.0 | 239165.0 | 1878.0,candidate_predictor
+D5,MARG_AL_3_6_P,float64,1340,2,0.15,1263,0.0,46105181.0,1.0,91338.0 | 3209279.0 | 7058.0,candidate_predictor
+D5,MARG_AL_3_6_M,float64,1340,2,0.15,1216,0.0,22000055.0,1.0,65794.0 | 1916691.0 | 5131.0,candidate_predictor
+D5,MARG_AL_3_6_F,float64,1340,2,0.15,1182,0.0,24105126.0,1.0,25544.0 | 1292588.0 | 1927.0,candidate_predictor
+D5,MARG_HH_3_6_P,float64,1340,2,0.15,1164,0.0,3548611.0,1.0,170369.0 | 544103.0 | 5609.0,candidate_predictor
+D5,MARG_HH_3_6_M,float64,1340,2,0.15,982,0.0,1307709.0,1.0,55070.0 | 135360.0 | 2778.0,candidate_predictor
+D5,MARG_HH_3_6_F,float64,1340,2,0.15,1071,0.0,2240902.0,1.0,115299.0 | 408743.0 | 2831.0,candidate_predictor
+D5,MARG_OT_3_6_P,float64,1340,2,0.15,1305,0.0,16083626.0,1.0,923685.0 | 1411314.0 | 81894.0,candidate_predictor
+D5,MARG_OT_3_6_M,float64,1340,2,0.15,1295,0.0,9406899.0,1.0,558802.0 | 843686.0 | 57299.0,candidate_predictor
+D5,MARG_OT_3_6_F,float64,1340,2,0.15,1259,0.0,6676727.0,1.0,364883.0 | 567628.0 | 24595.0,candidate_predictor
+D5,MARGWORK_0_3_P,float64,1340,2,0.15,1272,0.0,19822660.0,1.0,254265.0 | 1767166.0 | 15441.0,candidate_predictor
+D5,MARGWORK_0_3_M,float64,1340,2,0.15,1237,0.0,8697104.0,1.0,148342.0 | 873559.0 | 10232.0,candidate_predictor
+D5,MARGWORK_0_3_F,float64,1340,2,0.15,1233,0.0,11125556.0,1.0,105923.0 | 893607.0 | 5209.0,candidate_predictor
+D5,MARG_CL_0_3_P,float64,1340,2,0.15,895,0.0,4931293.0,1.0,4787.0 | 209928.0 | 594.0,candidate_predictor
+D5,MARG_CL_0_3_M,float64,1340,2,0.15,778,0.0,2046509.0,1.0,2921.0 | 116257.0 | 218.0,candidate_predictor
+D5,MARG_CL_0_3_F,float64,1340,2,0.15,784,0.0,2884784.0,1.0,1866.0 | 93671.0 | 376.0,candidate_predictor
+D5,MARG_AL_0_3_P,float64,1340,2,0.15,1126,0.0,9932992.0,1.0,24545.0 | 994182.0 | 1675.0,candidate_predictor
+D5,MARG_AL_0_3_M,float64,1340,2,0.15,986,0.0,4292170.0,1.0,16266.0 | 510977.0 | 1073.0,candidate_predictor
+D5,MARG_AL_0_3_F,float64,1340,2,0.15,1005,0.0,5640822.0,1.0,8279.0 | 483205.0 | 602.0,candidate_predictor
+D5,MARG_HH_0_3_P,float64,1340,2,0.15,908,0.0,1154975.0,1.0,44190.0 | 187334.0 | 1408.0,candidate_predictor
+D5,MARG_HH_0_3_M,float64,1340,2,0.15,649,0.0,386077.0,1.0,13612.0 | 41602.0 | 580.0,candidate_predictor
+D5,MARG_HH_0_3_F,float64,1340,2,0.15,779,0.0,768898.0,1.0,30578.0 | 145732.0 | 828.0,candidate_predictor
+D5,MARG_OT_0_3_P,float64,1340,2,0.15,1224,0.0,3803400.0,1.0,180743.0 | 375722.0 | 11764.0,candidate_predictor
+D5,MARG_OT_0_3_M,float64,1340,2,0.15,1148,0.0,1972348.0,1.0,115543.0 | 204723.0 | 8361.0,candidate_predictor
+D5,MARG_OT_0_3_F,float64,1340,2,0.15,1096,0.0,1831052.0,1.0,65200.0 | 170999.0 | 3403.0,candidate_predictor
+D5,NON_WORK_P,float64,1340,2,0.15,1322,0.0,485005760.0,1.0,18419128.0 | 38100632.0 | 2062596.0,candidate_predictor
+D5,NON_WORK_M,float64,1340,2,0.15,1320,0.0,200944045.0,1.0,6459215.0 | 13633765.0 | 793484.0,candidate_predictor
+D5,NON_WORK_F,float64,1340,2,0.15,1323,0.0,284061715.0,1.0,11959913.0 | 24466867.0 | 1269112.0,candidate_predictor
+D6,LEVEL,str,1375,0,0.0,3,,,0.0,STATE | India | DISTRICT,identifier
+D6,YEAR,int64,1375,0,0.0,1,2001.0,2001.0,1.0,2001,identifier
+D6,NAME,str,1375,0,0.0,688,,,0.0,WEST BENGAL | UTTARANCHAL | UTTAR PRADESH,identifier
+D6,AREA,str,1375,0,0.0,2,,,0.0,Urban | Rural,identifier
+D6,NO_HH,float64,1240,135,9.82,1213,0.0,20373081.0,1.0,4601261.0 | 11270822.0 | 417505.0,candidate_predictor
+D6,TOT_P,float64,1240,135,9.82,1215,0.0,131658339.0,1.0,22427251.0 | 57748946.0 | 2179074.0,candidate_predictor
+D6,TOT_M,float64,1240,135,9.82,1214,0.0,69157470.0,1.0,11849976.0 | 29616009.0 | 1181334.0,candidate_predictor
+D6,TOT_F,float64,1240,135,9.82,1215,0.0,62500869.0,1.0,10577275.0 | 28132937.0 | 997740.0,candidate_predictor
+D6,P_06,float64,1240,135,9.82,1215,0.0,26259213.0,1.0,2295219.0 | 9119003.0 | 287672.0,candidate_predictor
+D6,M_06,float64,1240,135,9.82,1209,0.0,13670442.0,1.0,1178368.0 | 4645812.0 | 153701.0,candidate_predictor
+D6,F_06,float64,1240,135,9.82,1209,0.0,12588771.0,1.0,1116851.0 | 4473191.0 | 133971.0,candidate_predictor
+D6,P_SC,float64,1240,135,9.82,1171,0.0,30816596.0,1.0,2927630.0 | 15524925.0 | 261064.0,candidate_predictor
+D6,M_SC,float64,1240,135,9.82,1168,0.0,16184840.0,1.0,1518822.0 | 7950837.0 | 138685.0,candidate_predictor
+D6,F_SC,float64,1240,135,9.82,1155,0.0,14631756.0,1.0,1408808.0 | 7574088.0 | 122379.0,candidate_predictor
+D6,P_ST,float64,1240,135,9.82,1059,0.0,11446448.0,1.0,270428.0 | 4136366.0 | 15920.0,candidate_predictor
+D6,M_ST,float64,1240,135,9.82,1023,0.0,5783678.0,1.0,138693.0 | 2085231.0 | 8526.0,candidate_predictor
+D6,F_ST,float64,1240,135,9.82,1015,0.0,5662770.0,1.0,131735.0 | 2051135.0 | 7394.0,candidate_predictor
+D6,P_LIT,float64,1240,135,9.82,1214,0.0,55369784.0,1.0,16356374.0 | 30840027.0 | 1540435.0,candidate_predictor
+D6,M_LIT,float64,1240,135,9.82,1212,0.0,36950179.0,1.0,9191040.0 | 18261386.0 | 894555.0,candidate_predictor
+D6,F_LIT,float64,1240,135,9.82,1215,0.0,18419605.0,1.0,7165334.0 | 12578641.0 | 645880.0,candidate_predictor
+D6,P_ILL,float64,1240,135,9.82,1215,0.0,76288555.0,1.0,6070877.0 | 26908919.0 | 638639.0,candidate_predictor
+D6,M_ILL,float64,1240,135,9.82,1209,0.0,32207291.0,1.0,2658936.0 | 11354623.0 | 286779.0,candidate_predictor
+D6,F_ILL,float64,1240,135,9.82,1215,0.0,44081264.0,1.0,3411941.0 | 15554296.0 | 351860.0,candidate_predictor
+D6,TOT_WORK_P,float64,1240,135,9.82,1212,0.0,44675952.0,1.0,7592048.0 | 21889642.0 | 635194.0,candidate_predictor
+D6,TOT_WORK_M,float64,1240,135,9.82,1214,0.0,32770685.0,1.0,6368163.0 | 16019881.0 | 559466.0,candidate_predictor
+D6,TOT_WORK_F,float64,1240,135,9.82,1207,0.0,11912795.0,1.0,1223885.0 | 5869761.0 | 75728.0,candidate_predictor
+D6,MAINWORK_P,float64,1240,135,9.82,1214,0.0,31242754.0,1.0,6917003.0 | 16106580.0 | 576785.0,candidate_predictor
+D6,MAINWORK_M,float64,1240,135,9.82,1215,0.0,26975069.0,1.0,5943106.0 | 13551865.0 | 515317.0,candidate_predictor
+D6,MAINWORK_F,float64,1240,135,9.82,1204,0.0,8510411.0,1.0,973897.0 | 2554715.0 | 61468.0,candidate_predictor
+D6,MAIN_CL_P,float64,1240,135,9.82,1193,0.0,18105974.0,1.0,58549.0 | 4497477.0 | 11741.0,candidate_predictor
+D6,MAIN_CL_M,float64,1240,135,9.82,1180,0.0,15985894.0,1.0,49871.0 | 4133017.0 | 8286.0,candidate_predictor
+D6,MAIN_CL_F,float64,1240,135,9.82,1069,0.0,3949945.0,1.0,8678.0 | 364460.0 | 3455.0,candidate_predictor
+D6,MAIN_AL_P,float64,1240,135,9.82,1167,0.0,9517765.0,1.0,78019.0 | 4444915.0 | 10190.0,candidate_predictor
+D6,MAIN_AL_M,float64,1240,135,9.82,1158,0.0,6730061.0,1.0,65994.0 | 3678911.0 | 9007.0,candidate_predictor
+D6,MAIN_AL_F,float64,1240,135,9.82,1057,0.0,4565275.0,1.0,12025.0 | 766004.0 | 1183.0,candidate_predictor
+D6,MAIN_HH_P,float64,1240,135,9.82,1156,0.0,1416126.0,1.0,350402.0 | 1085976.0 | 12003.0,candidate_predictor
+D6,MAIN_HH_M,float64,1240,135,9.82,1138,0.0,1079960.0,1.0,220367.0 | 557679.0 | 9101.0,candidate_predictor
+D6,MAIN_HH_F,float64,1240,135,9.82,1070,0.0,559019.0,1.0,130035.0 | 528297.0 | 2902.0,candidate_predictor
+D6,MAIN_OT_P,float64,1240,135,9.82,1212,0.0,11947607.0,1.0,6430033.0 | 6078212.0 | 542851.0,candidate_predictor
+D6,MAIN_OT_M,float64,1240,135,9.82,1214,0.0,10293194.0,1.0,5606874.0 | 5182258.0 | 488923.0,candidate_predictor
+D6,MAIN_OT_F,float64,1240,135,9.82,1189,0.0,1654413.0,1.0,823159.0 | 895954.0 | 53928.0,candidate_predictor
+D6,MARGWORK_P,float64,1240,135,9.82,1206,0.0,13433198.0,1.0,675045.0 | 5783062.0 | 58409.0,candidate_predictor
+D6,MARGWORK_M,float64,1240,135,9.82,1192,0.0,5795616.0,1.0,425057.0 | 2468016.0 | 44149.0,candidate_predictor
+D6,MARGWORK_F,float64,1240,135,9.82,1189,0.0,7637582.0,1.0,249988.0 | 3315046.0 | 14260.0,candidate_predictor
+D6,MARG_CL_P,float64,1240,135,9.82,1062,0.0,3648825.0,1.0,9525.0 | 1088371.0 | 2173.0,candidate_predictor
+D6,MARG_CL_M,float64,1240,135,9.82,938,0.0,1136553.0,1.0,5921.0 | 466401.0 | 677.0,candidate_predictor
+D6,MARG_CL_F,float64,1240,135,9.82,993,0.0,2671777.0,1.0,3604.0 | 621970.0 | 1496.0,candidate_predictor
+D6,MARG_AL_P,float64,1240,135,9.82,1162,0.0,7263822.0,1.0,44421.0 | 2795602.0 | 4973.0,candidate_predictor
+D6,MARG_AL_M,float64,1240,135,9.82,1101,0.0,3312342.0,1.0,29332.0 | 1305999.0 | 3498.0,candidate_predictor
+D6,MARG_AL_F,float64,1240,135,9.82,1088,0.0,3951480.0,1.0,15089.0 | 1489603.0 | 1475.0,candidate_predictor
+D6,MARG_HH_P,float64,1240,135,9.82,1098,0.0,747771.0,1.0,103345.0 | 632347.0 | 3591.0,candidate_predictor
+D6,MARG_HH_M,float64,1240,135,9.82,903,0.0,260459.0,1.0,31726.0 | 107408.0 | 1240.0,candidate_predictor
+D6,MARG_HH_F,float64,1240,135,9.82,1040,0.0,524939.0,1.0,71619.0 | 524939.0 | 2351.0,candidate_predictor
+D6,MARG_OT_P,float64,1240,135,9.82,1193,0.0,1772780.0,1.0,517754.0 | 1266742.0 | 47672.0,candidate_predictor
+D6,MARG_OT_M,float64,1240,135,9.82,1171,0.0,1086262.0,1.0,358078.0 | 588208.0 | 38734.0,candidate_predictor
+D6,MARG_OT_F,float64,1240,135,9.82,1160,0.0,686518.0,1.0,159676.0 | 678534.0 | 8938.0,candidate_predictor
+D6,NON_WORK_P,float64,1240,135,9.82,1215,0.0,86982387.0,1.0,14835203.0 | 35859304.0 | 1543880.0,candidate_predictor
+D6,NON_WORK_M,float64,1240,135,9.82,1215,0.0,36386785.0,1.0,5481813.0 | 13596128.0 | 621868.0,candidate_predictor
+D6,NON_WORK_F,float64,1240,135,9.82,1215,0.0,50595602.0,1.0,9353390.0 | 22263176.0 | 922012.0,candidate_predictor
+D6,UNNAMED: 64,float64,0,1375,100.0,0,,,0.0,,candidate_predictor
+D7,table_name,str,61857,0,0.0,1,,,0.0,C2308,identifier
+D7,state_code,int64,61857,0,0.0,36,0.0,35.0,1.0,0 | 1 | 2,identifier
+D7,dist_code,int64,61857,0,0.0,641,0.0,640.0,1.0,0 | 1 | 2,identifier
+D7,area_name,str,61857,0,0.0,670,,,0.0,INDIA | State - JAMMU & KASHMIR | State - HIMACHAL PRADESH,identifier
+D7,total,str,61857,0,0.0,3,,,0.0,Total | Rural | Urban,candidate_predictor
+D7,age_group,str,61857,0,0.0,29,,,0.448,All ages | 0-6 | 7,candidate_predictor
+D7,tot_p,int64,61857,0,0.0,41625,0.0,1210854977.0,1.0,1210854977 | 164515253 | 24826640,candidate_predictor
+D7,tot_m,int64,61857,0,0.0,34340,0.0,623270258.0,1.0,623270258 | 85752254 | 12903364,candidate_predictor
+D7,tot_f,int64,61857,0,0.0,33692,0.0,587584719.0,1.0,587584719 | 78762999 | 11923276,candidate_predictor
+D7,ill_p,int64,61857,0,0.0,25716,0.0,447216165.0,1.0,447216165 | 164515253 | 6748214,candidate_predictor
+D7,ill_m,int64,61857,0,0.0,18050,0.0,188506636.0,1.0,188506636 | 85752254 | 3388683,candidate_predictor
+D7,ill_f,int64,61857,0,0.0,21860,0.0,258709529.0,1.0,258709529 | 78762999 | 3359531,candidate_predictor
+D7,lit_p,int64,61857,0,0.0,36269,0.0,763638812.0,1.0,763638812 | 0 | 18078426,candidate_predictor
+D7,lit_m,int64,61857,0,0.0,30385,0.0,434763622.0,1.0,434763622 | 0 | 9514681,candidate_predictor
+D7,lit_f,int64,61857,0,0.0,26872,0.0,328875190.0,1.0,328875190 | 0 | 8563745,candidate_predictor
+D7,lit_wo_level_p,int64,61857,0,0.0,9929,0.0,35153231.0,1.0,35153231 | 0 | 424205,candidate_predictor
+D7,lit_wo_level_m,int64,61857,0,0.0,7525,0.0,19278416.0,1.0,19278416 | 0 | 248229,candidate_predictor
+D7,lit_wo_level_f,int64,61857,0,0.0,6976,0.0,15874815.0,1.0,15874815 | 0 | 175976,candidate_predictor
+D7,below_prim_p,int64,61857,0,0.0,18229,0.0,146897597.0,1.0,146897597 | 0 | 17517756,candidate_predictor
+D7,below_prim_m,int64,61857,0,0.0,14190,0.0,78445099.0,1.0,78445099 | 0 | 9190737,candidate_predictor
+D7,below_prim_f,int64,61857,0,0.0,13506,0.0,68452498.0,1.0,68452498 | 0 | 8327019,candidate_predictor
+D7,prim_p,int64,61857,0,0.0,21274,0.0,184170833.0,1.0,184170833 | 0 | 2399511,candidate_predictor
+D7,prim_m,int64,61857,0,0.0,16267,0.0,99311072.0,1.0,99311072 | 0 | 1231973,candidate_predictor
+D7,prim_f,int64,61857,0,0.0,15097,0.0,84859761.0,1.0,84859761 | 0 | 1167538,candidate_predictor
+D7,middle_p,int64,61857,0,0.0,18284,0.0,133903266.0,1.0,133903266 | 0 | 2696535,candidate_predictor
+D7,middle_m,int64,61857,0,0.0,14502,0.0,77629578.0,1.0,77629578 | 0 | 1413978,candidate_predictor
+D7,middle_f,int64,61857,0,0.0,12591,0.0,56273688.0,1.0,56273688 | 0 | 1282557,candidate_predictor
+D7,secondary_p,int64,61857,0,0.0,16235,0.0,105939743.0,1.0,105939743 | 0 | 5455958,candidate_predictor
+D7,secondary_m,int64,61857,0,0.0,13238,0.0,63769834.0,1.0,63769834 | 0 | 2855043,candidate_predictor
+D7,secondary_f,int64,61857,0,0.0,10951,0.0,42169909.0,1.0,42169909 | 0 | 2600915,candidate_predictor
+D7,inter_puc_p,int64,61857,0,0.0,13383,0.0,77942593.0,1.0,77942593 | 0 | 7371000,candidate_predictor
+D7,inter_puc_m,int64,61857,0,0.0,11264,0.0,46481321.0,1.0,46481321 | 0 | 3898414,candidate_predictor
+D7,inter_puc_f,int64,61857,0,0.0,9269,0.0,31461272.0,1.0,31461272 | 0 | 3472586,candidate_predictor
+D7,nontech_dipl_p,int64,61857,0,0.0,1979,0.0,1072289.0,1.0,1072289 | 0 | 59753,candidate_predictor
+D7,nontech_dipl_m,int64,61857,0,0.0,1632,0.0,726565.0,1.0,726565 | 0 | 40027,candidate_predictor
+D7,nontech_dipl_f,int64,61857,0,0.0,1174,0.0,345724.0,1.0,345724 | 0 | 19726,candidate_predictor
+D7,tech_dipl_p,int64,61857,0,0.0,4665,0.0,7238719.0,1.0,7238719 | 0 | 374081,candidate_predictor
+D7,tech_dipl_m,int64,61857,0,0.0,4151,0.0,5354161.0,1.0,5354161 | 0 | 271491,candidate_predictor
+D7,tech_dipl_f,int64,61857,0,0.0,2568,0.0,1884558.0,1.0,1884558 | 0 | 102590,candidate_predictor
+D7,grad_above_p,int64,61857,0,0.0,11978,0.0,68288971.0,1.0,68288971 | 0 | 13170028,candidate_predictor
+D7,grad_above_m,int64,61857,0,0.0,10375,0.0,42120460.0,1.0,42120460 | 0 | 7029489,candidate_predictor
+D7,grad_above_f,int64,61857,0,0.0,8018,0.0,26168511.0,1.0,26168511 | 0 | 6140539,candidate_predictor
+D7,unclassfd_p,int64,61857,0,0.0,3230,0.0,3031570.0,1.0,3031570 | 0 | 136465,candidate_predictor
+D7,unclassfd_m,int64,61857,0,0.0,2464,0.0,1647116.0,1.0,1647116 | 0 | 75715,candidate_predictor
+D7,unclassfd_f,int64,61857,0,0.0,2307,0.0,1384454.0,1.0,1384454 | 0 | 60750,candidate_predictor
+D8,table,str,42660,0,0.0,1,,,0.0,C0402,identifier
+D8,state_code,int64,42660,0,0.0,36,0.0,35.0,1.0,0 | 1 | 2,identifier
+D8,dist_code,int64,42660,0,0.0,641,0.0,640.0,1.0,0 | 1 | 2,identifier
+D8,area_name,str,42660,0,0.0,676,,,0.0,INDIA | State - JAMMU & KASHMIR (01) | State - HIMACHAL PRADESH (02),identifier
+D8,total,str,42660,0,0.0,3,,,0.0,Total | Rural | Urban,candidate_predictor
+D8,age_group,str,42660,0,0.0,20,,,0.0,All ages | 0-9 | 10-14,candidate_predictor
+D8,total_p,int64,42660,0,0.0,34110,0.0,1210854977.0,1.0,1210854977 | 239734904 | 132709212,candidate_predictor
+D8,total_m,int64,42660,0,0.0,30778,0.0,623270258.0,1.0,623270258 | 124932540 | 69418835,candidate_predictor
+D8,total_f,int64,42660,0,0.0,30570,0.0,587584719.0,1.0,587584719 | 114802364 | 63290377,candidate_predictor
+D8,never_married_t,int64,42660,0,0.0,20330,0.0,570833969.0,1.0,570833969 | 239734904 | 129790438,candidate_predictor
+D8,never_married_m,int64,42660,0,0.0,18957,0.0,322870527.0,1.0,322870527 | 124932540 | 68312261,candidate_predictor
+D8,never_married_f,int64,42660,0,0.0,16899,0.0,247963442.0,1.0,247963442 | 114802364 | 61478177,candidate_predictor
+D8,curr_married_t,int64,42660,0,0.0,26992,0.0,579584783.0,1.0,579584783 | 0 | 2742714,candidate_predictor
+D8,curr_married_m,int64,42660,0,0.0,22370,0.0,286507311.0,1.0,286507311 | 0 | 1032903,candidate_predictor
+D8,curr_married_f,int64,42660,0,0.0,22905,0.0,293077472.0,1.0,293077472 | 0 | 1709811,candidate_predictor
+D8,widowed_t,int64,42660,0,0.0,12484,0.0,55538707.0,1.0,55538707 | 0 | 100477,candidate_predictor
+D8,widowed_m,int64,42660,0,0.0,6303,0.0,12277229.0,1.0,12277229 | 0 | 36830,candidate_predictor
+D8,widowed_f,int64,42660,0,0.0,11155,0.0,43261478.0,1.0,43261478 | 0 | 63647,candidate_predictor
+D8,separated_t,int64,42660,0,0.0,3645,0.0,3535202.0,1.0,3535202 | 0 | 63478,candidate_predictor
+D8,separated_m,int64,42660,0,0.0,2200,0.0,1162448.0,1.0,1162448 | 0 | 31232,candidate_predictor
+D8,separated_f,int64,42660,0,0.0,2989,0.0,2372754.0,1.0,2372754 | 0 | 32246,candidate_predictor
+D8,divorced_t,int64,42660,0,0.0,2346,0.0,1362316.0,1.0,1362316 | 0 | 12105,candidate_predictor
+D8,divorced_m,int64,42660,0,0.0,1371,0.0,452743.0,1.0,452743 | 0 | 5609,candidate_predictor
+D8,divorced_f,int64,42660,0,0.0,1928,0.0,909573.0,1.0,909573 | 0 | 6496,candidate_predictor
+D8,unspecified_t,int64,42660,0,0.0,1,0.0,0.0,1.0,0,candidate_predictor
+D8,unspecified_m,int64,42660,0,0.0,1,0.0,0.0,1.0,0,candidate_predictor
+D8,unspecified_f,int64,42660,0,0.0,1,0.0,0.0,1.0,0,candidate_predictor
+D9,C4114,str,13508,217,1.58,1,,,0.0,C4114,candidate_predictor
+D9,0,float64,13508,217,1.58,36,0.0,35.0,1.0,0.0 | 1.0 | 2.0,candidate_predictor
+D9,0.1,float64,13508,217,1.58,641,0.0,640.0,1.0,0.0 | 1.0 | 2.0,candidate_predictor
+D9,India,str,13508,217,1.58,676,,,0.0,India | State - JAMMU & KASHMIR (01) | State - HIMACHAL PRADESH (02),candidate_predictor
+D9,All ages,str,13508,217,1.58,19,,,0.0,0-4 | 5-9 | 10-14,candidate_predictor
+D9,1210854977,float64,13508,217,1.58,12364,15.0,199812341.0,1.0,112806778.0 | 126928126.0 | 132709212.0,candidate_predictor
+D9,623270258,float64,13508,217,1.58,12005,5.0,104480510.0,1.0,58632074.0 | 66300466.0 | 69418835.0,candidate_predictor
+D9,587584719,float64,13508,217,1.58,12014,6.0,95331831.0,1.0,54174704.0 | 60627660.0 | 63290377.0,candidate_predictor
+D9,833748852,float64,13336,389,2.83,12017,2.0,155317278.0,1.0,82986660.0 | 93807612.0 | 96804494.0,candidate_predictor
+D9,427781058,float64,13336,389,2.83,11570,2.0,80992995.0,1.0,43036377.0 | 48825259.0 | 50488158.0,candidate_predictor
+D9,405967794,float64,13335,390,2.84,11479,2.0,74324283.0,1.0,39950283.0 | 44982353.0 | 46316336.0,candidate_predictor
+D9,377106125,float64,13448,277,2.02,10891,1.0,50818259.0,1.0,29820118.0 | 33120514.0 | 35904718.0,candidate_predictor
+D9,195489200,float64,13446,279,2.03,9808,1.0,26704022.0,1.0,15595697.0 | 17475207.0 | 18930677.0,candidate_predictor
+D9,181616925,float64,13442,283,2.06,9748,1.0,24114237.0,1.0,14224421.0 | 15645307.0 | 16974041.0,candidate_predictor
+D10,id,int64,677,0,0.0,677,1.0,677.0,1.0,1 | 2 | 3,identifier
+D10,geo_level,str,677,0,0.0,3,,,0.0,country | state | district,identifier
+D10,geo_code,str,677,0,0.0,641,1.0,640.0,0.999,IN | 1 | 2,identifier
+D10,name,str,677,0,0.0,671,,,0.0,India | JAMMU & KASHMIR | HIMACHAL PRADESH,candidate_predictor
+D10,year,int64,677,0,0.0,1,2016.0,2016.0,1.0,2016,candidate_predictor
+D10,square_kms,float64,0,677,100.0,0,,,0.0,,candidate_predictor
+D10,parent_level,str,676,1,0.15,2,,,0.0,country | state,identifier
+D10,parent_code,str,676,1,0.15,37,,,0.947,IN | 1 | 2,identifier
+D10,long_name,str,677,0,0.0,671,,,0.0,India | JAMMU & KASHMIR | HIMACHAL PRADESH,candidate_predictor
+D10,version,float64,0,677,100.0,0,,,0.0,,identifier

@@ -1,0 +1,951 @@
+{
+  "phase": 2,
+  "target": {
+    "target_name": "target_deprivation_rate_pct",
+    "source_dataset": "D2 (Census 2011 Houselisting & Housing Census Abstract)",
+    "source_column": "Total Number of Dilapidated",
+    "source_subset": "Rural/Urban == 'Total'",
+    "formula": "100 x (households living in dilapidated census houses) / (total households in the census-house condition table)",
+    "unit": "percent of households in the district",
+    "n_districts": 640,
+    "interpretation": "District-level prevalence of dilapidated census houses as a share of households. A structural-condition measure of severe housing deprivation, not a homelessness measure.",
+    "rejected_alternatives": {
+      "T1": "D1 dilapidated / D1 Households - invalid denominator (census houses)",
+      "T3": "D1 dilapidated / D5 households - robustness check only, not a target"
+    }
+  },
+  "target_stats": {
+    "n": 640,
+    "min": 0.2,
+    "p05": 1.2,
+    "p25": 2.7,
+    "median": 4.4,
+    "mean": 5.035,
+    "p75": 6.625,
+    "p95": 11.2,
+    "max": 17.7,
+    "sd": 3.12,
+    "skew": 1.154,
+    "n_unique": 124,
+    "n_null": 0,
+    "n_negative": 0,
+    "n_above_100": 0
+  },
+  "rows": {
+    "district_analysis": 640,
+    "districts_with_config_b": 628,
+    "districts_without_config_b": 12
+  },
+  "features": {
+    "config_a": 43,
+    "config_b_additional": 34,
+    "config_b_total": 77,
+    "built": 81,
+    "dropped_by_screen": 4,
+    "config_a_names": [
+      "male_share",
+      "literacy_rate",
+      "literacy_rate_male",
+      "sc_share",
+      "st_share",
+      "worker_share",
+      "main_worker_share",
+      "marginal_worker_share",
+      "cultivator_share_of_workers",
+      "agri_labour_share_of_workers",
+      "household_industry_share_of_workers",
+      "other_worker_share_of_workers",
+      "muslim_share",
+      "christian_share",
+      "sikh_share",
+      "buddhist_share",
+      "jain_share",
+      "other_religion_share",
+      "religion_not_stated_share",
+      "below_primary_share",
+      "primary_share",
+      "middle_share",
+      "secondary_share",
+      "higher_share",
+      "graduate_share",
+      "other_education_share",
+      "age_30_49_share",
+      "age_50_share",
+      "age_not_stated_share",
+      "income_below_45k_share",
+      "income_90k_150k_share",
+      "income_150k_240k_share",
+      "income_240k_330k_share",
+      "income_330k_425k_share",
+      "income_425k_545k_share",
+      "income_above_545k_share",
+      "hh_size_1_share",
+      "hh_size_2_share",
+      "hh_size_3_share",
+      "hh_size_4_share",
+      "hh_size_5_share",
+      "hh_size_9plus_share",
+      "owned_share_of_reported_tenure"
+    ],
+    "config_b_additional_names": [
+      "lpg_share",
+      "electricity_share",
+      "internet_share",
+      "computer_share",
+      "bicycle_share",
+      "car_share",
+      "radio_share",
+      "scooter_share",
+      "tv_share",
+      "telephone_share",
+      "mobile_only_share",
+      "landline_only_share",
+      "both_phone_share",
+      "multi_asset_share",
+      "bathing_facility_share",
+      "bathing_enclosure_no_roof_share",
+      "latrine_within_premises_share",
+      "pit_latrine_share",
+      "other_latrine_share",
+      "night_soil_open_drain_share",
+      "flush_other_system_share",
+      "separate_kitchen_share",
+      "other_cooking_fuel_share",
+      "tapwater_share",
+      "handpump_share",
+      "tubewell_borehole_share",
+      "uncovered_well_share",
+      "spring_share",
+      "river_canal_share",
+      "tank_pond_lake_share",
+      "other_water_source_share",
+      "water_within_premises_share",
+      "water_near_premises_share",
+      "water_away_share"
+    ]
+  },
+  "screening": {
+    "drops": [
+      {
+        "feature": "literacy_rate_female",
+        "reason": "|r| > 0.98 with literacy_rate"
+      },
+      {
+        "feature": "nonworker_share",
+        "reason": "|r| > 0.98 with worker_share"
+      },
+      {
+        "feature": "no_bathing_share",
+        "reason": "|r| > 0.98 with bathing_facility_share"
+      },
+      {
+        "feature": "open_defecation_share",
+        "reason": "|r| > 0.98 with latrine_within_premises_share"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "load_d1",
+      "status": "PASS",
+      "details": "640 districts, 121 columns"
+    },
+    {
+      "check": "load_d2_total",
+      "status": "PASS",
+      "details": "640 district Total rows"
+    },
+    {
+      "check": "load_d5_households",
+      "status": "PASS",
+      "details": "628 districts with a reliable D5 household count (12 left missing: district name occurs in two states)"
+    },
+    {
+      "check": "target_construction",
+      "status": "PASS",
+      "details": "640 districts from D2 Total rows; range 0.2-17.7%, median 4.4%, 124 distinct values"
+    },
+    {
+      "check": "composition_additivity:religion",
+      "status": "PASS",
+      "details": "sum(components)/total = 1.0000; reference category dropped: Hindus"
+    },
+    {
+      "check": "composition_additivity:education_attainment",
+      "status": "PASS",
+      "details": "sum(components)/total = 1.0000; reference category dropped: Illiterate_Education"
+    },
+    {
+      "check": "composition_additivity:age_structure",
+      "status": "PASS",
+      "details": "sum(components)/total = 1.0000; reference category dropped: Age_Group_0_29"
+    },
+    {
+      "check": "composition_additivity:income_bands",
+      "status": "PASS",
+      "details": "sum(components)/total = 1.0000; reference category dropped: Power_Parity_Rs_45000_90000"
+    },
+    {
+      "check": "composition_additivity:household_size",
+      "status": "PASS",
+      "details": "sum(components)/total = 1.0000; reference category dropped: Household_size_6_8_persons_Households"
+    },
+    {
+      "check": "district_alignment",
+      "status": "PASS",
+      "details": "640 keys identical to D1; no duplicates"
+    },
+    {
+      "check": "config_b_coverage",
+      "status": "PASS",
+      "details": "Configuration B available for 628 districts (expected 628); 12 preserved as missing"
+    },
+    {
+      "check": "collinearity_screen",
+      "status": "PASS",
+      "details": "threshold |r| > 0.98; 4 feature(s) dropped; A kept 43 of 45"
+    },
+    {
+      "check": "target_correlation_screen",
+      "status": "PASS",
+      "details": "threshold |r| > 0.9; max |r| = 0.528 (electricity_share); flagged: none"
+    },
+    {
+      "check": "config_a_missingness",
+      "status": "PASS",
+      "details": "no missing values in Configuration A"
+    },
+    {
+      "check": "config_b_missingness",
+      "status": "PASS",
+      "details": "every Configuration-B feature is missing for exactly the 12 unresolvable districts"
+    },
+    {
+      "check": "leakage_denylist",
+      "status": "PASS",
+      "details": "no forbidden (target-derived) column used as a predictor"
+    }
+  ],
+  "baselines_wide": [
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "grouped_by_state",
+      "model": "knn_all_features",
+      "mae": 2.1236,
+      "rmse": 2.7273,
+      "r2": 0.0736,
+      "spearman": 0.4821
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "grouped_by_state",
+      "model": "knn_headline",
+      "mae": 2.3621,
+      "rmse": 3.0783,
+      "r2": -0.0875,
+      "spearman": 0.358
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "grouped_by_state",
+      "model": "national_mean",
+      "mae": 2.4402,
+      "rmse": 3.1486,
+      "r2": -0.1371,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "grouped_by_state",
+      "model": "state_mean",
+      "mae": 2.4402,
+      "rmse": 3.1486,
+      "r2": -0.1371,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_all_features",
+      "mae": 1.4924,
+      "rmse": 1.9514,
+      "r2": 0.5913,
+      "spearman": 0.7473
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_headline",
+      "mae": 1.8403,
+      "rmse": 2.4597,
+      "r2": 0.3666,
+      "spearman": 0.6333
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep1_seed42",
+      "model": "national_mean",
+      "mae": 2.4122,
+      "rmse": 3.106,
+      "r2": -0.0075,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep1_seed42",
+      "model": "state_mean",
+      "mae": 1.5483,
+      "rmse": 2.0979,
+      "r2": 0.5405,
+      "spearman": 0.7233
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_all_features",
+      "mae": 1.4686,
+      "rmse": 1.9231,
+      "r2": 0.6012,
+      "spearman": 0.7588
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_headline",
+      "mae": 1.8079,
+      "rmse": 2.4142,
+      "r2": 0.3869,
+      "spearman": 0.6452
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep2_seed43",
+      "model": "national_mean",
+      "mae": 2.4151,
+      "rmse": 3.1056,
+      "r2": -0.018,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep2_seed43",
+      "model": "state_mean",
+      "mae": 1.5602,
+      "rmse": 2.1341,
+      "r2": 0.5068,
+      "spearman": 0.7214
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_all_features",
+      "mae": 1.4933,
+      "rmse": 1.9417,
+      "r2": 0.6066,
+      "spearman": 0.7391
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_headline",
+      "mae": 1.8211,
+      "rmse": 2.4354,
+      "r2": 0.377,
+      "spearman": 0.6362
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep3_seed44",
+      "model": "national_mean",
+      "mae": 2.4169,
+      "rmse": 3.1121,
+      "r2": -0.0092,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep3_seed44",
+      "model": "state_mean",
+      "mae": 1.5689,
+      "rmse": 2.1238,
+      "r2": 0.528,
+      "spearman": 0.6993
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_all_features",
+      "mae": 1.4833,
+      "rmse": 1.941,
+      "r2": 0.6099,
+      "spearman": 0.7562
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_headline",
+      "mae": 1.8037,
+      "rmse": 2.4251,
+      "r2": 0.3937,
+      "spearman": 0.6413
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep4_seed45",
+      "model": "national_mean",
+      "mae": 2.4104,
+      "rmse": 3.1161,
+      "r2": -0.0019,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep4_seed45",
+      "model": "state_mean",
+      "mae": 1.5478,
+      "rmse": 2.1119,
+      "r2": 0.5402,
+      "spearman": 0.7223
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_all_features",
+      "mae": 1.477,
+      "rmse": 1.9202,
+      "r2": 0.6046,
+      "spearman": 0.7408
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_headline",
+      "mae": 1.8215,
+      "rmse": 2.439,
+      "r2": 0.37,
+      "spearman": 0.6361
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep5_seed46",
+      "model": "national_mean",
+      "mae": 2.4183,
+      "rmse": 3.1173,
+      "r2": -0.0162,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_primary_640",
+      "n_districts": 640,
+      "scheme": "random_rep5_seed46",
+      "model": "state_mean",
+      "mae": 1.5547,
+      "rmse": 2.1186,
+      "r2": 0.5245,
+      "spearman": 0.7064
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "knn_all_features",
+      "mae": 2.1107,
+      "rmse": 2.7043,
+      "r2": 0.0917,
+      "spearman": 0.4521
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "knn_headline",
+      "mae": 2.4011,
+      "rmse": 3.0997,
+      "r2": -0.0969,
+      "spearman": 0.3215
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "national_mean",
+      "mae": 2.4495,
+      "rmse": 3.1438,
+      "r2": -0.1157,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "state_mean",
+      "mae": 2.4495,
+      "rmse": 3.1438,
+      "r2": -0.1157,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_all_features",
+      "mae": 1.5076,
+      "rmse": 1.982,
+      "r2": 0.5888,
+      "spearman": 0.7295
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_headline",
+      "mae": 1.8251,
+      "rmse": 2.4399,
+      "r2": 0.3873,
+      "spearman": 0.641
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "national_mean",
+      "mae": 2.4269,
+      "rmse": 3.1234,
+      "r2": -0.0014,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "state_mean",
+      "mae": 1.573,
+      "rmse": 2.1381,
+      "r2": 0.5253,
+      "spearman": 0.7183
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_all_features",
+      "mae": 1.4868,
+      "rmse": 1.9453,
+      "r2": 0.5948,
+      "spearman": 0.7455
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_headline",
+      "mae": 1.8396,
+      "rmse": 2.4813,
+      "r2": 0.3522,
+      "spearman": 0.6288
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "national_mean",
+      "mae": 2.4289,
+      "rmse": 3.1228,
+      "r2": -0.0204,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "state_mean",
+      "mae": 1.5548,
+      "rmse": 2.1173,
+      "r2": 0.5171,
+      "spearman": 0.722
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_all_features",
+      "mae": 1.4884,
+      "rmse": 1.9372,
+      "r2": 0.6144,
+      "spearman": 0.7463
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_headline",
+      "mae": 1.8417,
+      "rmse": 2.4787,
+      "r2": 0.3699,
+      "spearman": 0.6385
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "national_mean",
+      "mae": 2.4276,
+      "rmse": 3.1305,
+      "r2": -0.0051,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "state_mean",
+      "mae": 1.557,
+      "rmse": 2.1082,
+      "r2": 0.5422,
+      "spearman": 0.7202
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_all_features",
+      "mae": 1.5041,
+      "rmse": 1.9817,
+      "r2": 0.5846,
+      "spearman": 0.7408
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_headline",
+      "mae": 1.8283,
+      "rmse": 2.4646,
+      "r2": 0.3699,
+      "spearman": 0.6289
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "national_mean",
+      "mae": 2.4303,
+      "rmse": 3.1267,
+      "r2": -0.0069,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "state_mean",
+      "mae": 1.5419,
+      "rmse": 2.1071,
+      "r2": 0.5234,
+      "spearman": 0.7269
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_all_features",
+      "mae": 1.5015,
+      "rmse": 1.9584,
+      "r2": 0.6022,
+      "spearman": 0.7534
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_headline",
+      "mae": 1.8355,
+      "rmse": 2.4519,
+      "r2": 0.3787,
+      "spearman": 0.6339
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "national_mean",
+      "mae": 2.4306,
+      "rmse": 3.1282,
+      "r2": -0.0067,
+      "spearman": NaN
+    },
+    {
+      "configuration": "A_restricted_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "state_mean",
+      "mae": 1.5675,
+      "rmse": 2.1358,
+      "r2": 0.5254,
+      "spearman": 0.7235
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "knn_all_features",
+      "mae": 1.8547,
+      "rmse": 2.3899,
+      "r2": 0.3286,
+      "spearman": 0.5769
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "knn_headline",
+      "mae": 2.4011,
+      "rmse": 3.0997,
+      "r2": -0.0969,
+      "spearman": 0.3215
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "national_mean",
+      "mae": 2.4495,
+      "rmse": 3.1438,
+      "r2": -0.1157,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "grouped_by_state",
+      "model": "state_mean",
+      "mae": 2.4495,
+      "rmse": 3.1438,
+      "r2": -0.1157,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_all_features",
+      "mae": 1.3701,
+      "rmse": 1.8508,
+      "r2": 0.646,
+      "spearman": 0.7793
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "knn_headline",
+      "mae": 1.8251,
+      "rmse": 2.4399,
+      "r2": 0.3873,
+      "spearman": 0.641
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "national_mean",
+      "mae": 2.4269,
+      "rmse": 3.1234,
+      "r2": -0.0014,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep1_seed42",
+      "model": "state_mean",
+      "mae": 1.573,
+      "rmse": 2.1381,
+      "r2": 0.5253,
+      "spearman": 0.7183
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_all_features",
+      "mae": 1.3705,
+      "rmse": 1.8364,
+      "r2": 0.6413,
+      "spearman": 0.7881
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "knn_headline",
+      "mae": 1.8396,
+      "rmse": 2.4813,
+      "r2": 0.3522,
+      "spearman": 0.6288
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "national_mean",
+      "mae": 2.4289,
+      "rmse": 3.1228,
+      "r2": -0.0204,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep2_seed43",
+      "model": "state_mean",
+      "mae": 1.5548,
+      "rmse": 2.1173,
+      "r2": 0.5171,
+      "spearman": 0.722
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_all_features",
+      "mae": 1.3606,
+      "rmse": 1.8199,
+      "r2": 0.658,
+      "spearman": 0.7822
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "knn_headline",
+      "mae": 1.8417,
+      "rmse": 2.4787,
+      "r2": 0.3699,
+      "spearman": 0.6385
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "national_mean",
+      "mae": 2.4276,
+      "rmse": 3.1305,
+      "r2": -0.0051,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep3_seed44",
+      "model": "state_mean",
+      "mae": 1.557,
+      "rmse": 2.1082,
+      "r2": 0.5422,
+      "spearman": 0.7202
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_all_features",
+      "mae": 1.3668,
+      "rmse": 1.8586,
+      "r2": 0.6299,
+      "spearman": 0.7831
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "knn_headline",
+      "mae": 1.8283,
+      "rmse": 2.4646,
+      "r2": 0.3699,
+      "spearman": 0.6289
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "national_mean",
+      "mae": 2.4303,
+      "rmse": 3.1267,
+      "r2": -0.0069,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep4_seed45",
+      "model": "state_mean",
+      "mae": 1.5419,
+      "rmse": 2.1071,
+      "r2": 0.5234,
+      "spearman": 0.7269
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_all_features",
+      "mae": 1.3505,
+      "rmse": 1.8195,
+      "r2": 0.6573,
+      "spearman": 0.7919
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "knn_headline",
+      "mae": 1.8355,
+      "rmse": 2.4519,
+      "r2": 0.3787,
+      "spearman": 0.6339
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "national_mean",
+      "mae": 2.4306,
+      "rmse": 3.1282,
+      "r2": -0.0067,
+      "spearman": NaN
+    },
+    {
+      "configuration": "B_augmented_628",
+      "n_districts": 628,
+      "scheme": "random_rep5_seed46",
+      "model": "state_mean",
+      "mae": 1.5675,
+      "rmse": 2.1358,
+      "r2": 0.5254,
+      "spearman": 0.7235
+    }
+  ]
+}

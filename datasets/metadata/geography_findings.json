@@ -1,0 +1,498 @@
+{
+  "d2_rows_per_key": {
+    "n_keys": 640,
+    "patterns": {
+      "Rural|Total|Urban": 628,
+      "Total|Urban": 9,
+      "Rural|Total": 3
+    },
+    "keys_missing_total": [],
+    "keys_not_three_rows": [
+      "ANDAMAN AND NICOBAR ISLANDS||NICOBARS",
+      "ANDHRA PRADESH||HYDERABAD",
+      "HIMACHAL PRADESH||KINNAUR",
+      "HIMACHAL PRADESH||LAHUL AND SPITI",
+      "MAHARASHTRA||MUMBAI",
+      "MAHARASHTRA||MUMBAI SUBURBAN",
+      "NCT OF DELHI||CENTRAL",
+      "NCT OF DELHI||NEW DELHI",
+      "PUDUCHERRY||MAHE",
+      "PUDUCHERRY||YANAM",
+      "TAMIL NADU||CHENNAI",
+      "WEST BENGAL||KOLKATA"
+    ]
+  },
+  "d2_column_structure": {
+    "n_columns": 158,
+    "duplicate_labels": [],
+    "unnamed_columns": [],
+    "tail_columns": [
+      "TC_VC",
+      "Contition_T_Total",
+      "Contition_T_Good",
+      "Contition_T_Livable",
+      "Contition_T_Dilapidated",
+      "Contition_R_Total",
+      "Residence_Good",
+      "Residence_Livable",
+      "Residence_Dilapidated",
+      "Residence_cum_other",
+      "Residence_cum_Good",
+      "area_clean",
+      "key"
+    ],
+    "tail_sample_values": [
+      "0",
+      "100",
+      33.6,
+      58.1,
+      8.3,
+      90.9,
+      32.7,
+      51.0,
+      7.2,
+      9.1,
+      1.0,
+      "Kupwara",
+      "JAMMU AND KASHMIR||KUPWARA"
+    ]
+  },
+  "d5_universe": {
+    "n_district_rows": 1268,
+    "n_unique_district_names": 634,
+    "names_with_nonstandard_row_counts": [],
+    "rows_per_name_distribution": {
+      "2": 634
+    },
+    "areas": {
+      "Urban": 634,
+      "Rural": 634
+    },
+    "districts_with_single_area": [],
+    "has_state_column": false,
+    "has_district_code": false
+  },
+  "d7_universe": {
+    "columns_present": [
+      "state_code",
+      "dist_code",
+      "area_name"
+    ],
+    "n_rows": 61857,
+    "n_state_rows": 6177,
+    "n_district_rows": 55680,
+    "n_states": 36,
+    "n_district_codes": 640
+  },
+  "geography_reference": {
+    "n_states": 36,
+    "n_districts": 640,
+    "years": [
+      "2016"
+    ],
+    "district_name_duplicates": 6,
+    "state_codes": 36
+  },
+  "crosswalk": {
+    "n_d1_districts": 640,
+    "d2_matched": 640,
+    "d2_unmatched": [],
+    "d5_matched": 640,
+    "d5_matched_reliable": 628,
+    "d5_unmatched": [],
+    "geography_matched": 629,
+    "geography_unmatched": [
+      [
+        "NCT OF DELHI",
+        "New Delhi"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Adilabad"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Nizamabad"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Karimnagar"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Medak"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Hyderabad"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Rangareddy"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Mahbubnagar"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Nalgonda"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Warangal"
+      ],
+      [
+        "ANDHRA PRADESH",
+        "Khammam"
+      ]
+    ],
+    "d2_keys_extra": []
+  },
+  "target_validation": {
+    "n": 640,
+    "mean_signed_diff_pp": 1.2713788474689554,
+    "median_signed_diff_pp": 1.1163423271372905,
+    "median_abs_diff_pp": 1.1163423271372905,
+    "max_abs_diff_pp": 6.021846445865343,
+    "share_within_0_5pp": 0.1484375,
+    "share_within_1pp": 0.4421875,
+    "corr": 0.9847269049335807,
+    "spearman": 0.9838601341378366,
+    "ratio_target_over_d2_median": 0.7509186968605289,
+    "per_state": [
+      {
+        "state": "ASSAM",
+        "n": 27,
+        "median_abs_diff_pp": 3.113,
+        "mean_signed_diff_pp": 3.033,
+        "max_abs_diff_pp": 6.022,
+        "target_mean": 7.43,
+        "d2_mean": 10.463
+      },
+      {
+        "state": "WEST BENGAL",
+        "n": 19,
+        "median_abs_diff_pp": 2.373,
+        "mean_signed_diff_pp": 2.313,
+        "max_abs_diff_pp": 3.356,
+        "target_mean": 9.114,
+        "d2_mean": 11.426
+      },
+      {
+        "state": "PUNJAB",
+        "n": 20,
+        "median_abs_diff_pp": 1.986,
+        "mean_signed_diff_pp": 2.031,
+        "max_abs_diff_pp": 2.492,
+        "target_mean": 4.679,
+        "d2_mean": 6.71
+      },
+      {
+        "state": "ODISHA",
+        "n": 30,
+        "median_abs_diff_pp": 1.885,
+        "mean_signed_diff_pp": 1.93,
+        "max_abs_diff_pp": 3.51,
+        "target_mean": 6.13,
+        "d2_mean": 8.06
+      },
+      {
+        "state": "UTTAR PRADESH",
+        "n": 71,
+        "median_abs_diff_pp": 1.665,
+        "mean_signed_diff_pp": 1.691,
+        "max_abs_diff_pp": 3.548,
+        "target_mean": 4.699,
+        "d2_mean": 6.39
+      },
+      {
+        "state": "JAMMU AND KASHMIR",
+        "n": 22,
+        "median_abs_diff_pp": 1.612,
+        "mean_signed_diff_pp": 1.752,
+        "max_abs_diff_pp": 3.895,
+        "target_mean": 2.121,
+        "d2_mean": 3.873
+      },
+      {
+        "state": "HARYANA",
+        "n": 21,
+        "median_abs_diff_pp": 1.522,
+        "mean_signed_diff_pp": 1.511,
+        "max_abs_diff_pp": 2.567,
+        "target_mean": 3.027,
+        "d2_mean": 4.538
+      },
+      {
+        "state": "KERALA",
+        "n": 14,
+        "median_abs_diff_pp": 1.515,
+        "mean_signed_diff_pp": 1.74,
+        "max_abs_diff_pp": 2.968,
+        "target_mean": 3.81,
+        "d2_mean": 5.55
+      },
+      {
+        "state": "MEGHALAYA",
+        "n": 7,
+        "median_abs_diff_pp": 1.512,
+        "mean_signed_diff_pp": 1.546,
+        "max_abs_diff_pp": 2.383,
+        "target_mean": 4.297,
+        "d2_mean": 5.843
+      },
+      {
+        "state": "BIHAR",
+        "n": 38,
+        "median_abs_diff_pp": 1.404,
+        "mean_signed_diff_pp": 1.394,
+        "max_abs_diff_pp": 2.216,
+        "target_mean": 6.006,
+        "d2_mean": 7.4
+      },
+      {
+        "state": "MAHARASHTRA",
+        "n": 35,
+        "median_abs_diff_pp": 1.305,
+        "mean_signed_diff_pp": 1.252,
+        "max_abs_diff_pp": 2.053,
+        "target_mean": 3.814,
+        "d2_mean": 5.066
+      },
+      {
+        "state": "UTTARAKHAND",
+        "n": 13,
+        "median_abs_diff_pp": 1.248,
+        "mean_signed_diff_pp": 1.319,
+        "max_abs_diff_pp": 2.821,
+        "target_mean": 1.843,
+        "d2_mean": 3.162
+      },
+      {
+        "state": "SIKKIM",
+        "n": 4,
+        "median_abs_diff_pp": 1.227,
+        "mean_signed_diff_pp": 1.249,
+        "max_abs_diff_pp": 1.384,
+        "target_mean": 4.051,
+        "d2_mean": 5.3
+      },
+      {
+        "state": "TRIPURA",
+        "n": 4,
+        "median_abs_diff_pp": 1.211,
+        "mean_signed_diff_pp": 1.22,
+        "max_abs_diff_pp": 1.697,
+        "target_mean": 4.68,
+        "d2_mean": 5.9
+      },
+      {
+        "state": "KARNATAKA",
+        "n": 30,
+        "median_abs_diff_pp": 1.177,
+        "mean_signed_diff_pp": 1.192,
+        "max_abs_diff_pp": 1.738,
+        "target_mean": 3.308,
+        "d2_mean": 4.5
+      },
+      {
+        "state": "RAJASTHAN",
+        "n": 33,
+        "median_abs_diff_pp": 1.159,
+        "mean_signed_diff_pp": 1.142,
+        "max_abs_diff_pp": 2.361,
+        "target_mean": 2.861,
+        "d2_mean": 4.003
+      },
+      {
+        "state": "JHARKHAND",
+        "n": 24,
+        "median_abs_diff_pp": 0.851,
+        "mean_signed_diff_pp": 0.851,
+        "max_abs_diff_pp": 1.301,
+        "target_mean": 3.587,
+        "d2_mean": 4.438
+      },
+      {
+        "state": "MANIPUR",
+        "n": 9,
+        "median_abs_diff_pp": 0.836,
+        "mean_signed_diff_pp": 0.669,
+        "max_abs_diff_pp": 1.066,
+        "target_mean": 4.075,
+        "d2_mean": 4.744
+      },
+      {
+        "state": "ARUNACHAL PRADESH",
+        "n": 16,
+        "median_abs_diff_pp": 0.812,
+        "mean_signed_diff_pp": 1.047,
+        "max_abs_diff_pp": 2.83,
+        "target_mean": 2.465,
+        "d2_mean": 3.512
+      },
+      {
+        "state": "ANDAMAN AND NICOBAR ISLANDS",
+        "n": 3,
+        "median_abs_diff_pp": 0.764,
+        "mean_signed_diff_pp": 0.719,
+        "max_abs_diff_pp": 0.951,
+        "target_mean": 1.348,
+        "d2_mean": 2.067
+      },
+      {
+        "state": "CHANDIGARH",
+        "n": 1,
+        "median_abs_diff_pp": 0.733,
+        "mean_signed_diff_pp": 0.733,
+        "max_abs_diff_pp": 0.733,
+        "target_mean": 2.767,
+        "d2_mean": 3.5
+      },
+      {
+        "state": "HIMACHAL PRADESH",
+        "n": 12,
+        "median_abs_diff_pp": 0.725,
+        "mean_signed_diff_pp": 0.785,
+        "max_abs_diff_pp": 1.293,
+        "target_mean": 0.765,
+        "d2_mean": 1.55
+      },
+      {
+        "state": "NCT OF DELHI",
+        "n": 9,
+        "median_abs_diff_pp": 0.725,
+        "mean_signed_diff_pp": 0.908,
+        "max_abs_diff_pp": 1.571,
+        "target_mean": 1.97,
+        "d2_mean": 2.878
+      },
+      {
+        "state": "MADHYA PRADESH",
+        "n": 50,
+        "median_abs_diff_pp": 0.715,
+        "mean_signed_diff_pp": 0.764,
+        "max_abs_diff_pp": 1.645,
+        "target_mean": 3.344,
+        "d2_mean": 4.108
+      },
+      {
+        "state": "GOA",
+        "n": 2,
+        "median_abs_diff_pp": 0.685,
+        "mean_signed_diff_pp": 0.685,
+        "max_abs_diff_pp": 0.738,
+        "target_mean": 0.865,
+        "d2_mean": 1.55
+      },
+      {
+        "state": "CHHATTISGARH",
+        "n": 18,
+        "median_abs_diff_pp": 0.647,
+        "mean_signed_diff_pp": 0.637,
+        "max_abs_diff_pp": 0.982,
+        "target_mean": 3.113,
+        "d2_mean": 3.75
+      },
+      {
+        "state": "ANDHRA PRADESH",
+        "n": 23,
+        "median_abs_diff_pp": 0.634,
+        "mean_signed_diff_pp": 0.626,
+        "max_abs_diff_pp": 1.119,
+        "target_mean": 2.953,
+        "d2_mean": 3.578
+      },
+      {
+        "state": "MIZORAM",
+        "n": 8,
+        "median_abs_diff_pp": 0.594,
+        "mean_signed_diff_pp": 0.672,
+        "max_abs_diff_pp": 1.502,
+        "target_mean": 3.178,
+        "d2_mean": 3.85
+      },
+      {
+        "state": "GUJARAT",
+        "n": 26,
+        "median_abs_diff_pp": 0.447,
+        "mean_signed_diff_pp": 0.473,
+        "max_abs_diff_pp": 1.114,
+        "target_mean": 1.181,
+        "d2_mean": 1.654
+      },
+      {
+        "state": "LAKSHADWEEP",
+        "n": 1,
+        "median_abs_diff_pp": 0.389,
+        "mean_signed_diff_pp": 0.389,
+        "max_abs_diff_pp": 0.389,
+        "target_mean": 0.391,
+        "d2_mean": 0.78
+      },
+      {
+        "state": "TAMIL NADU",
+        "n": 32,
+        "median_abs_diff_pp": 0.373,
+        "mean_signed_diff_pp": 0.413,
+        "max_abs_diff_pp": 0.82,
+        "target_mean": 1.605,
+        "d2_mean": 2.019
+      },
+      {
+        "state": "PUDUCHERRY",
+        "n": 4,
+        "median_abs_diff_pp": 0.361,
+        "mean_signed_diff_pp": 0.314,
+        "max_abs_diff_pp": 0.472,
+        "target_mean": 0.936,
+        "d2_mean": 1.25
+      },
+      {
+        "state": "NAGALAND",
+        "n": 11,
+        "median_abs_diff_pp": 0.346,
+        "mean_signed_diff_pp": 0.409,
+        "max_abs_diff_pp": 0.803,
+        "target_mean": 1.318,
+        "d2_mean": 1.727
+      },
+      {
+        "state": "DADRA AND NAGAR HAVELI",
+        "n": 1,
+        "median_abs_diff_pp": 0.162,
+        "mean_signed_diff_pp": 0.162,
+        "max_abs_diff_pp": 0.162,
+        "target_mean": 0.338,
+        "d2_mean": 0.5
+      },
+      {
+        "state": "DAMAN AND DIU",
+        "n": 2,
+        "median_abs_diff_pp": 0.116,
+        "mean_signed_diff_pp": 0.116,
+        "max_abs_diff_pp": 0.16,
+        "target_mean": 0.284,
+        "d2_mean": 0.4
+      }
+    ]
+  },
+  "d2_alternative_columns": {
+    "candidates": [
+      "Residence_Dilapidated"
+    ],
+    "Residence_Dilapidated": {
+      "n": 640,
+      "median_abs_diff_pp": 0.9607394059702269,
+      "corr": 0.9840586778898506
+    }
+  },
+  "d5_denominator_check": {
+    "n": 640,
+    "exact_matches": 0,
+    "median_rel_diff_pct": -24.09261523762942,
+    "p95_abs_rel_diff_pct": 44.357405641844764,
+    "max_abs_diff": 1088986.0
+  }
+}

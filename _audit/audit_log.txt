@@ -1,0 +1,215 @@
+
+==============================================================================
+A. DATA IDENTITY AND FOLD RECONSTRUCTION
+==============================================================================
+PASS  628 districts   [628]
+PASS  77 predictors   [77]
+PASS  target column present
+PASS  p90 == 9.200   [9.2]
+PASS  p95 == 11.200   [11.2]
+PASS  n >= p90 == 64   [64]
+PASS  n >= p95 == 35   [35]
+tail_oof columns: ['arm', 'kind', 'key', 'fold', 'actual', 'predicted']
+phase3_oof columns: ['configuration', 'scheme', 'model', 'key', 'actual', 'predicted']
+PASS  5 arms in OOF, no E0 rows   [['E1', 'E2', 'E3', 'E4a', 'E4b']]
+PASS  OOF row count == 5 x 628   [3140]
+PASS  no duplicate (arm,key)
+PASS  no missing predictions
+PASS  stored folds reproduce a fresh GroupKFold assignment   [mismatches=0]
+PASS  E2 uses identical folds
+PASS  E3 uses identical folds
+PASS  E4a uses identical folds
+PASS  E4b uses identical folds
+PASS  every outer fold holds out entire states   [states/fold=[6, 7, 7, 8, 7]]
+PASS  E0 source has 628 ridge rows   [628]
+PASS  E0 actual == config target
+
+==============================================================================
+B. INDEPENDENT METRIC RECOMPUTATION (formulas written here)
+==============================================================================
+mean predicted by arm: {'E1': 5.422, 'E2': 5.586, 'E3': 5.615, 'E4a': 5.9, 'E4b': 7.345, 'E0': 4.966}
+tail_experiments columns: ['kind', 'mae', 'rmse', 'r2', 'spearman', 'mae_mean', 'mae_sd', 'mae_n_defined', 'rmse_mean', 'rmse_sd', 'rmse_n_defined', 'r2_mean', 'r2_sd', 'r2_n_defined', 'spearman_mean', 'spearman_sd', 'spearman_n_defined', 'n_flagged', 'flagged_share', 'sensitivity_p95', 'sensitivity_p90', 'precision_p95', 'all_n', 'all_mae', 'all_bias', 'all_share_under', 'all_mean_actual', 'all_mean_predicted', 'p90_n', 'p90_mae', 'p90_bias', 'p90_share_under', 'p90_mean_actual', 'p90_mean_predicted', 'p95_n', 'p95_mae', 'p95_bias', 'p95_share_under', 'p95_mean_actual', 'p95_mean_predicted', 'tradeoff_mae_per_pp_bias_p95', 'verdict']
+        mae    rmse    bias      r2  p90_mae  p90_bias  p95_mae  p95_bias    sens    prec  flagged     rho
+arm                                                                                                       
+E0   1.7496  2.2842  0.0920  0.4680   3.6481    3.5935   4.5273    4.5096  0.3714  0.5200       25  0.6672
+E1   1.9150  2.4308 -0.3638  0.3976   3.0324    2.9346   3.7855    3.6926  0.5429  0.3878       49  0.6152
+E2   1.9750  2.5253 -0.5283  0.3498   2.8315    2.7241   3.5451    3.4353  0.6857  0.3871       62  0.6017
+E3   1.9848  2.5314 -0.5566  0.3467   2.8066    2.5012   3.5298    3.2707  0.6000  0.3000       70  0.6312
+E4a  1.9142  2.4758 -0.8425  0.3751   2.6236    2.3033   3.4308    3.1088  0.6286  0.3235       68  0.6721
+E4b  2.9118  3.5736 -2.2869 -0.3020   2.3305    1.8267   3.1018    2.9937  0.5429  0.1696      112  0.5452
+PASS  all reported overall/tail/flag metrics reproduce   [max|d|=0.00e+00]
+PASS  Spearman reproduces   [max|d|=0.00e+00]
+PASS  all 30 fold-level MAE values reproduce   [0 mismatches]
+PASS  E0 column is exactly the Phase 3 prediction vector
+
+==============================================================================
+C. QUANTILE REGRESSION AUDIT
+==============================================================================
+tail_quantile_metrics columns: ['arm', 'tau', 'pinball_loss', 'coverage', 'calibration_error_pp', 'mean_predicted', 'mean_actual', 'coverage_p90_descriptive', 'coverage_p95_descriptive', 'reliability_mad_pp']
+arm  tau  pinball_loss  coverage  calibration_error_pp  mean_predicted  mean_actual  coverage_p90_descriptive  coverage_p95_descriptive  reliability_mad_pp
+ E0 0.75        0.8978    0.5000               25.0000          4.9659       5.0579                    0.0312                    0.0286             25.0000
+ E0 0.90        0.9116    0.5000               40.0000          4.9659       5.0579                    0.0312                    0.0286             40.0000
+ E1 0.75        0.8665    0.5748               17.5159          5.4217       5.0579                    0.0312                    0.0286             18.9490
+ E1 0.90        0.8120    0.5748               32.5159          5.4217       5.0579                    0.0312                    0.0286             32.5159
+ E2 0.75        0.8554    0.5892               16.0828          5.5863       5.0579                    0.0625                    0.0286             17.4363
+ E2 0.90        0.7762    0.5892               31.0828          5.5863       5.0579                    0.0625                    0.0286             31.0828
+ E3 0.75        0.8532    0.6099               14.0127          5.6145       5.0579                    0.2031                    0.1429             14.4904
+ E3 0.90        0.7697    0.6099               29.0127          5.6145       5.0579                    0.2031                    0.1429             29.0127
+E4a 0.75        0.7465    0.6704                7.9618          5.9004       5.0579                    0.1719                    0.1143             11.7834
+E4a 0.90        0.6201    0.6704               22.9618          5.9004       5.0579                    0.1719                    0.1143             22.9618
+E4b 0.75        0.8842    0.8248               -7.4841          7.3448       5.0579                    0.2188                    0.1143              9.2357
+E4b 0.90        0.5411    0.8248                7.5159          7.3448       5.0579                    0.2188                    0.1143              8.6306
+PASS  E4a tau == 0.75 in registry
+PASS  E4b tau == 0.90 in registry
+PASS  E4 alpha grids registered
+PASS  project pinball_loss == independent piecewise definition
+PASS  pinball at tau=0.5 equals 0.5*MAE
+  E4a: coverage recomputed 0.670382 vs reported 0.670382; pinball recomputed 0.746461 vs 0.746461
+PASS  E4a coverage reproduces
+PASS  E4a pinball reproduces
+PASS  E4a calibration error reproduces
+  E0 pinball at tau=0.75: 0.8978  (mean pred 4.966)
+  E4b: coverage recomputed 0.824841 vs reported 0.824841; pinball recomputed 0.541137 vs 0.541137
+PASS  E4b coverage reproduces
+PASS  E4b pinball reproduces
+PASS  E4b calibration error reproduces
+  E0 pinball at tau=0.9: 0.9116  (mean pred 4.966)
+
+Distribution of each arm's predictions (does it reach the tail?):
+            E1       E2       E3      E4a      E4b       E0
+count  628.000  628.000  628.000  628.000  628.000  628.000
+mean     5.422    5.586    5.615    5.900    7.345    4.966
+std      2.455    2.547    2.722    2.613    2.397    2.257
+min     -1.475   -1.334   -2.953   -1.558    1.911   -2.446
+25%      3.900    3.944    3.897    4.380    5.706    3.561
+50%      5.066    5.305    5.219    5.656    7.587    4.712
+75%      6.920    7.092    7.233    7.566    8.734    6.341
+max     13.727   14.021   14.657   15.202   29.437   14.264
+
+share of predictions >= 9.2: {'E1': 0.078, 'E2': 0.099, 'E3': 0.111, 'E4a': 0.108, 'E4b': 0.178, 'E0': 0.04}
+corr with E0 predictions: {'E1': 0.9791, 'E2': 0.9675, 'E3': 0.9706, 'E4a': 0.9361, 'E4b': 0.7231, 'E0': 1.0}
+E4b smallest 5 predictions: [1.911 2.173 2.573 2.641 2.725]; largest 5: [14.328 14.75  15.246 15.681 29.437]
+
+==============================================================================
+D. STATE-CLUSTERED BOOTSTRAP AUDIT
+==============================================================================
+tail_bootstrap columns: ['arm', 'quantity', 'delta_vs_E0', 'ci_low', 'ci_high', 'n_effective_reps', 'cluster_unit', 'reps']
+arm quantity  delta_vs_E0  ci_low  ci_high  n_effective_reps cluster_unit  reps
+ E1  mae_all       0.1654  0.0219   0.3268              2000        state  2000
+ E1 bias_p90      -0.6588 -0.8945  -0.3444              1995        state  2000
+ E1 bias_p95      -0.8171 -1.0765  -0.4866              1977        state  2000
+ E1  mae_p95      -0.7418 -1.0765  -0.4758              1977        state  2000
+ E2  mae_all       0.2255  0.0411   0.4282              2000        state  2000
+ E2 bias_p90      -0.8693 -1.2064  -0.4912              1995        state  2000
+ E2 bias_p95      -1.0743 -1.4551  -0.7217              1977        state  2000
+ E2  mae_p95      -0.9822 -1.4551  -0.6267              1977        state  2000
+ E3  mae_all       0.2352  0.0547   0.4575              2000        state  2000
+ E3 bias_p90      -1.0923 -1.3502  -0.6220              1995        state  2000
+ E3 bias_p95      -1.2389 -1.5081  -0.7036              1977        state  2000
+ E3  mae_p95      -0.9975 -1.2012  -0.6409              1977        state  2000
+E4a  mae_all       0.1646 -0.0227   0.3738              2000        state  2000
+E4a bias_p90      -1.2902 -1.5320  -0.9829              1995        state  2000
+E4a bias_p95      -1.4009 -1.6945  -1.0680              1977        state  2000
+E4a  mae_p95      -1.0965 -1.4638  -0.8129              1977        state  2000
+E4b  mae_all       1.1622  0.7177   1.6534              2000        state  2000
+E4b bias_p90      -1.7668 -3.4605   0.6313              1995        state  2000
+E4b bias_p95      -1.5159 -3.7815   1.2511              1977        state  2000
+E4b  mae_p95      -1.4255 -3.6755   1.2631              1977        state  2000
+cluster_unit values: <StringArray>
+['state']
+Length: 1, dtype: str reps: [2000]
+  E1 mae_all: state-clustered recomputed [+0.022, +0.327] vs reported [+0.022, +0.327]  |d|=0.0000
+  E1 bias_p95: state-clustered recomputed [-1.077, -0.487] vs reported [-1.077, -0.487]  |d|=0.0000
+  E2 mae_all: state-clustered recomputed [+0.041, +0.428] vs reported [+0.041, +0.428]  |d|=0.0000
+  E2 bias_p95: state-clustered recomputed [-1.455, -0.722] vs reported [-1.455, -0.722]  |d|=0.0000
+  E3 mae_all: state-clustered recomputed [+0.055, +0.457] vs reported [+0.055, +0.457]  |d|=0.0000
+  E3 bias_p95: state-clustered recomputed [-1.508, -0.704] vs reported [-1.508, -0.704]  |d|=0.0000
+  E4a mae_all: state-clustered recomputed [-0.023, +0.374] vs reported [-0.023, +0.374]  |d|=0.0000
+  E4a bias_p95: state-clustered recomputed [-1.695, -1.068] vs reported [-1.695, -1.068]  |d|=0.0000
+  E4b mae_all: state-clustered recomputed [+0.718, +1.653] vs reported [+0.718, +1.653]  |d|=0.0000
+  E4b bias_p95: state-clustered recomputed [-3.782, +1.251] vs reported [-3.782, +1.251]  |d|=0.0000
+PASS  state-clustered CIs reproduce   [max|d|=0.00e+00]
+
+Registered spec in the proposal calls for a DISTRICT-level paired bootstrap.
+Comparison, same seed and reps:
+  E1 mae_all: district [+0.115, +0.215]  vs state [+0.022, +0.327]  width 0.101 vs 0.305
+  E1 bias_p95: district [-0.961, -0.682]  vs state [-1.077, -0.487]  width 0.280 vs 0.590
+  E2 mae_all: district [+0.159, +0.293]  vs state [+0.041, +0.428]  width 0.134 vs 0.387
+  E2 bias_p95: district [-1.256, -0.901]  vs state [-1.455, -0.722]  width 0.354 vs 0.733
+  E3 mae_all: district [+0.165, +0.304]  vs state [+0.055, +0.457]  width 0.139 vs 0.403
+  E3 bias_p95: district [-1.400, -1.053]  vs state [-1.508, -0.704]  width 0.347 vs 0.804
+  E4a mae_all: district [+0.078, +0.250]  vs state [-0.023, +0.374]  width 0.172 vs 0.397
+  E4a bias_p95: district [-1.654, -1.144]  vs state [-1.695, -1.068]  width 0.509 vs 0.627
+  E4b mae_all: district [+0.995, +1.328]  vs state [+0.718, +1.653]  width 0.332 vs 0.936
+  E4b bias_p95: district [-2.404, -0.553]  vs state [-3.782, +1.251]  width 1.852 vs 5.033
+  point Delta-MAE E1: +0.1654
+  point Delta-MAE E4b: +1.1622
+
+==============================================================================
+E. C1-C6 INDEPENDENT RE-EVALUATION
+==============================================================================
+cuts: C1 mae<=3.1009 bias<=3.1567; C2 mae<=1.8370 rmse<=2.3984; C6 sens>=0.4714
+tail_gate_results rows: 30
+  E1: C3 4/4 folds mae-better, 4/4 bias-better; C4 reductions {'ASSAM': 19.89, 'WEST BENGAL': 7.04, 'UTTAR PRADESH': 4.91, 'ORISSA': 3.48} share=56.3%
+  E2: C3 4/4 folds mae-better, 4/4 bias-better; C4 reductions {'ASSAM': 26.41, 'WEST BENGAL': 8.3, 'UTTAR PRADESH': 6.1, 'ORISSA': 5.56} share=57.0%
+  E3: C3 4/4 folds mae-better, 4/4 bias-better; C4 reductions {'ASSAM': 23.12, 'WEST BENGAL': 9.83, 'UTTAR PRADESH': 6.63, 'ORISSA': 7.47} share=49.1%
+  E4a: C3 4/4 folds mae-better, 4/4 bias-better; C4 reductions {'ASSAM': 21.16, 'WEST BENGAL': 9.22, 'UTTAR PRADESH': 19.36, 'ORISSA': 8.07} share=36.6%
+  E4b: C3 3/4 folds mae-better, 3/4 bias-better; C4 reductions {'ASSAM': 59.97, 'WEST BENGAL': -23.4, 'UTTAR PRADESH': 25.27, 'ORISSA': 9.63} share=63.2%
+
+independently derived gate matrix:
+                 C1              C2    C3    C4    C5    C6
+E1             FAIL            FAIL  PASS  PASS  PASS  FAIL
+E2             FAIL            FAIL  PASS  PASS  PASS  FAIL
+E3             FAIL            FAIL  PASS  PASS  PASS  FAIL
+E4a  NOT APPLICABLE  NOT APPLICABLE  PASS  PASS  PASS  FAIL
+E4b  NOT APPLICABLE  NOT APPLICABLE  PASS  FAIL  PASS  FAIL
+PASS  reported gate matrix identical to independent evaluation
+
+==============================================================================
+F. FIT COUNT AND AUDIT TRAIL
+==============================================================================
+tail_fit_diagnostics columns: ['arm', 'fold', 'stage', 'inner_split', 'alpha', 'threshold', 'n_train', 'n_valid', 'n_weighted', 'weight_mean', 'inner_score', 'selected']
+rows: 325 per arm: {'E1': 65, 'E2': 65, 'E3': 65, 'E4a': 65, 'E4b': 65}
+per arm/stage: {('E1', 'inner'): 60, ('E1', 'outer_refit'): 5, ('E2', 'inner'): 60, ('E2', 'outer_refit'): 5, ('E3', 'inner'): 60, ('E3', 'outer_refit'): 5, ('E4a', 'inner'): 60, ('E4a', 'outer_refit'): 5, ('E4b', 'inner'): 60, ('E4b', 'outer_refit'): 5}
+arithmetic: weighted 3 arms x 5 folds x 3 alphas x 4 inner = 180; quantile 2 x 5 x 3 x 4 = 120; outer refits 5 x 5 = 25; total = 325
+PASS  325 diagnostics rows   [325]
+PASS  60 inner rows per arm
+PASS  5 outer_refit rows per arm
+PASS  exactly 5 selected rows per arm
+PASS  no duplicate fit records
+PASS  inner_split covers 1..4
+PASS  alphas are only registered values
+  weighted inner rows checked: 180
+PASS  every inner threshold == quantile of that split's inner-TRAIN targets   [0 bad]
+PASS  every inner n_train == that split's training size   [0 bad]
+PASS  every inner n_weighted == count at/above threshold   [0 bad]
+PASS  every inner weight_mean == 1.0   [0 bad]
+  inner thresholds coinciding by chance with the full-outer-train quantile: 9/180
+PASS  every outer_refit record matches the outer train/test sizes, alpha and threshold   [0 problems]
+  distinct outer thresholds per arm: {'E1': [6.25, 6.575, 6.7, 7.1], 'E2': [6.25, 6.575, 6.7, 7.1], 'E3': [8.7, 8.79, 9.2, 9.68], 'E4a': [nan, nan, nan, nan, nan], 'E4b': [nan, nan, nan, nan, nan]}
+PASS  selected alpha is the argmin of mean inner score in all 25 fold-arm cells
+
+==============================================================================
+G. REFIT THE REGISTERED ARMS IN MEMORY (nothing written)
+==============================================================================
+PASS  E1 OOF reproduces from the registered implementation   [max|d|=0.00e+00]
+PASS  E2 OOF reproduces from the registered implementation   [max|d|=0.00e+00]
+PASS  E3 OOF reproduces from the registered implementation   [max|d|=0.00e+00]
+PASS  E4b OOF reproduces from the registered implementation   [max|d|=0.00e+00]
+
+==============================================================================
+H. EXTREME-DISTRICT GEOGRAPHY
+==============================================================================
+ASSAM                12
+WEST BENGAL          12
+UTTAR PRADESH         4
+ORISSA                4
+BIHAR                 2
+ARUNACHAL PRADESH     1
+top-2-state share of >=p95: 68.6%
+  fold 1: n=126, >=p90 11, >=p95 4, states held out 6
+  fold 2: n=126, >=p90 20, >=p95 12, states held out 7
+  fold 3: n=125, >=p90 21, >=p95 14, states held out 7
+  fold 4: n=126, >=p90 10, >=p95 5, states held out 8
+  fold 5: n=125, >=p90 2, >=p95 0, states held out 7
+PASS  state-level biases reproduce

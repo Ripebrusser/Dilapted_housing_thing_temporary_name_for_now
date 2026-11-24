@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Third-party data: never commit raw or downloaded data ---
+datasets/raw/
+datasets/downloads/
+datasets/interim/
+datasets/processed/
+
+# --- Generated models ---
+models/checkpoints/
+models/final/
+models/model_metadata/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+
+# --- Machine-local output ---
+evaluation/plots/*.png
+evaluation/predictions/*.csv
+
+# --- Secrets / local env ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Note: datasets/metadata/*.csv and reports/dataset_report/*.txt are tracked —
+# they are small, derived and document the audit.

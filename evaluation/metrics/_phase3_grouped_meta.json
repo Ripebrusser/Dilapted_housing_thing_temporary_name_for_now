@@ -1,0 +1,293 @@
+{
+  "scheme": "grouped",
+  "seed": 42,
+  "outer_splits": 5,
+  "inner_splits": 4,
+  "config_ids": [
+    "A_primary_640",
+    "A_restricted_628",
+    "B_augmented_628"
+  ],
+  "models": [
+    {
+      "model": "dummy_mean",
+      "n_configs": 1,
+      "scaling": false,
+      "param_grid": {},
+      "complexity_rank": 1,
+      "notes": "Predicts the training-fold mean. The floor every model must beat."
+    },
+    {
+      "model": "ridge",
+      "n_configs": 5,
+      "scaling": true,
+      "param_grid": {
+        "model__alpha": [
+          0.1,
+          1.0,
+          10.0,
+          100.0,
+          1000.0
+        ]
+      },
+      "complexity_rank": 2,
+      "notes": "L2-penalised linear model; alpha spans weak to strong shrinkage for 43-77 correlated shares."
+    },
+    {
+      "model": "random_forest",
+      "n_configs": 8,
+      "scaling": false,
+      "param_grid": {
+        "model__max_depth": [
+          null,
+          10
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ],
+        "model__max_features": [
+          "sqrt",
+          0.5
+        ]
+      },
+      "complexity_rank": 6,
+      "notes": "Bagged trees; max_features controls decorrelation at 43-77 features."
+    },
+    {
+      "model": "elastic_net",
+      "n_configs": 12,
+      "scaling": true,
+      "param_grid": {
+        "model__alpha": [
+          0.01,
+          0.1,
+          1.0,
+          10.0
+        ],
+        "model__l1_ratio": [
+          0.2,
+          0.5,
+          0.8
+        ]
+      },
+      "complexity_rank": 3,
+      "notes": "L1+L2; handles the compositional blocks by shrinking redundant members to zero."
+    },
+    {
+      "model": "knn",
+      "n_configs": 8,
+      "scaling": true,
+      "param_grid": {
+        "model__n_neighbors": [
+          5,
+          10,
+          15,
+          25
+        ],
+        "model__weights": [
+          "uniform",
+          "distance"
+        ]
+      },
+      "complexity_rank": 3,
+      "notes": "Carries over the Phase 2 baseline with tuning; distance-weighted neighbours on scaled shares."
+    },
+    {
+      "model": "decision_tree",
+      "n_configs": 12,
+      "scaling": false,
+      "param_grid": {
+        "model__max_depth": [
+          3,
+          5,
+          7,
+          null
+        ],
+        "model__min_samples_leaf": [
+          2,
+          5,
+          10
+        ]
+      },
+      "complexity_rank": 4,
+      "notes": "Single tree; depth and leaf size control overfitting on 640 rows."
+    },
+    {
+      "model": "extra_trees",
+      "n_configs": 8,
+      "scaling": false,
+      "param_grid": {
+        "model__max_depth": [
+          null,
+          10
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ],
+        "model__max_features": [
+          "sqrt",
+          0.5
+        ]
+      },
+      "complexity_rank": 6,
+      "notes": "Extremely randomised trees; lower variance than a single tree."
+    },
+    {
+      "model": "gradient_boosting",
+      "n_configs": 8,
+      "scaling": false,
+      "param_grid": {
+        "model__n_estimators": [
+          150,
+          300
+        ],
+        "model__learning_rate": [
+          0.03,
+          0.1
+        ],
+        "model__max_depth": [
+          2,
+          3
+        ]
+      },
+      "complexity_rank": 7,
+      "notes": "Shallow boosted trees with 80% subsampling; depth 2-3 suits a small n."
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "n_configs": 8,
+      "scaling": false,
+      "param_grid": {
+        "model__max_iter": [
+          150,
+          300
+        ],
+        "model__learning_rate": [
+          0.05,
+          0.1
+        ],
+        "model__max_leaf_nodes": [
+          7,
+          15
+        ]
+      },
+      "complexity_rank": 7,
+      "notes": "Histogram boosting; early_stopping disabled so no internal split consumes training data."
+    },
+    {
+      "model": "svr_rbf",
+      "n_configs": 6,
+      "scaling": true,
+      "param_grid": {
+        "model__C": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "model__epsilon": [
+          0.1,
+          0.5
+        ],
+        "model__gamma": [
+          "scale"
+        ]
+      },
+      "complexity_rank": 5,
+      "notes": "RBF kernel; C and epsilon tuned, gamma fixed at 'scale' to keep the grid small."
+    }
+  ],
+  "fold_signature": {
+    "A_primary_640": {
+      "1": {
+        "n_train": 512,
+        "n_test": 128,
+        "n_states_test": 6
+      },
+      "2": {
+        "n_train": 512,
+        "n_test": 128,
+        "n_states_test": 7
+      },
+      "3": {
+        "n_train": 512,
+        "n_test": 128,
+        "n_states_test": 7
+      },
+      "4": {
+        "n_train": 512,
+        "n_test": 128,
+        "n_states_test": 8
+      },
+      "5": {
+        "n_train": 512,
+        "n_test": 128,
+        "n_states_test": 7
+      }
+    },
+    "A_restricted_628": {
+      "1": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 6
+      },
+      "2": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 7
+      },
+      "3": {
+        "n_train": 503,
+        "n_test": 125,
+        "n_states_test": 7
+      },
+      "4": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 8
+      },
+      "5": {
+        "n_train": 503,
+        "n_test": 125,
+        "n_states_test": 7
+      }
+    },
+    "B_augmented_628": {
+      "1": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 6
+      },
+      "2": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 7
+      },
+      "3": {
+        "n_train": 503,
+        "n_test": 125,
+        "n_states_test": 7
+      },
+      "4": {
+        "n_train": 502,
+        "n_test": 126,
+        "n_states_test": 8
+      },
+      "5": {
+        "n_train": 503,
+        "n_test": 125,
+        "n_states_test": 7
+      }
+    }
+  },
+  "n_rows": 18960,
+  "elapsed_seconds": 689.5,
+  "generated_utc": "2026-11-10T10:32:56+00:00",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  }
+}

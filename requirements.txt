@@ -1,0 +1,23 @@
+# Core analysis stack — versions verified in the working environment (Python 3.14.3)
+# Installed with: py -3.14 -m pip install -r requirements.txt
+pandas==3.1.1
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# joblib ships with scikit-learn; pinned because it is used for model persistence
+# (models/final/ridge_b_pipeline.joblib).
+joblib==1.6.0
+
+# --- Optional, not required to reproduce any result ---
+python-pptx==1.0.2   # only for generating reports/presentation/*.pptx
+# pyyaml             # config.yaml is a descriptive manifest; no code parses it
+# pytest             # tests/ run as plain scripts: py -3.14 tests/<file>.py
+# nbformat           # only for notebook validation
+# nbconvert
+
+# --- Not compatible, not tested ---
+# Python 3.15 is NOT supported: the scientific stack above is not installed for it
+# on this machine, and `py` resolves to 3.15. Always invoke `py -3.14`.

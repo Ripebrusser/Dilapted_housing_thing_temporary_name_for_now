@@ -1,0 +1,667 @@
+{
+  "generated_at": "2026-11-10T11:30:27+00:00",
+  "seed": 42,
+  "inner_splits": 4,
+  "configuration": "B_augmented_628",
+  "outer_scheme": "grouped",
+  "boundary_checks": {
+    "n_districts": 628,
+    "n_features": 77,
+    "p90": 9.2,
+    "p95": 11.2,
+    "target_mean": 5.057929936305732,
+    "checked_at": "2026-11-10T11:30:19+00:00"
+  },
+  "arms": {
+    "E1": {
+      "arm": "E1",
+      "kind": "weighted_ridge",
+      "alpha_grid": [
+        30.0,
+        100.0,
+        300.0
+      ],
+      "quantile": 0.75,
+      "lambda": 2.0,
+      "tau": null,
+      "description": "Mild weighting: top training quartile receives 3x weight (normalised mean 1).",
+      "per_fold": [
+        {
+          "fold": 1,
+          "best_alpha": 100.0,
+          "threshold": 6.574999999999999,
+          "n_weighted": 126,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 1.9132377261341944,
+              "sd_score": 0.23500947948682432
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.864957227694249,
+              "sd_score": 0.14408517696838247
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.8711931159150184,
+              "sd_score": 0.12709750386697918
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "best_alpha": 30.0,
+          "threshold": 6.7,
+          "n_weighted": 129,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 1.820389471192986,
+              "sd_score": 0.1786905843616492
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.8684911473623362,
+              "sd_score": 0.17409445715406874
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.9432790736158054,
+              "sd_score": 0.24246149741170717
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "best_alpha": 100.0,
+          "threshold": 6.25,
+          "n_weighted": 126,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.0217849526422174,
+              "sd_score": 0.30504578695909645
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.9969046349073332,
+              "sd_score": 0.24671762200628536
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.0399057280136765,
+              "sd_score": 0.2414558293008347
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "best_alpha": 300.0,
+          "threshold": 6.7,
+          "n_weighted": 128,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.1568094689169595,
+              "sd_score": 0.3258754436369779
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.0019877931182792,
+              "sd_score": 0.3110328975692401
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.9507352833933453,
+              "sd_score": 0.375205067820292
+            }
+          ]
+        },
+        {
+          "fold": 5,
+          "best_alpha": 300.0,
+          "threshold": 7.1,
+          "n_weighted": 127,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.0745341833080584,
+              "sd_score": 0.10489342669086253
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.992735052490563,
+              "sd_score": 0.163088604613085
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.9579873771803205,
+              "sd_score": 0.25775401528782044
+            }
+          ]
+        }
+      ]
+    },
+    "E2": {
+      "arm": "E2",
+      "kind": "weighted_ridge",
+      "alpha_grid": [
+        30.0,
+        100.0,
+        300.0
+      ],
+      "quantile": 0.75,
+      "lambda": 4.0,
+      "tau": null,
+      "description": "Strong weighting: top training quartile receives 5x weight (normalised mean 1).",
+      "per_fold": [
+        {
+          "fold": 1,
+          "best_alpha": 100.0,
+          "threshold": 6.574999999999999,
+          "n_weighted": 126,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 1.9547123823986166,
+              "sd_score": 0.23030117708180775
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.9236494719536594,
+              "sd_score": 0.1253724366432567
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.9553250470719943,
+              "sd_score": 0.13446352784910037
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "best_alpha": 30.0,
+          "threshold": 6.7,
+          "n_weighted": 129,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 1.8965347044546719,
+              "sd_score": 0.27455666663400674
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.9787289510072803,
+              "sd_score": 0.2750957823680467
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.0509324456452447,
+              "sd_score": 0.34563059030001875
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "best_alpha": 100.0,
+          "threshold": 6.25,
+          "n_weighted": 126,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.1172530838165224,
+              "sd_score": 0.35089728347935684
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.097941109500673,
+              "sd_score": 0.26225411195314574
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.165975570733926,
+              "sd_score": 0.25911980023298364
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "best_alpha": 300.0,
+          "threshold": 6.7,
+          "n_weighted": 128,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.2380575903872693,
+              "sd_score": 0.35072089970002085
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.0985080888087433,
+              "sd_score": 0.3438584644731262
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.0673788782305564,
+              "sd_score": 0.4131723445739229
+            }
+          ]
+        },
+        {
+          "fold": 5,
+          "best_alpha": 100.0,
+          "threshold": 7.1,
+          "n_weighted": 127,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.1283086824439543,
+              "sd_score": 0.18723089273881155
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.057312390579888,
+              "sd_score": 0.23203768294918375
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.0586724371383887,
+              "sd_score": 0.33302857088700355
+            }
+          ]
+        }
+      ]
+    },
+    "E3": {
+      "arm": "E3",
+      "kind": "weighted_ridge",
+      "alpha_grid": [
+        30.0,
+        100.0,
+        300.0
+      ],
+      "quantile": 0.9,
+      "lambda": 4.0,
+      "tau": null,
+      "description": "Threshold weighting: top training decile receives 5x weight (normalised mean 1).",
+      "per_fold": [
+        {
+          "fold": 1,
+          "best_alpha": 300.0,
+          "threshold": 9.2,
+          "n_weighted": 53,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 1.947979628965019,
+              "sd_score": 0.1720401436567546
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.8925951044818463,
+              "sd_score": 0.11814361724379455
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.8771407511609923,
+              "sd_score": 0.14186548351914016
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "best_alpha": 300.0,
+          "threshold": 8.790000000000004,
+          "n_weighted": 51,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.1759635286724435,
+              "sd_score": 0.5395753496816088
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 1.9601830523681922,
+              "sd_score": 0.32500449134442244
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.9429341762329124,
+              "sd_score": 0.33044124216300447
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "best_alpha": 100.0,
+          "threshold": 8.7,
+          "n_weighted": 52,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.036635151165788,
+              "sd_score": 0.42628778972271647
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.003421895464931,
+              "sd_score": 0.4097290210521375
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.044593880431778,
+              "sd_score": 0.3397611570266638
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "best_alpha": 300.0,
+          "threshold": 9.2,
+          "n_weighted": 54,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.1419989221615667,
+              "sd_score": 0.33054663819466834
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.03179694818117,
+              "sd_score": 0.26401132085815915
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 1.994736065111971,
+              "sd_score": 0.2946814794116995
+            }
+          ]
+        },
+        {
+          "fold": 5,
+          "best_alpha": 300.0,
+          "threshold": 9.68,
+          "n_weighted": 51,
+          "inner_table": [
+            {
+              "alpha": 30.0,
+              "mean_score": 2.21657353140124,
+              "sd_score": 0.2114922692295649
+            },
+            {
+              "alpha": 100.0,
+              "mean_score": 2.1149740671917043,
+              "sd_score": 0.2531092888798365
+            },
+            {
+              "alpha": 300.0,
+              "mean_score": 2.045810230719072,
+              "sd_score": 0.3090387487814705
+            }
+          ]
+        }
+      ]
+    },
+    "E4a": {
+      "arm": "E4a",
+      "kind": "quantile",
+      "alpha_grid": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "quantile": null,
+      "lambda": null,
+      "tau": 0.75,
+      "description": "Linear quantile regression at tau = 0.75 (conditional quantile, not a mean).",
+      "per_fold": [
+        {
+          "fold": 1,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.9364528259513624,
+              "sd_score": 0.18220852580532057
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.8510185344160358,
+              "sd_score": 0.11634409648920073
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.9297187860470896,
+              "sd_score": 0.15740514939086514
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.93201844306926,
+              "sd_score": 0.15400260793293724
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.7632706139216853,
+              "sd_score": 0.04138010229296806
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.9234632234761372,
+              "sd_score": 0.13662974128670732
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 1.028185391705416,
+              "sd_score": 0.12593675845074265
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.8741454854090284,
+              "sd_score": 0.09716072740456858
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.970585647436831,
+              "sd_score": 0.1293037040006745
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 1.0139907776969104,
+              "sd_score": 0.27180368328519783
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.852931082846766,
+              "sd_score": 0.11001326435544333
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.9641446167835563,
+              "sd_score": 0.14712160803456778
+            }
+          ]
+        },
+        {
+          "fold": 5,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.9494643596862516,
+              "sd_score": 0.1114047314442054
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.814651198826533,
+              "sd_score": 0.0520219040672216
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.9368974468827225,
+              "sd_score": 0.11316425438564227
+            }
+          ]
+        }
+      ]
+    },
+    "E4b": {
+      "arm": "E4b",
+      "kind": "quantile",
+      "alpha_grid": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "quantile": null,
+      "lambda": null,
+      "tau": 0.9,
+      "description": "Linear quantile regression at tau = 0.90 (conditional quantile, not a mean).",
+      "per_fold": [
+        {
+          "fold": 1,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.6981657632951289,
+              "sd_score": 0.10257124366529966
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.4943298178804689,
+              "sd_score": 0.09451086840212654
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.7010800375774868,
+              "sd_score": 0.1575152633616418
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.7989489965429104,
+              "sd_score": 0.5518772713157303
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.5372367310578674,
+              "sd_score": 0.04122827015587053
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.6223122766670612,
+              "sd_score": 0.1582290065360736
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "best_alpha": 0.1,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.7619491752775893,
+              "sd_score": 0.22632471230034873
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.7437452376109942,
+              "sd_score": 0.2589320936594415
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.6176347760842746,
+              "sd_score": 0.18595926112228653
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.9585942960008184,
+              "sd_score": 0.562407135617042
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.5126869097075029,
+              "sd_score": 0.11200654939097836
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.6915925835817531,
+              "sd_score": 0.1717525547411693
+            }
+          ]
+        },
+        {
+          "fold": 5,
+          "best_alpha": 0.01,
+          "threshold": NaN,
+          "n_weighted": 0,
+          "inner_table": [
+            {
+              "alpha": 0.001,
+              "mean_score": 0.6125728491187572,
+              "sd_score": 0.1797124391688375
+            },
+            {
+              "alpha": 0.01,
+              "mean_score": 0.521236931525981,
+              "sd_score": 0.10691101581414665
+            },
+            {
+              "alpha": 0.1,
+              "mean_score": 0.6858607865462945,
+              "sd_score": 0.13693401991363008
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

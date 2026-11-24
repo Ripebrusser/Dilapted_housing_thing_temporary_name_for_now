@@ -1,0 +1,77 @@
+
+============================================================================
+D1 — district census 2011
+============================================================================
+PASS  D1 shape 640 x 118   [(640, 118)]
+PASS  D1 no duplicate rows
+PASS  D1 canonical keys unique
+PASS  D1 35 states/UTs   [35]
+  D1 Households sum = 330,835,767
+  D1 Population sum = 1,210,854,977
+PASS  D1 Households is the house stock (~331M), not households (~247M)   [330.8M]
+PASS  6 duplicated district names across states   [['AURANGABAD', 'BIJAPUR', 'BILASPUR', 'HAMIRPUR', 'PRATAPGARH', 'RAIGARH']]
+
+============================================================================
+D2 — HLPCA (target source)
+============================================================================
+PASS  D2 shape 1908 x 156   [(1908, 156)]
+PASS  D2 Rural/Urban levels = 3   [['Rural', 'Total', 'Urban']]
+PASS  D2 has 640 Total rows (one per district)   [640]
+PASS  D2 Total keys unique
+PASS  D2 condition components sum to ~100 per row   [min=99.900 max=100.100]
+
+============================================================================
+Target reconstruction and reconciliation with the processed table
+============================================================================
+PASS  independent target has 640 rows   [640]
+PASS  independent target range inside 0-100   [0.2–17.7]
+PASS  district_analysis shape 640 rows   [(640, 83)]
+PASS  district_analysis keys unique
+PASS  every processed district matches an independent D2 Total row   [{'both': 640, 'left_only': 0, 'right_only': 0}]
+PASS  target values identical to independent reconstruction   [max|d|=0.00e+00]
+  target: min 0.200, max 17.700, mean 5.0348, median 4.400
+
+============================================================================
+D5 — PCA household counts and the 628 match
+============================================================================
+PASS  D5 shape 1342 rows   [(1342, 89)]
+  D5 district-level rows: 1268; distinct district names: 634
+  rows per name distribution: {2: 634}
+PASS  exactly 628 districts resolve to a D5 household count   [628]
+PASS  processed has_d5_households flag matches independent resolution
+  12 unresolved districts: ['BIHAR||AURANGABAD', 'CHHATTISGARH||BIJAPUR', 'CHHATTISGARH||BILASPUR', 'CHHATTISGARH||RAIGARH', 'HIMACHAL PRADESH||BILASPUR', 'HIMACHAL PRADESH||HAMIRPUR', 'KARNATAKA||BIJAPUR', 'MAHARASHTRA||AURANGABAD', 'MAHARASHTRA||RAIGARH', 'RAJASTHAN||PRATAPGARH', 'UTTAR PRADESH||HAMIRPUR', 'UTTAR PRADESH||PRATAPGARH']
+PASS  all 12 unresolved are duplicate district names
+PASS  no fabricated household counts for unresolved districts
+
+============================================================================
+Target cross-check against the independent T3 reconstruction (D1 dilapidated / D5 households)
+============================================================================
+PASS  T2 agrees with independent T3 (r > 0.99)   [r=0.999368, median|diff|=0.0530 pp]
+
+============================================================================
+Features: 43 (A) and 77 (B)
+============================================================================
+  manifest rows 81; retained 77; dropped 4
+PASS  Configuration A has 43 retained predictors   [43]
+PASS  Configuration B adds 34 -> 77 total   [43+34]
+PASS  manifest A columns equal the ones in district_analysis
+PASS  manifest B columns equal the ones in district_analysis
+PASS  no duplicate feature names in manifest
+PASS  target is not among the predictors
+PASS  no forbidden/target-derived source column feeds any predictor
+PASS  Configuration A has no missing values
+PASS  Configuration B has no missing values on the 628 subset
+PASS  Configuration B features are missing for exactly the 12 excluded districts
+
+============================================================================
+Education construction: the Literate_Education subtotal must be excluded
+============================================================================
+PASS  Literate_Education is never used as a feature source   [['Below_Primary_Education', 'Graduate_Education', 'Higher_Education', 'Middle_Education', 'Other_Education', 'Primary_Education', 'Secondary_Education']]
+PASS  sum(7 attainment levels) / Literate_Education = 1.0 (no double counting)   [ratio=1.000000]
+PASS  levels + illiterate partition Total_Education   [ratio=1.000000]
+FAIL  8 education share features retained (7 levels incl. illiterate, reference dropped)   [['below_primary_share', 'primary_share', 'middle_share', 'secondary_share', 'higher_share', 'graduate_share', 'other_education_share']]
+
+============================================================================
+Share sanity
+============================================================================
+PASS  all predictors are plausible shares/rates (0-1.5)

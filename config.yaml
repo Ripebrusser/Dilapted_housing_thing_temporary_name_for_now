@@ -1,0 +1,177 @@
+# Project configuration — descriptive manifest.
+#
+# Updated 2026-11-12: the project is complete through Phase 6 (Phase 5 not started).
+#
+# IMPORTANT: no code reads this file. The pipeline takes its configuration from
+# src/training/run_nested_cv.py (build_configurations), which is the single source
+# of truth for feature sets, folds and seeds. This file records decisions and
+# provenance for human readers; it is not an execution input, and pyyaml is not a
+# project dependency. Do not add options here that the code does not consume.
+
+project:
+  name: Samrud-Housing-Deprivation-ML
+  title: Predicting District-Level Prevalence of Dilapidated Census Houses in India
+  phase: 6
+  status: complete_phases_1_to_4_and_6
+  phases_completed: [1, 2, 3, 4, 6, 7]
+  phases_not_started: [5]
+  seed: 42
+  interpreter: "Python 3.14.3 (invoke as: py -3.14)"
+
+paths:
+  raw: datasets/raw
+  interim: datasets/interim
+  processed: datasets/processed
+  metadata: datasets/metadata
+  models: models
+  evaluation: evaluation
+  reports: reports
+
+datasets:
+  d1_district_census:
+    path: datasets/raw/india_census/india-districts-census-2011.csv
+    level: district
+    rows: 640
+    cols: 118
+    role: primary_predictors
+  d2_hlpca:
+    path: datasets/raw/india_census/india_census_housing-hlpca-full.csv
+    level: district_rural_urban
+    rows: 1908
+    cols: 156
+    role: primary_target
+    note: percentage-normalised; no recoverable household counts
+  d3_hlpca_dictionary:
+    path: datasets/raw/india_census/hlpca-colnames.csv
+    role: dictionary_for_d2_only
+  d4_slum:
+    path: datasets/raw/slum_population/Slum Population Of India.csv
+    level: state
+    rows: 32
+    role: excluded_from_model
+  d5_pca_2011:
+    path: datasets/raw/india_pca/census_2011.csv
+    level: district_rural_urban
+    rows: 1342
+    role: household_denominator_and_predictors
+  d6_pca_2001:
+    path: datasets/raw/india_pca/census_2001.csv
+    role: excluded_wrong_vintage
+  d7_education_2011:
+    path: datasets/raw/india_pca/education_2011.csv
+    role: optional_supporting
+  d8_marital_status_2011:
+    path: datasets/raw/india_pca/marital_status_2011.csv
+    role: optional_supporting
+  d9_age_group_2011:
+    path: datasets/raw/india_pca/age_group_2011.csv
+    role: optional_supporting
+  d10_geography:
+    path: datasets/raw/india_pca/geography.csv
+    role: excluded_2016_vintage
+
+target:
+  name: target_deprivation_rate_pct
+  definition: district-level prevalence of dilapidated census houses (Census 2011)
+  primary:
+    source: d2_hlpca
+    column: Total Number of Dilapidated
+    subset: "Rural/Urban == 'Total'"
+    n_expected: 640
+  robustness:
+    formula: 100 * dilapidated_households / pca_households
+    numerator_source: d1_district_census
+    denominator_source: d5_pca_2011
+    n_expected: 628
+  rejected:
+    formula: 100 * dilapidated_households / Households
+    reason: D1 Households is the census-house stock (330.8M), not households (247M)
+  decision_ref: D-001
+  scope_note: NOT a measure of individual homelessness
+
+models:
+  primary_interpretable: ridge_b_alpha100
+  secondary: elastic_net_b
+  benchmark: svr_rbf_b
+  configuration: B_augmented_628
+  n_candidates_total: 76
+  families:
+    - dummy_mean
+    - ridge
+    - elastic_net
+    - knn
+    - decision_tree
+    - random_forest
+    - extra_trees
+    - gradient_boosting
+    - hist_gradient_boosting
+    - svr_rbf
+
+phase4:
+  status: complete_no_challenger_promoted
+  arms: [E0, E1, E2, E3, E4a, E4b]
+  report: reports/ml_report/PHASE_4_TAIL_REMEDY_REPORT.md
+  note: executed bootstrap was state-clustered; the registered district-level result is reported alongside (§11.4)
+
+phase6:
+  status: complete
+  model_artifact: models/final/ridge_b_pipeline.joblib
+  metadata: models/final/ridge_b_metadata.json
+  predictions: evaluation/predictions/final_predictions_ridge_b_628.csv
+  ranking: evaluation/predictions/district_ranking_ridge_b_628.csv
+  prediction_type: refit_in_sample (NOT a validation result)
+
+excluded_columns:
+  target_derived:
+    - Condition_of_occupied_census_houses_Dilapidated_Households
+    - Households
+    - Rural_Households
+    - Urban_Households
+    - target_deprivation_rate_pct
+  d2_condition_block:
+    - Total Number of Dilapidated
+    - Contition_T_Dilapidated
+    - Residence_Dilapidated
+    - Total Number of Good
+    - Total Number of Livable
+    - Contition_T_Total
+    - Contition_T_Good
+    - Contition_T_Livable
+    - Contition_R_Total
+    - Residence_Good
+    - Residence_Livable
+    - Residence_cum_other
+    - Residence_cum_Good
+  d2_untrusted_tail:
+    note: columns from index 145 onward; duplicated labels, do not use
+
+geography:
+  unit: district
+  n_units: 640
+  n_states: 35
+  join_key: state_and_district
+  alias_module: src/data/naming.py
+  duplicated_district_names:
+    - AURANGABAD
+    - BIJAPUR
+    - BILASPUR
+    - HAMIRPUR
+    - PRATAPGARH
+    - RAIGARH
+
+validation:
+  primary: grouped_kfold
+  group: state
+  folds: 5
+  inner_folds: 4
+  reference: random_kfold
+  metrics:
+    - mae
+    - rmse
+    - r2
+    - spearman
+  aggregation_note: reported values are fold means unless labelled pooled
+  baselines:
+    - national_mean
+    - state_mean
+    - knn_headline_features

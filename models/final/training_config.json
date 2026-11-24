@@ -1,0 +1,23 @@
+{
+  "configuration": "B_augmented_628",
+  "alpha": 100.0,
+  "model_id": "ridge_b_alpha100_v1",
+  "target_definition": {
+    "column": "target_deprivation_rate_pct",
+    "construction": "100 * dilapidated census houses / total census houses, from D2 (HLPCA) 'Total Number of Dilapidated' on the Rural/Urban == 'Total' row",
+    "units": "percent of census houses in the district",
+    "vintage": "2011 Census of India",
+    "scope": "district-level prevalence of dilapidated census houses; NOT a measure of individual homelessness",
+    "not_used": "D1 'Households' (330.8M census houses, not 247M households)"
+  },
+  "preprocessing": "SimpleImputer(strategy='median') then StandardScaler, fitted with the model",
+  "feature_order_sha256": "f331c1ffb3e786a36433db15b6216991108530d0409eb6a6b9b8d52e9e7c0015",
+  "dependency_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "python": "3.14.3"
+  }
+}

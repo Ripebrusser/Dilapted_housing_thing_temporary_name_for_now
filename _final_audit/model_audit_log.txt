@@ -1,0 +1,91 @@
+
+============================================================================
+A. OOF predictions: completeness and configuration coverage
+============================================================================
+columns: ['configuration', 'scheme', 'model', 'key', 'actual', 'predicted']
+rows per (config, scheme, model): {628: 40, 640: 20}
+PASS  every configuration x scheme x model has the expected row count
+PASS  10 model families present   [['decision_tree', 'dummy_mean', 'elastic_net', 'extra_trees', 'gradient_boosting', 'hist_gradient_boosting', 'knn', 'random_forest', 'ridge', 'svr_rbf']]
+PASS  no missing predictions
+PASS  predictions finite
+PASS  no duplicated district predictions
+PASS  A_primary_640: 'actual' equals the processed target exactly
+PASS  A_restricted_628: 'actual' equals the processed target exactly
+PASS  B_augmented_628: 'actual' equals the processed target exactly
+PASS  A_restricted_628 and B_augmented_628 cover the same 628 districts
+PASS  A_restricted_628 equals the has_d5_households=True subset
+PASS  A_primary_640 covers all 640 districts
+
+============================================================================
+B. Feature matrices
+============================================================================
+PASS  a640: 43 predictors, 640 rows, no missing   [(640, 43)]
+PASS  a640: no identifier columns in the matrix
+PASS  a628: 43 predictors, 628 rows, no missing   [(628, 43)]
+PASS  a628: no identifier columns in the matrix
+PASS  b628: 77 predictors, 628 rows, no missing   [(628, 77)]
+PASS  b628: no identifier columns in the matrix
+PASS  A628/B628 share districts, order, targets and groups
+PASS  A628/B628 use identical outer folds
+PASS  no state appears in both train and test of any 628 fold
+PASS  no state appears in both train and test of any 640 fold
+
+============================================================================
+C. Independent metric recomputation vs phase3_nested_cv_results.csv
+============================================================================
+columns: ['configuration', 'scheme', 'model', 'n_districts', 'n_features', 'n_outer_folds', 'n_candidates', 'complexity_rank', 'mae_mean', 'mae_sd', 'mae_n_defined', 'rmse_mean', 'rmse_sd', 'rmse_n_defined'] ...
+PASS  30 pooled metric sets reproduce from OOF predictions   [max|d|=0.00e+00]
+
+============================================================================
+D. Fold-level metrics recomputed from independently built folds
+============================================================================
+PASS  all 150 fold-level MAE values reproduce   [0 mismatches]
+
+============================================================================
+E. The reference table quoted in the audit brief
+============================================================================
+   configuration       model  n_districts  n_features  mae_mean  mae_sd  rmse_mean  r2_mean  spearman_mean  random_mae_mean  beats_phase2_knn  beats_dummy  complexity_rank
+   A_primary_640     svr_rbf          640          43    2.0293  0.1664     2.6144   0.1699         0.4625           1.3257              True         True                5
+A_restricted_628 extra_trees          628          43    2.0888  0.1084     2.6540   0.1837         0.4966           1.3698              True         True                6
+ B_augmented_628     svr_rbf          628          77    1.7248  0.1506     2.2556   0.3992         0.6258           1.1401              True         True                5
+  A_primary_640/svr_rbf: mean-based match=True, pooled-based match=False (stored mean 2.0293/2.6144/0.1699/0.4625; pooled 2.0293/2.6279/0.2895/0.4802)
+PASS  quoted figures for A_primary_640/svr_rbf match the stored results
+  A_restricted_628/extra_trees: mean-based match=True, pooled-based match=False (stored mean 2.0888/2.6540/0.1837/0.4966; pooled 2.0890/2.6720/0.2721/0.4964)
+PASS  quoted figures for A_restricted_628/extra_trees match the stored results
+  B_augmented_628/svr_rbf: mean-based match=True, pooled-based match=False (stored mean 1.7248/2.2556/0.3992/0.6258; pooled 1.7250/2.2682/0.4755/0.6470)
+PASS  quoted figures for B_augmented_628/svr_rbf match the stored results
+
+  B628 Ridge  MAE 1.7490 / R2 0.3992
+  B628 SVR    MAE 1.7248 / R2 0.3992
+PASS  SVR-RBF B is the best-performing model on grouped MAE
+PASS  Ridge B is not the lowest-MAE model (it is the interpretable primary)
+
+============================================================================
+F. Refit Ridge on B and compare with the stored OOF predictions
+============================================================================
+PASS  Ridge B OOF reproduces bit-for-bit from the registered pipeline   [max|d|=0.00e+00]
+PASS  alphas per fold match the stored parameters   [[100.0, 100.0, 100.0, 100.0, 100.0]]
+
+============================================================================
+G. Coefficient stability recomputed
+============================================================================
+columns: ['rank', 'configuration', 'model', 'feature', 'coef_mean', 'coef_sd', 'coef_min', 'coef_max', 'folds_positive', 'sign_consistent', 'rank_sd', 'abs_coef_mean', 'sd_over_mean']
+PASS  coefficient means reproduce   [max|d|=0.00e+00]
+PASS  sign-consistent count reported matches recomputation   [54 vs 54]
+
+============================================================================
+H. Permutation importance recomputed for the selected model (SVR-RBF on B)
+============================================================================
+configs/models with importance: {('A_primary_640', 'svr_rbf'): 43, ('A_restricted_628', 'extra_trees'): 43, ('B_augmented_628', 'svr_rbf'): 77}
+PASS  Ridge (primary interpretable model) has no permutation importance entry
+  rows for B_augmented_628/svr_rbf: 77 (features: 77)
+PASS  permutation importance reproduces   [max|d|=0.00e+00]
+  top 8 recomputed: tv_share=0.0836, hh_size_2_share=0.0609, mobile_only_share=0.0527, tapwater_share=0.0434, telephone_share=0.0385, scooter_share=0.0384, other_cooking_fuel_share=0.0373, electricity_share=0.0307
+  top 8 stored:     tv_share=0.0836, hh_size_2_share=0.0609, mobile_only_share=0.0527, tapwater_share=0.0434, telephone_share=0.0385, scooter_share=0.0384, other_cooking_fuel_share=0.0373, electricity_share=0.0307
+
+============================================================================
+I. Phase 4 chain intact
+============================================================================
+PASS  Phase 4 OOF still 5 arms x 628   [3140]
+PASS  Phase 4 gate table still 30 rows
+PASS  Phase 3 OOF untouched (628 ridge/grouped/B rows)

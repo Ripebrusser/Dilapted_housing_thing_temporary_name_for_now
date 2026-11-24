@@ -1,0 +1,31 @@
+arm,gate,status,observed,threshold,note
+E1,C1,FAIL,p90 MAE 3.032; p95 bias +3.693,<= 3.101 / <= +3.157,Both conditions must hold.
+E1,C2,FAIL,MAE 1.915; RMSE 2.431,<= 1.837 / <= 2.398,At most 5% worse than the reference on both.
+E1,C3,PASS,p90 MAE better in 4/4; p95 bias better in 4/4,>= 3 of 4 folds with tail districts,Fold 5 has no district at or above p95 and is excluded.
+E1,C4,PASS,4 states improved; largest share 56% (ASSAM),>= 2 states and no state > 60% of tail error reduction,ASSAM +19.89; ORISSA +3.48; UTTAR PRADESH +4.91; WEST BENGAL +7.04
+E1,C5,PASS,p95 bias +3.693,>= -1.000 pp,Guards against shifting everything upward.
+E1,C6,FAIL,sensitivity 0.54; precision 0.39,>= 0.47 and precision >= 0.40,"Read-out, not a gate."
+E2,C1,FAIL,p90 MAE 2.831; p95 bias +3.435,<= 3.101 / <= +3.157,Both conditions must hold.
+E2,C2,FAIL,MAE 1.975; RMSE 2.525,<= 1.837 / <= 2.398,At most 5% worse than the reference on both.
+E2,C3,PASS,p90 MAE better in 4/4; p95 bias better in 4/4,>= 3 of 4 folds with tail districts,Fold 5 has no district at or above p95 and is excluded.
+E2,C4,PASS,4 states improved; largest share 57% (ASSAM),>= 2 states and no state > 60% of tail error reduction,ASSAM +26.41; ORISSA +5.56; UTTAR PRADESH +6.10; WEST BENGAL +8.30
+E2,C5,PASS,p95 bias +3.435,>= -1.000 pp,Guards against shifting everything upward.
+E2,C6,FAIL,sensitivity 0.69; precision 0.39,>= 0.47 and precision >= 0.40,"Read-out, not a gate."
+E3,C1,FAIL,p90 MAE 2.807; p95 bias +3.271,<= 3.101 / <= +3.157,Both conditions must hold.
+E3,C2,FAIL,MAE 1.985; RMSE 2.531,<= 1.837 / <= 2.398,At most 5% worse than the reference on both.
+E3,C3,PASS,p90 MAE better in 4/4; p95 bias better in 4/4,>= 3 of 4 folds with tail districts,Fold 5 has no district at or above p95 and is excluded.
+E3,C4,PASS,4 states improved; largest share 49% (ASSAM),>= 2 states and no state > 60% of tail error reduction,ASSAM +23.12; ORISSA +7.47; UTTAR PRADESH +6.63; WEST BENGAL +9.83
+E3,C5,PASS,p95 bias +3.271,>= -1.000 pp,Guards against shifting everything upward.
+E3,C6,FAIL,sensitivity 0.60; precision 0.30,>= 0.47 and precision >= 0.40,"Read-out, not a gate."
+E4a,C1,NOT APPLICABLE,p90 MAE 2.624; p95 bias +3.109,<= 3.101 / <= +3.157,MAE/bias for a conditional mean; this arm estimates a conditional quantile.
+E4a,C2,NOT APPLICABLE,MAE 1.914; RMSE 2.476,<= 1.837 / <= 2.398,Structural penalty: a tau-quantile estimator is not a mean predictor.
+E4a,C3,PASS,p90 MAE better in 4/4; p95 bias better in 4/4,>= 3 of 4 folds with tail districts,Fold 5 has no district at or above p95 and is excluded.
+E4a,C4,PASS,4 states improved; largest share 37% (ASSAM),>= 2 states and no state > 60% of tail error reduction,ASSAM +21.16; ORISSA +8.07; UTTAR PRADESH +19.36; WEST BENGAL +9.22
+E4a,C5,PASS,p95 bias +3.109,>= -1.000 pp,Guards against shifting everything upward.
+E4a,C6,FAIL,sensitivity 0.63; precision 0.32,>= 0.47 and precision >= 0.40,"Read-out, not a gate."
+E4b,C1,NOT APPLICABLE,p90 MAE 2.331; p95 bias +2.994,<= 3.101 / <= +3.157,MAE/bias for a conditional mean; this arm estimates a conditional quantile.
+E4b,C2,NOT APPLICABLE,MAE 2.912; RMSE 3.574,<= 1.837 / <= 2.398,Structural penalty: a tau-quantile estimator is not a mean predictor.
+E4b,C3,PASS,p90 MAE better in 3/4; p95 bias better in 3/4,>= 3 of 4 folds with tail districts,Fold 5 has no district at or above p95 and is excluded.
+E4b,C4,FAIL,3 states improved; largest share 63% (ASSAM),>= 2 states and no state > 60% of tail error reduction,ASSAM +59.97; ORISSA +9.63; UTTAR PRADESH +25.27; WEST BENGAL -23.40
+E4b,C5,PASS,p95 bias +2.994,>= -1.000 pp,Guards against shifting everything upward.
+E4b,C6,FAIL,sensitivity 0.54; precision 0.17,>= 0.47 and precision >= 0.40,"Read-out, not a gate."

@@ -1,0 +1,52 @@
+PHASE 1 TARGET FEASIBILITY REPORT
+======================================================================
+
+1. NATIONAL AGGREGATES
+   d1_households_sum: 330,835,767
+   d1_dilapidated_sum: 13,202,421
+   d1_population_sum: 1,210,854,977
+   d5_no_hh_sum: 247,577,528
+   d5_tot_p_sum: 1,201,344,937
+   reference_total_households_2011: 246,740,228
+   reference_total_census_houses_2011: 330,983,625
+   d1_households_over_reference_households: 1.3408262190630706
+   d1_households_over_d5_no_hh: 1.336291583782192
+   d1_population_over_d5_tot_p: 1.0079161610517529
+
+2. IS D1 'Households' THE HOUSEHOLD UNIVERSE?  (tested vs D5 PCA NO_HH)
+   n_districts: 640
+   household_ratio_median: 1.3173949262044928
+   household_ratio_p05: 1.161642817095047
+   household_ratio_p95: 1.7819822707665804
+   household_ratio_min: 0.1846536735616772
+   household_ratio_max: 2.625368088123023
+   share_ratio_within_2pct_of_1: 0.0
+   population_ratio_median: 1.0
+   population_ratio_p05: 1.0
+   population_ratio_p95: 1.0
+   share_population_ratio_within_0_1pct: 0.98125
+   corr_households_vs_no_hh: 0.9876244733662513
+
+3. DOES D2's SHARE IMPLY D1's DILAPIDATED COUNT?
+   D1 dilapidated national total: 13,202,421
+   from Total Number of Dilapidated: {'n': 628, 'median_abs_rel_diff_pct': 1.3735231901915617, 'median_signed_rel_diff_pct': 0.8627045278839298, 'share_within_2pct': 0.6449044585987261, 'corr': 0.9998158879195498, 'implied_national_total': 13137297.0162}
+   from Residence_Dilapidated: {'n': 628, 'median_abs_rel_diff_pct': 2.075899657481016, 'median_signed_rel_diff_pct': -1.5068569696805258, 'share_within_2pct': 0.4840764331210191, 'corr': 0.9995983345957143, 'implied_national_total': 12779536.2752}
+
+4. CANDIDATE TARGET DISTRIBUTIONS
+   T1_d1_counts: {'n': 640, 'min': 0.127, 'p05': 0.826, 'median': 3.297, 'mean': 3.763, 'p95': 8.84, 'max': 13.871, 'sd': 2.457, 'national_pooled': 3.991}
+   T2_housing_abstract_pct: {'n': 640, 'min': 0.2, 'p05': 1.2, 'median': 4.4, 'mean': 5.035, 'p95': 11.2, 'max': 17.7, 'sd': 3.12, 'national_pooled': None}
+   T3_d1_num_over_pca_households: {'n': 628, 'min': 0.227, 'p05': 1.206, 'median': 4.354, 'mean': 5.01, 'p95': 11.188, 'max': 17.742, 'sd': 3.127, 'national_pooled': 5.306}
+
+5. PAIRWISE AGREEMENT
+   T1_d1_counts vs T2_housing_abstract_pct: {'n': 640, 'pearson': 0.9847, 'spearman': 0.9839, 'median_abs_diff_pp': 1.116}
+   T1_d1_counts vs T3_d1_num_over_pca_households: {'n': 628, 'pearson': 0.9857, 'spearman': 0.9853, 'median_abs_diff_pp': 1.072}
+   T2_housing_abstract_pct vs T3_d1_num_over_pca_households: {'n': 628, 'pearson': 0.9994, 'spearman': 0.9992, 'median_abs_diff_pp': 0.053}
+
+6. SHARED DISTRICT NAMES (block count-based joins by name)
+   ['AURANGABAD', 'BIJAPUR', 'BILASPUR', 'HAMIRPUR', 'PRATAPGARH', 'RAIGARH']
+   D5 rows per shared name: {'AURANGABAD': 2, 'BIJAPUR': 2, 'BILASPUR': 2, 'HAMIRPUR': 2, 'PRATAPGARH': 2, 'RAIGARH': 2}
+
+7. OPTIONAL EXTRACT DUPLICATES
+   D7: {'rows': 61857, 'exact_duplicates': 3045, 'duplicates_on_natural_key': 3045, 'natural_key': ['state_code', 'dist_code', 'area_name', 'total', 'age_group'], 'verdict': 'duplicates are redundant repeats'}
+   D8: {'rows': 42660, 'exact_duplicates': 2100, 'duplicates_on_natural_key': 2100, 'natural_key': ['state_code', 'dist_code', 'area_name', 'total', 'age_group'], 'verdict': 'duplicates are redundant repeats'}
+   D9: {'rows': 13725, 'exact_duplicates': 881}

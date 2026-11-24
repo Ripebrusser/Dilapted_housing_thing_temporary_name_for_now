@@ -1,0 +1,21 @@
+PASS  test_a_and_b_use_identical_folds
+PASS  test_all_features_clear_on_leakage_screen
+PASS  test_config_a_features_are_shares
+PASS  test_config_a_has_no_missing_values
+PASS  test_config_b_missing_only_for_unresolvable_districts
+PASS  test_config_b_rates_exceed_one_only_slightly
+PASS  test_districts_match_d1_exactly
+PASS  test_every_feature_records_its_calculation
+PASS  test_every_predictor_is_documented_exactly_once
+PASS  test_feature_counts_match_configuration_contract
+PASS  test_grouped_folds_hold_out_whole_states
+PASS  test_manifest_never_uses_target_components
+PASS  test_no_denied_columns_in_analysis_table
+PASS  test_no_single_feature_explains_the_target
+PASS  test_no_zero_imputation_of_denominators
+PASS  test_random_folds_cover_every_row_once
+PASS  test_table_shape_and_uniqueness
+PASS  test_target_is_reproduced_from_d2
+PASS  test_target_is_valid_and_not_degenerate
+------------------------------------------------------------
+19/19 passed

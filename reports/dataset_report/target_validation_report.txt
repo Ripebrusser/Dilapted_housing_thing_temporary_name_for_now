@@ -1,0 +1,30 @@
+PHASE 1 TARGET VALIDATION REPORT
+======================================================================
+
+Target under test: target_deprivation_rate = dilapidated households / total households * 100
+Independent comparison: D2 (HLPCA) district 'Total' dilapidated share.
+
+n: 640
+mean_signed_diff_pp: 1.2713788474689554
+median_signed_diff_pp: 1.1163423271372905
+median_abs_diff_pp: 1.1163423271372905
+max_abs_diff_pp: 6.021846445865343
+share_within_0_5pp: 0.1484375
+share_within_1pp: 0.4421875
+corr: 0.9847269049335807
+spearman: 0.9838601341378366
+ratio_target_over_d2_median: 0.7509186968605289
+
+Worst states by median absolute difference:
+  ASSAM                            n= 27 median|d|= 3.113 pp mean signed=  3.033 pp max= 6.022 pp
+  WEST BENGAL                      n= 19 median|d|= 2.373 pp mean signed=  2.313 pp max= 3.356 pp
+  PUNJAB                           n= 20 median|d|= 1.986 pp mean signed=  2.031 pp max= 2.492 pp
+  ODISHA                           n= 30 median|d|= 1.885 pp mean signed=  1.930 pp max= 3.510 pp
+  UTTAR PRADESH                    n= 71 median|d|= 1.665 pp mean signed=  1.691 pp max= 3.548 pp
+  JAMMU AND KASHMIR                n= 22 median|d|= 1.612 pp mean signed=  1.752 pp max= 3.895 pp
+  HARYANA                          n= 21 median|d|= 1.522 pp mean signed=  1.511 pp max= 2.567 pp
+  KERALA                           n= 14 median|d|= 1.515 pp mean signed=  1.740 pp max= 2.968 pp
+  MEGHALAYA                        n=  7 median|d|= 1.512 pp mean signed=  1.546 pp max= 2.383 pp
+  BIHAR                            n= 38 median|d|= 1.404 pp mean signed=  1.394 pp max= 2.216 pp
+
+D2 alternative dilapidated columns tested: {'candidates': ['Residence_Dilapidated'], 'Residence_Dilapidated': {'n': 640, 'median_abs_diff_pp': 0.9607394059702269, 'corr': 0.9840586778898506}}

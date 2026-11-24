@@ -1,0 +1,65 @@
+dataset_id,check,status,severity,details
+D1,file_exists,PASS,info,Loaded datasets/raw/india_census/india-districts-census-2011.csv
+D1,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 640
+D1,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D1,negative_values,PASS,info,No negative values detected
+D2,file_exists,PASS,info,Loaded datasets/raw/india_census/india_census_housing-hlpca-full.csv
+D2,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 1908
+D2,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D2,negative_values,PASS,info,No negative values detected
+D3,not_rfc4180_csv,WARN,medium,"Descriptions contain unquoted commas, so rows break the header width (2 columns). Loaded with a split-on-first-comma parser instead."
+D3,file_exists,PASS,info,Loaded datasets/raw/india_census/hlpca-colnames.csv
+D3,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 145
+D3,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D3,negative_values,PASS,info,No negative values detected
+D4,file_exists,PASS,info,Loaded datasets/raw/slum_population/Slum Population Of India.csv
+D4,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 32
+D4,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D4,negative_values,PASS,info,No negative values detected
+D5,file_exists,PASS,info,Loaded datasets/raw/india_pca/census_2011.csv
+D5,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 1342
+D5,missing_values,WARN,low,170 null cells across 85 columns (0.142% of all cells)
+D5,negative_values,PASS,info,No negative values detected
+D6,file_exists,PASS,info,Loaded datasets/raw/india_pca/census_2001.csv
+D6,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 1375
+D6,missing_values,WARN,low,8800 null cells across 56 columns (10.667% of all cells)
+D6,negative_values,PASS,info,No negative values detected
+D7,file_exists,PASS,info,Loaded datasets/raw/india_pca/education_2011.csv
+D7,exact_duplicate_rows,WARN,medium,3045 exact duplicate rows out of 61857
+D7,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D7,negative_values,PASS,info,No negative values detected
+D8,file_exists,PASS,info,Loaded datasets/raw/india_pca/marital_status_2011.csv
+D8,exact_duplicate_rows,WARN,medium,2100 exact duplicate rows out of 42660
+D8,missing_values,PASS,info,0 null cells across 0 columns (0.0% of all cells)
+D8,negative_values,PASS,info,No negative values detected
+D9,file_exists,PASS,info,Loaded datasets/raw/india_pca/age_group_2011.csv
+D9,exact_duplicate_rows,WARN,medium,881 exact duplicate rows out of 13725
+D9,missing_values,WARN,low,3743 null cells across 14 columns (1.948% of all cells)
+D9,negative_values,PASS,info,No negative values detected
+D10,file_exists,PASS,info,Loaded datasets/raw/india_pca/geography.csv
+D10,exact_duplicate_rows,PASS,info,0 exact duplicate rows out of 677
+D10,missing_values,WARN,low,1356 null cells across 4 columns (20.03% of all cells)
+D10,negative_values,PASS,info,No negative values detected
+D1,target_numerator_present,PASS,critical,Condition_of_occupied_census_houses_Dilapidated_Households
+D1,target_denominator_present,PASS,critical,Households
+D1,zero_denominators,PASS,info,0 districts have Households == 0
+D1,numerator_le_denominator,PASS,info,0 districts where dilapidated households exceed total households
+D1,target_range_0_100,PASS,medium,"target_deprivation_rate range [0.127, 13.871]"
+D1,district_key_uniqueness,PASS,info,"640 unique state+district keys for 640 rows; 640 unique District code values, nationally unique 1..640 and consistent with D2's District Code. D5 has no district code, so the canonical name key is used for all joins."
+D2,district_key_uniqueness,PASS,medium,"0 duplicate (State, Area, Total) rows; district names such as Aurangabad/Raigarh/Hamirpur/Bilaspur appear in more than one state, so names alone are not unique"
+D1-D2,district_key_overlap,PASS,info,0 D1 keys unmatched in D2; 0 D2 keys unmatched in D1
+D4,state_coverage_vs_census,WARN,high,"slum states not in census: []; census states without a slum row: ['DADRA AND NAGAR HAVELI', 'DAMAN AND DIU', 'LAKSHADWEEP', 'MANIPUR']"
+D2,values_are_percentages_not_counts,WARN,critical,"'Total Number of households' equals 100 in 1908/1908 rows and the Good+Livable+Dilapidated components sum to ~100, so the extract is percentage-normalised rather than counts. Raw household counts cannot be recovered from it."
+D2,condition_components_sum_to_100,PASS,low,1908/1908 rows sum to 99-101 (range 99.90-100.10)
+D1-D2,target_reproduced_from_housing_abstract,WARN,high,"Independent recomputation of the district dilapidated share from D2 matches the D1-built target on 606 districts: median |diff| 1.081 pp, max 6.022 pp, r = 0.9837"
+D3,header_is_duplicate_pair,WARN,increasing,"Header is ['source_column_code', 'source_column_description']: both columns carry the same label, so the file is a two-column code/description mapping read with duplicated column names."
+D3,applies_to_D2_only,PASS,info,Codes c11-c145 map 1:1 onto the measurement columns of D2 (Number of households with condition of Census House ...). It does not describe D1's columns and must never be joined to D5-D9.
+D4,counts_and_percentages_are_text,WARN,medium,"Household/population counts use thousands separators inside quoted strings (""13,920,191"") and shares are strings with a % sign (""5.41%"", ""77.72 %""); every numeric column needs explicit parsing."
+D4,genuine_zero_vs_missing,WARN,high,"Exact zeros in SC/ST are plausible genuine zeros for small states/UTs: {'SC': 3, 'ST': 5}. They must not be conflated with 'no slum data reported'."
+D4,geographic_level_state_only,FAIL,critical,The file is state/UT level (32 rows including an India aggregate row). It cannot be merged onto 640 districts without dropping to state level or borrowing a state value for every district in that state.
+D5,level_encoding,PASS,info,"LEVEL={'DISTRICT': 1268, 'STATE': 72, 'India': 2}; AREA={'Urban': 671, 'Rural': 671}"
+D6,level_encoding,PASS,info,"LEVEL={'DISTRICT': 1299, 'STATE': 74, 'India': 2}; AREA={'Rural': 688, 'Urban': 687}"
+D6,malformed_trailing_column,WARN,low,Column(s) ['UNNAMED: 64'] arise from a trailing comma on data rows and hold no usable data.
+D7,level_encoding,PASS,info,dist_code==0 rows=6177; unique dist_code=641; area_name startswith 'State -' rows=6090; area_name startswith 'District -' rows=55680
+D8,level_encoding,PASS,info,dist_code==0 rows=4260; unique dist_code=641; area_name startswith 'State -' rows=4200; area_name startswith 'District -' rows=38400
+D9,level_encoding,PASS,info,no level columns

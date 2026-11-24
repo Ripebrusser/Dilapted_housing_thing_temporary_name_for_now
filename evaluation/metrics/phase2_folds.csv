@@ -1,0 +1,1909 @@
+key,scheme,fold
+JAMMU AND KASHMIR||KUPWARA,grouped_by_state_640,1
+JAMMU AND KASHMIR||BADGAM,grouped_by_state_640,1
+JAMMU AND KASHMIR||LEH LADAKH,grouped_by_state_640,1
+JAMMU AND KASHMIR||KARGIL,grouped_by_state_640,1
+JAMMU AND KASHMIR||PUNCH,grouped_by_state_640,1
+JAMMU AND KASHMIR||RAJOURI,grouped_by_state_640,1
+JAMMU AND KASHMIR||KATHUA,grouped_by_state_640,1
+JAMMU AND KASHMIR||BARAMULA,grouped_by_state_640,1
+JAMMU AND KASHMIR||BANDIPORE,grouped_by_state_640,1
+JAMMU AND KASHMIR||SRINAGAR,grouped_by_state_640,1
+JAMMU AND KASHMIR||GANDERBAL,grouped_by_state_640,1
+JAMMU AND KASHMIR||PULWAMA,grouped_by_state_640,1
+JAMMU AND KASHMIR||SHUPIYAN,grouped_by_state_640,1
+JAMMU AND KASHMIR||ANANTNAG,grouped_by_state_640,1
+JAMMU AND KASHMIR||KULGAM,grouped_by_state_640,1
+JAMMU AND KASHMIR||DODA,grouped_by_state_640,1
+JAMMU AND KASHMIR||RAMBAN,grouped_by_state_640,1
+JAMMU AND KASHMIR||KISHTWAR,grouped_by_state_640,1
+JAMMU AND KASHMIR||UDHAMPUR,grouped_by_state_640,1
+JAMMU AND KASHMIR||REASI,grouped_by_state_640,1
+JAMMU AND KASHMIR||JAMMU,grouped_by_state_640,1
+JAMMU AND KASHMIR||SAMBA,grouped_by_state_640,1
+UTTARAKHAND||UTTARKASHI,grouped_by_state_640,1
+UTTARAKHAND||CHAMOLI,grouped_by_state_640,1
+UTTARAKHAND||RUDRAPRAYAG,grouped_by_state_640,1
+UTTARAKHAND||TEHRI GARHWAL,grouped_by_state_640,1
+UTTARAKHAND||DEHRADUN,grouped_by_state_640,1
+UTTARAKHAND||GARHWAL,grouped_by_state_640,1
+UTTARAKHAND||PITHORAGARH,grouped_by_state_640,1
+UTTARAKHAND||BAGESHWAR,grouped_by_state_640,1
+UTTARAKHAND||ALMORA,grouped_by_state_640,1
+UTTARAKHAND||CHAMPAWAT,grouped_by_state_640,1
+UTTARAKHAND||NAINITAL,grouped_by_state_640,1
+UTTARAKHAND||UDHAM SINGH NAGAR,grouped_by_state_640,1
+UTTARAKHAND||HARDWAR,grouped_by_state_640,1
+UTTAR PRADESH||SAHARANPUR,grouped_by_state_640,1
+UTTAR PRADESH||MUZAFFARNAGAR,grouped_by_state_640,1
+UTTAR PRADESH||BIJNOR,grouped_by_state_640,1
+UTTAR PRADESH||MORADABAD,grouped_by_state_640,1
+UTTAR PRADESH||RAMPUR,grouped_by_state_640,1
+UTTAR PRADESH||JYOTIBA PHULE NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||MEERUT,grouped_by_state_640,1
+UTTAR PRADESH||BAGHPAT,grouped_by_state_640,1
+UTTAR PRADESH||GHAZIABAD,grouped_by_state_640,1
+UTTAR PRADESH||GAUTAM BUDDHA NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||BULANDSHAHR,grouped_by_state_640,1
+UTTAR PRADESH||ALIGARH,grouped_by_state_640,1
+UTTAR PRADESH||MAHAMAYA NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||MATHURA,grouped_by_state_640,1
+UTTAR PRADESH||AGRA,grouped_by_state_640,1
+UTTAR PRADESH||FIROZABAD,grouped_by_state_640,1
+UTTAR PRADESH||MAINPURI,grouped_by_state_640,1
+UTTAR PRADESH||BUDAUN,grouped_by_state_640,1
+UTTAR PRADESH||BAREILLY,grouped_by_state_640,1
+UTTAR PRADESH||PILIBHIT,grouped_by_state_640,1
+UTTAR PRADESH||SHAHJAHANPUR,grouped_by_state_640,1
+UTTAR PRADESH||KHERI,grouped_by_state_640,1
+UTTAR PRADESH||SITAPUR,grouped_by_state_640,1
+UTTAR PRADESH||HARDOI,grouped_by_state_640,1
+UTTAR PRADESH||UNNAO,grouped_by_state_640,1
+UTTAR PRADESH||LUCKNOW,grouped_by_state_640,1
+UTTAR PRADESH||RAE BARELI,grouped_by_state_640,1
+UTTAR PRADESH||FARRUKHABAD,grouped_by_state_640,1
+UTTAR PRADESH||KANNAUJ,grouped_by_state_640,1
+UTTAR PRADESH||ETAWAH,grouped_by_state_640,1
+UTTAR PRADESH||AURAIYA,grouped_by_state_640,1
+UTTAR PRADESH||KANPUR DEHAT,grouped_by_state_640,1
+UTTAR PRADESH||KANPUR NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||JALAUN,grouped_by_state_640,1
+UTTAR PRADESH||JHANSI,grouped_by_state_640,1
+UTTAR PRADESH||LALITPUR,grouped_by_state_640,1
+UTTAR PRADESH||HAMIRPUR,grouped_by_state_640,1
+UTTAR PRADESH||MAHOBA,grouped_by_state_640,1
+UTTAR PRADESH||BANDA,grouped_by_state_640,1
+UTTAR PRADESH||CHITRAKOOT,grouped_by_state_640,1
+UTTAR PRADESH||FATEHPUR,grouped_by_state_640,1
+UTTAR PRADESH||PRATAPGARH,grouped_by_state_640,1
+UTTAR PRADESH||KAUSHAMBI,grouped_by_state_640,1
+UTTAR PRADESH||ALLAHABAD,grouped_by_state_640,1
+UTTAR PRADESH||BARA BANKI,grouped_by_state_640,1
+UTTAR PRADESH||FAIZABAD,grouped_by_state_640,1
+UTTAR PRADESH||AMBEDKAR NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||SULTANPUR,grouped_by_state_640,1
+UTTAR PRADESH||BAHRAICH,grouped_by_state_640,1
+UTTAR PRADESH||SHRAWASTI,grouped_by_state_640,1
+UTTAR PRADESH||BALRAMPUR,grouped_by_state_640,1
+UTTAR PRADESH||GONDA,grouped_by_state_640,1
+UTTAR PRADESH||SIDDHARTHNAGAR,grouped_by_state_640,1
+UTTAR PRADESH||BASTI,grouped_by_state_640,1
+UTTAR PRADESH||SANT KABIR NAGAR,grouped_by_state_640,1
+UTTAR PRADESH||MAHRAJGANJ,grouped_by_state_640,1
+UTTAR PRADESH||GORAKHPUR,grouped_by_state_640,1
+UTTAR PRADESH||KUSHINAGAR,grouped_by_state_640,1
+UTTAR PRADESH||DEORIA,grouped_by_state_640,1
+UTTAR PRADESH||AZAMGARH,grouped_by_state_640,1
+UTTAR PRADESH||MAU,grouped_by_state_640,1
+UTTAR PRADESH||BALLIA,grouped_by_state_640,1
+UTTAR PRADESH||JAUNPUR,grouped_by_state_640,1
+UTTAR PRADESH||GHAZIPUR,grouped_by_state_640,1
+UTTAR PRADESH||CHANDAULI,grouped_by_state_640,1
+UTTAR PRADESH||VARANASI,grouped_by_state_640,1
+UTTAR PRADESH||SANT RAVIDAS NAGAR BHADOHI,grouped_by_state_640,1
+UTTAR PRADESH||MIRZAPUR,grouped_by_state_640,1
+UTTAR PRADESH||SONBHADRA,grouped_by_state_640,1
+UTTAR PRADESH||ETAH,grouped_by_state_640,1
+UTTAR PRADESH||KANSHIRAM NAGAR,grouped_by_state_640,1
+ARUNACHAL PRADESH||TAWANG,grouped_by_state_640,1
+ARUNACHAL PRADESH||WEST KAMENG,grouped_by_state_640,1
+ARUNACHAL PRADESH||EAST KAMENG,grouped_by_state_640,1
+ARUNACHAL PRADESH||PAPUM PARE,grouped_by_state_640,1
+ARUNACHAL PRADESH||UPPER SUBANSIRI,grouped_by_state_640,1
+ARUNACHAL PRADESH||WEST SIANG,grouped_by_state_640,1
+ARUNACHAL PRADESH||EAST SIANG,grouped_by_state_640,1
+ARUNACHAL PRADESH||UPPER SIANG,grouped_by_state_640,1
+ARUNACHAL PRADESH||CHANGLANG,grouped_by_state_640,1
+ARUNACHAL PRADESH||TIRAP,grouped_by_state_640,1
+ARUNACHAL PRADESH||LOWER SUBANSIRI,grouped_by_state_640,1
+ARUNACHAL PRADESH||KURUNG KUMEY,grouped_by_state_640,1
+ARUNACHAL PRADESH||DIBANG VALLEY,grouped_by_state_640,1
+ARUNACHAL PRADESH||LOWER DIBANG VALLEY,grouped_by_state_640,1
+ARUNACHAL PRADESH||LOHIT,grouped_by_state_640,1
+ARUNACHAL PRADESH||ANJAW,grouped_by_state_640,1
+DAMAN AND DIU||DIU,grouped_by_state_640,1
+DAMAN AND DIU||DAMAN,grouped_by_state_640,1
+PUDUCHERRY||YANAM,grouped_by_state_640,1
+PUDUCHERRY||PUDUCHERRY,grouped_by_state_640,1
+PUDUCHERRY||MAHE,grouped_by_state_640,1
+PUDUCHERRY||KARAIKAL,grouped_by_state_640,1
+HARYANA||PANCHKULA,grouped_by_state_640,2
+HARYANA||AMBALA,grouped_by_state_640,2
+HARYANA||YAMUNANAGAR,grouped_by_state_640,2
+HARYANA||KURUKSHETRA,grouped_by_state_640,2
+HARYANA||KAITHAL,grouped_by_state_640,2
+HARYANA||KARNAL,grouped_by_state_640,2
+HARYANA||PANIPAT,grouped_by_state_640,2
+HARYANA||SONIPAT,grouped_by_state_640,2
+HARYANA||JIND,grouped_by_state_640,2
+HARYANA||FATEHABAD,grouped_by_state_640,2
+HARYANA||SIRSA,grouped_by_state_640,2
+HARYANA||HISAR,grouped_by_state_640,2
+HARYANA||BHIWANI,grouped_by_state_640,2
+HARYANA||ROHTAK,grouped_by_state_640,2
+HARYANA||JHAJJAR,grouped_by_state_640,2
+HARYANA||MAHENDRAGARH,grouped_by_state_640,2
+HARYANA||REWARI,grouped_by_state_640,2
+HARYANA||GURGAON,grouped_by_state_640,2
+HARYANA||MEWAT,grouped_by_state_640,2
+HARYANA||FARIDABAD,grouped_by_state_640,2
+HARYANA||PALWAL,grouped_by_state_640,2
+MANIPUR||SENAPATI,grouped_by_state_640,2
+MANIPUR||TAMENGLONG,grouped_by_state_640,2
+MANIPUR||CHURACHANDPUR,grouped_by_state_640,2
+MANIPUR||BISHNUPUR,grouped_by_state_640,2
+MANIPUR||THOUBAL,grouped_by_state_640,2
+MANIPUR||IMPHAL WEST,grouped_by_state_640,2
+MANIPUR||IMPHAL EAST,grouped_by_state_640,2
+MANIPUR||UKHRUL,grouped_by_state_640,2
+MANIPUR||CHANDEL,grouped_by_state_640,2
+TRIPURA||WEST TRIPURA,grouped_by_state_640,2
+TRIPURA||SOUTH TRIPURA,grouped_by_state_640,2
+TRIPURA||DHALAI,grouped_by_state_640,2
+TRIPURA||NORTH TRIPURA,grouped_by_state_640,2
+ASSAM||KOKRAJHAR,grouped_by_state_640,2
+ASSAM||DHUBRI,grouped_by_state_640,2
+ASSAM||GOALPARA,grouped_by_state_640,2
+ASSAM||BARPETA,grouped_by_state_640,2
+ASSAM||MORIGAON,grouped_by_state_640,2
+ASSAM||NAGAON,grouped_by_state_640,2
+ASSAM||SONITPUR,grouped_by_state_640,2
+ASSAM||LAKHIMPUR,grouped_by_state_640,2
+ASSAM||DHEMAJI,grouped_by_state_640,2
+ASSAM||TINSUKIA,grouped_by_state_640,2
+ASSAM||DIBRUGARH,grouped_by_state_640,2
+ASSAM||SIVASAGAR,grouped_by_state_640,2
+ASSAM||JORHAT,grouped_by_state_640,2
+ASSAM||GOLAGHAT,grouped_by_state_640,2
+ASSAM||KARBI ANGLONG,grouped_by_state_640,2
+ASSAM||DIMA HASAO,grouped_by_state_640,2
+ASSAM||CACHAR,grouped_by_state_640,2
+ASSAM||KARIMGANJ,grouped_by_state_640,2
+ASSAM||HAILAKANDI,grouped_by_state_640,2
+ASSAM||BONGAIGAON,grouped_by_state_640,2
+ASSAM||CHIRANG,grouped_by_state_640,2
+ASSAM||KAMRUP,grouped_by_state_640,2
+ASSAM||KAMRUP METROPOLITAN,grouped_by_state_640,2
+ASSAM||NALBARI,grouped_by_state_640,2
+ASSAM||BAKSA,grouped_by_state_640,2
+ASSAM||DARRANG,grouped_by_state_640,2
+ASSAM||UDALGURI,grouped_by_state_640,2
+MADHYA PRADESH||SHEOPUR,grouped_by_state_640,2
+MADHYA PRADESH||MORENA,grouped_by_state_640,2
+MADHYA PRADESH||BHIND,grouped_by_state_640,2
+MADHYA PRADESH||GWALIOR,grouped_by_state_640,2
+MADHYA PRADESH||DATIA,grouped_by_state_640,2
+MADHYA PRADESH||SHIVPURI,grouped_by_state_640,2
+MADHYA PRADESH||TIKAMGARH,grouped_by_state_640,2
+MADHYA PRADESH||CHHATARPUR,grouped_by_state_640,2
+MADHYA PRADESH||PANNA,grouped_by_state_640,2
+MADHYA PRADESH||SAGAR,grouped_by_state_640,2
+MADHYA PRADESH||DAMOH,grouped_by_state_640,2
+MADHYA PRADESH||SATNA,grouped_by_state_640,2
+MADHYA PRADESH||REWA,grouped_by_state_640,2
+MADHYA PRADESH||UMARIA,grouped_by_state_640,2
+MADHYA PRADESH||NEEMUCH,grouped_by_state_640,2
+MADHYA PRADESH||MANDSAUR,grouped_by_state_640,2
+MADHYA PRADESH||RATLAM,grouped_by_state_640,2
+MADHYA PRADESH||UJJAIN,grouped_by_state_640,2
+MADHYA PRADESH||SHAJAPUR,grouped_by_state_640,2
+MADHYA PRADESH||DEWAS,grouped_by_state_640,2
+MADHYA PRADESH||DHAR,grouped_by_state_640,2
+MADHYA PRADESH||INDORE,grouped_by_state_640,2
+MADHYA PRADESH||KHARGONE WEST NIMAR,grouped_by_state_640,2
+MADHYA PRADESH||BARWANI,grouped_by_state_640,2
+MADHYA PRADESH||RAJGARH,grouped_by_state_640,2
+MADHYA PRADESH||VIDISHA,grouped_by_state_640,2
+MADHYA PRADESH||BHOPAL,grouped_by_state_640,2
+MADHYA PRADESH||SEHORE,grouped_by_state_640,2
+MADHYA PRADESH||RAISEN,grouped_by_state_640,2
+MADHYA PRADESH||BETUL,grouped_by_state_640,2
+MADHYA PRADESH||HARDA,grouped_by_state_640,2
+MADHYA PRADESH||HOSHANGABAD,grouped_by_state_640,2
+MADHYA PRADESH||KATNI,grouped_by_state_640,2
+MADHYA PRADESH||JABALPUR,grouped_by_state_640,2
+MADHYA PRADESH||NARSIMHAPUR,grouped_by_state_640,2
+MADHYA PRADESH||DINDORI,grouped_by_state_640,2
+MADHYA PRADESH||MANDLA,grouped_by_state_640,2
+MADHYA PRADESH||CHHINDWARA,grouped_by_state_640,2
+MADHYA PRADESH||SEONI,grouped_by_state_640,2
+MADHYA PRADESH||BALAGHAT,grouped_by_state_640,2
+MADHYA PRADESH||GUNA,grouped_by_state_640,2
+MADHYA PRADESH||ASHOKNAGAR,grouped_by_state_640,2
+MADHYA PRADESH||SHAHDOL,grouped_by_state_640,2
+MADHYA PRADESH||ANUPPUR,grouped_by_state_640,2
+MADHYA PRADESH||SIDHI,grouped_by_state_640,2
+MADHYA PRADESH||SINGRAULI,grouped_by_state_640,2
+MADHYA PRADESH||JHABUA,grouped_by_state_640,2
+MADHYA PRADESH||ALIRAJPUR,grouped_by_state_640,2
+MADHYA PRADESH||KHANDWA EAST NIMAR,grouped_by_state_640,2
+MADHYA PRADESH||BURHANPUR,grouped_by_state_640,2
+KERALA||KASARAGOD,grouped_by_state_640,2
+KERALA||KANNUR,grouped_by_state_640,2
+KERALA||WAYANAD,grouped_by_state_640,2
+KERALA||KOZHIKODE,grouped_by_state_640,2
+KERALA||MALAPPURAM,grouped_by_state_640,2
+KERALA||PALAKKAD,grouped_by_state_640,2
+KERALA||THRISSUR,grouped_by_state_640,2
+KERALA||ERNAKULAM,grouped_by_state_640,2
+KERALA||IDUKKI,grouped_by_state_640,2
+KERALA||KOTTAYAM,grouped_by_state_640,2
+KERALA||ALAPPUZHA,grouped_by_state_640,2
+KERALA||PATHANAMTHITTA,grouped_by_state_640,2
+KERALA||KOLLAM,grouped_by_state_640,2
+KERALA||THIRUVANANTHAPURAM,grouped_by_state_640,2
+ANDAMAN AND NICOBAR ISLANDS||NICOBARS,grouped_by_state_640,2
+ANDAMAN AND NICOBAR ISLANDS||NORTH AND MIDDLE ANDAMAN,grouped_by_state_640,2
+ANDAMAN AND NICOBAR ISLANDS||SOUTH ANDAMAN,grouped_by_state_640,2
+NCT OF DELHI||NORTH WEST,grouped_by_state_640,3
+NCT OF DELHI||NORTH,grouped_by_state_640,3
+NCT OF DELHI||NORTH EAST,grouped_by_state_640,3
+NCT OF DELHI||EAST,grouped_by_state_640,3
+NCT OF DELHI||NEW DELHI,grouped_by_state_640,3
+NCT OF DELHI||CENTRAL,grouped_by_state_640,3
+NCT OF DELHI||WEST,grouped_by_state_640,3
+NCT OF DELHI||SOUTH WEST,grouped_by_state_640,3
+NCT OF DELHI||SOUTH,grouped_by_state_640,3
+BIHAR||PASHCHIM CHAMPARAN,grouped_by_state_640,3
+BIHAR||PURBA CHAMPARAN,grouped_by_state_640,3
+BIHAR||SHEOHAR,grouped_by_state_640,3
+BIHAR||SITAMARHI,grouped_by_state_640,3
+BIHAR||MADHUBANI,grouped_by_state_640,3
+BIHAR||SUPAUL,grouped_by_state_640,3
+BIHAR||ARARIA,grouped_by_state_640,3
+BIHAR||KISHANGANJ,grouped_by_state_640,3
+BIHAR||PURNIA,grouped_by_state_640,3
+BIHAR||KATIHAR,grouped_by_state_640,3
+BIHAR||MADHEPURA,grouped_by_state_640,3
+BIHAR||SAHARSA,grouped_by_state_640,3
+BIHAR||DARBHANGA,grouped_by_state_640,3
+BIHAR||MUZAFFARPUR,grouped_by_state_640,3
+BIHAR||GOPALGANJ,grouped_by_state_640,3
+BIHAR||SIWAN,grouped_by_state_640,3
+BIHAR||SARAN,grouped_by_state_640,3
+BIHAR||VAISHALI,grouped_by_state_640,3
+BIHAR||SAMASTIPUR,grouped_by_state_640,3
+BIHAR||BEGUSARAI,grouped_by_state_640,3
+BIHAR||KHAGARIA,grouped_by_state_640,3
+BIHAR||BHAGALPUR,grouped_by_state_640,3
+BIHAR||BANKA,grouped_by_state_640,3
+BIHAR||MUNGER,grouped_by_state_640,3
+BIHAR||LAKHISARAI,grouped_by_state_640,3
+BIHAR||SHEIKHPURA,grouped_by_state_640,3
+BIHAR||NALANDA,grouped_by_state_640,3
+BIHAR||PATNA,grouped_by_state_640,3
+BIHAR||BHOJPUR,grouped_by_state_640,3
+BIHAR||BUXAR,grouped_by_state_640,3
+BIHAR||KAIMUR BHABUA,grouped_by_state_640,3
+BIHAR||ROHTAS,grouped_by_state_640,3
+BIHAR||AURANGABAD,grouped_by_state_640,3
+BIHAR||GAYA,grouped_by_state_640,3
+BIHAR||NAWADA,grouped_by_state_640,3
+BIHAR||JAMUI,grouped_by_state_640,3
+BIHAR||JEHANABAD,grouped_by_state_640,3
+BIHAR||ARWAL,grouped_by_state_640,3
+MIZORAM||MAMIT,grouped_by_state_640,3
+MIZORAM||KOLASIB,grouped_by_state_640,3
+MIZORAM||AIZAWL,grouped_by_state_640,3
+MIZORAM||CHAMPHAI,grouped_by_state_640,3
+MIZORAM||SERCHHIP,grouped_by_state_640,3
+MIZORAM||LUNGLEI,grouped_by_state_640,3
+MIZORAM||LAWNGTLAI,grouped_by_state_640,3
+MIZORAM||SAIHA,grouped_by_state_640,3
+WEST BENGAL||DARJILING,grouped_by_state_640,3
+WEST BENGAL||JALPAIGURI,grouped_by_state_640,3
+WEST BENGAL||KOCH BIHAR,grouped_by_state_640,3
+WEST BENGAL||UTTAR DINAJPUR,grouped_by_state_640,3
+WEST BENGAL||DAKSHIN DINAJPUR,grouped_by_state_640,3
+WEST BENGAL||MALDAH,grouped_by_state_640,3
+WEST BENGAL||MURSHIDABAD,grouped_by_state_640,3
+WEST BENGAL||BIRBHUM,grouped_by_state_640,3
+WEST BENGAL||BARDDHAMAN,grouped_by_state_640,3
+WEST BENGAL||NADIA,grouped_by_state_640,3
+WEST BENGAL||NORTH TWENTY FOUR PARGANAS,grouped_by_state_640,3
+WEST BENGAL||HUGLI,grouped_by_state_640,3
+WEST BENGAL||BANKURA,grouped_by_state_640,3
+WEST BENGAL||PURULIYA,grouped_by_state_640,3
+WEST BENGAL||HAORA,grouped_by_state_640,3
+WEST BENGAL||KOLKATA,grouped_by_state_640,3
+WEST BENGAL||SOUTH TWENTY FOUR PARGANAS,grouped_by_state_640,3
+WEST BENGAL||PASCHIM MEDINIPUR,grouped_by_state_640,3
+WEST BENGAL||PURBA MEDINIPUR,grouped_by_state_640,3
+ANDHRA PRADESH||ADILABAD,grouped_by_state_640,3
+ANDHRA PRADESH||NIZAMABAD,grouped_by_state_640,3
+ANDHRA PRADESH||KARIMNAGAR,grouped_by_state_640,3
+ANDHRA PRADESH||MEDAK,grouped_by_state_640,3
+ANDHRA PRADESH||HYDERABAD,grouped_by_state_640,3
+ANDHRA PRADESH||RANGAREDDY,grouped_by_state_640,3
+ANDHRA PRADESH||MAHBUBNAGAR,grouped_by_state_640,3
+ANDHRA PRADESH||NALGONDA,grouped_by_state_640,3
+ANDHRA PRADESH||WARANGAL,grouped_by_state_640,3
+ANDHRA PRADESH||KHAMMAM,grouped_by_state_640,3
+ANDHRA PRADESH||SRIKAKULAM,grouped_by_state_640,3
+ANDHRA PRADESH||VIZIANAGARAM,grouped_by_state_640,3
+ANDHRA PRADESH||VISAKHAPATNAM,grouped_by_state_640,3
+ANDHRA PRADESH||EAST GODAVARI,grouped_by_state_640,3
+ANDHRA PRADESH||WEST GODAVARI,grouped_by_state_640,3
+ANDHRA PRADESH||KRISHNA,grouped_by_state_640,3
+ANDHRA PRADESH||GUNTUR,grouped_by_state_640,3
+ANDHRA PRADESH||PRAKASAM,grouped_by_state_640,3
+ANDHRA PRADESH||SRI POTTI SRIRAMULU NELLORE,grouped_by_state_640,3
+ANDHRA PRADESH||Y S R,grouped_by_state_640,3
+ANDHRA PRADESH||KURNOOL,grouped_by_state_640,3
+ANDHRA PRADESH||ANANTAPUR,grouped_by_state_640,3
+ANDHRA PRADESH||CHITTOOR,grouped_by_state_640,3
+KARNATAKA||BELGAUM,grouped_by_state_640,3
+KARNATAKA||BAGALKOT,grouped_by_state_640,3
+KARNATAKA||BIJAPUR,grouped_by_state_640,3
+KARNATAKA||BIDAR,grouped_by_state_640,3
+KARNATAKA||RAICHUR,grouped_by_state_640,3
+KARNATAKA||KOPPAL,grouped_by_state_640,3
+KARNATAKA||GADAG,grouped_by_state_640,3
+KARNATAKA||DHARWAD,grouped_by_state_640,3
+KARNATAKA||UTTARA KANNADA,grouped_by_state_640,3
+KARNATAKA||HAVERI,grouped_by_state_640,3
+KARNATAKA||BELLARY,grouped_by_state_640,3
+KARNATAKA||CHITRADURGA,grouped_by_state_640,3
+KARNATAKA||DAVANAGERE,grouped_by_state_640,3
+KARNATAKA||SHIMOGA,grouped_by_state_640,3
+KARNATAKA||UDUPI,grouped_by_state_640,3
+KARNATAKA||CHIKMAGALUR,grouped_by_state_640,3
+KARNATAKA||TUMKUR,grouped_by_state_640,3
+KARNATAKA||BANGALORE,grouped_by_state_640,3
+KARNATAKA||MANDYA,grouped_by_state_640,3
+KARNATAKA||HASSAN,grouped_by_state_640,3
+KARNATAKA||DAKSHINA KANNADA,grouped_by_state_640,3
+KARNATAKA||KODAGU,grouped_by_state_640,3
+KARNATAKA||MYSORE,grouped_by_state_640,3
+KARNATAKA||CHAMARAJANAGAR,grouped_by_state_640,3
+KARNATAKA||GULBARGA,grouped_by_state_640,3
+KARNATAKA||YADGIR,grouped_by_state_640,3
+KARNATAKA||KOLAR,grouped_by_state_640,3
+KARNATAKA||CHIKKABALLAPURA,grouped_by_state_640,3
+KARNATAKA||BANGALORE RURAL,grouped_by_state_640,3
+KARNATAKA||RAMANAGARA,grouped_by_state_640,3
+LAKSHADWEEP||LAKSHADWEEP,grouped_by_state_640,3
+HIMACHAL PRADESH||CHAMBA,grouped_by_state_640,4
+HIMACHAL PRADESH||KANGRA,grouped_by_state_640,4
+HIMACHAL PRADESH||LAHUL AND SPITI,grouped_by_state_640,4
+HIMACHAL PRADESH||KULLU,grouped_by_state_640,4
+HIMACHAL PRADESH||MANDI,grouped_by_state_640,4
+HIMACHAL PRADESH||HAMIRPUR,grouped_by_state_640,4
+HIMACHAL PRADESH||UNA,grouped_by_state_640,4
+HIMACHAL PRADESH||BILASPUR,grouped_by_state_640,4
+HIMACHAL PRADESH||SOLAN,grouped_by_state_640,4
+HIMACHAL PRADESH||SIRMAUR,grouped_by_state_640,4
+HIMACHAL PRADESH||SHIMLA,grouped_by_state_640,4
+HIMACHAL PRADESH||KINNAUR,grouped_by_state_640,4
+SIKKIM||NORTH DISTRICT,grouped_by_state_640,4
+SIKKIM||WEST DISTRICT,grouped_by_state_640,4
+SIKKIM||SOUTH DISTRICT,grouped_by_state_640,4
+SIKKIM||EAST DISTRICT,grouped_by_state_640,4
+ODISHA||BARGARH,grouped_by_state_640,4
+ODISHA||JHARSUGUDA,grouped_by_state_640,4
+ODISHA||SAMBALPUR,grouped_by_state_640,4
+ODISHA||DEBAGARH,grouped_by_state_640,4
+ODISHA||SUNDARGARH,grouped_by_state_640,4
+ODISHA||KENDUJHAR,grouped_by_state_640,4
+ODISHA||MAYURBHANJ,grouped_by_state_640,4
+ODISHA||BALESHWAR,grouped_by_state_640,4
+ODISHA||BHADRAK,grouped_by_state_640,4
+ODISHA||KENDRAPARA,grouped_by_state_640,4
+ODISHA||JAGATSINGHAPUR,grouped_by_state_640,4
+ODISHA||CUTTACK,grouped_by_state_640,4
+ODISHA||JAJAPUR,grouped_by_state_640,4
+ODISHA||DHENKANAL,grouped_by_state_640,4
+ODISHA||ANUGUL,grouped_by_state_640,4
+ODISHA||NAYAGARH,grouped_by_state_640,4
+ODISHA||KHORDHA,grouped_by_state_640,4
+ODISHA||PURI,grouped_by_state_640,4
+ODISHA||GANJAM,grouped_by_state_640,4
+ODISHA||GAJAPATI,grouped_by_state_640,4
+ODISHA||KANDHAMAL,grouped_by_state_640,4
+ODISHA||BAUDH,grouped_by_state_640,4
+ODISHA||SUBARNAPUR,grouped_by_state_640,4
+ODISHA||BALANGIR,grouped_by_state_640,4
+ODISHA||NUAPADA,grouped_by_state_640,4
+ODISHA||KALAHANDI,grouped_by_state_640,4
+ODISHA||RAYAGADA,grouped_by_state_640,4
+ODISHA||NABARANGAPUR,grouped_by_state_640,4
+ODISHA||KORAPUT,grouped_by_state_640,4
+ODISHA||MALKANGIRI,grouped_by_state_640,4
+CHHATTISGARH||KORIYA,grouped_by_state_640,4
+CHHATTISGARH||SURGUJA,grouped_by_state_640,4
+CHHATTISGARH||JASHPUR,grouped_by_state_640,4
+CHHATTISGARH||RAIGARH,grouped_by_state_640,4
+CHHATTISGARH||KORBA,grouped_by_state_640,4
+CHHATTISGARH||JANJGIR CHAMPA,grouped_by_state_640,4
+CHHATTISGARH||BILASPUR,grouped_by_state_640,4
+CHHATTISGARH||KABEERDHAM,grouped_by_state_640,4
+CHHATTISGARH||RAJNANDGAON,grouped_by_state_640,4
+CHHATTISGARH||DURG,grouped_by_state_640,4
+CHHATTISGARH||RAIPUR,grouped_by_state_640,4
+CHHATTISGARH||MAHASAMUND,grouped_by_state_640,4
+CHHATTISGARH||DHAMTARI,grouped_by_state_640,4
+CHHATTISGARH||UTTAR BASTAR KANKER,grouped_by_state_640,4
+CHHATTISGARH||BASTAR,grouped_by_state_640,4
+CHHATTISGARH||NARAYANPUR,grouped_by_state_640,4
+CHHATTISGARH||DAKSHIN BASTAR DANTEWADA,grouped_by_state_640,4
+CHHATTISGARH||BIJAPUR,grouped_by_state_640,4
+GUJARAT||KACHCHH,grouped_by_state_640,4
+GUJARAT||BANAS KANTHA,grouped_by_state_640,4
+GUJARAT||PATAN,grouped_by_state_640,4
+GUJARAT||MAHESANA,grouped_by_state_640,4
+GUJARAT||SABAR KANTHA,grouped_by_state_640,4
+GUJARAT||GANDHINAGAR,grouped_by_state_640,4
+GUJARAT||AHMADABAD,grouped_by_state_640,4
+GUJARAT||SURENDRANAGAR,grouped_by_state_640,4
+GUJARAT||RAJKOT,grouped_by_state_640,4
+GUJARAT||JAMNAGAR,grouped_by_state_640,4
+GUJARAT||PORBANDAR,grouped_by_state_640,4
+GUJARAT||JUNAGADH,grouped_by_state_640,4
+GUJARAT||AMRELI,grouped_by_state_640,4
+GUJARAT||BHAVNAGAR,grouped_by_state_640,4
+GUJARAT||ANAND,grouped_by_state_640,4
+GUJARAT||KHEDA,grouped_by_state_640,4
+GUJARAT||PANCH MAHALS,grouped_by_state_640,4
+GUJARAT||DOHAD,grouped_by_state_640,4
+GUJARAT||VADODARA,grouped_by_state_640,4
+GUJARAT||NARMADA,grouped_by_state_640,4
+GUJARAT||BHARUCH,grouped_by_state_640,4
+GUJARAT||THE DANGS,grouped_by_state_640,4
+GUJARAT||NAVSARI,grouped_by_state_640,4
+GUJARAT||VALSAD,grouped_by_state_640,4
+GUJARAT||SURAT,grouped_by_state_640,4
+GUJARAT||TAPI,grouped_by_state_640,4
+DADRA AND NAGAR HAVELI||DADRA AND NAGAR HAVELI,grouped_by_state_640,4
+MAHARASHTRA||NANDURBAR,grouped_by_state_640,4
+MAHARASHTRA||DHULE,grouped_by_state_640,4
+MAHARASHTRA||JALGAON,grouped_by_state_640,4
+MAHARASHTRA||BULDANA,grouped_by_state_640,4
+MAHARASHTRA||AKOLA,grouped_by_state_640,4
+MAHARASHTRA||WASHIM,grouped_by_state_640,4
+MAHARASHTRA||AMRAVATI,grouped_by_state_640,4
+MAHARASHTRA||WARDHA,grouped_by_state_640,4
+MAHARASHTRA||NAGPUR,grouped_by_state_640,4
+MAHARASHTRA||BHANDARA,grouped_by_state_640,4
+MAHARASHTRA||GONDIYA,grouped_by_state_640,4
+MAHARASHTRA||GADCHIROLI,grouped_by_state_640,4
+MAHARASHTRA||CHANDRAPUR,grouped_by_state_640,4
+MAHARASHTRA||YAVATMAL,grouped_by_state_640,4
+MAHARASHTRA||NANDED,grouped_by_state_640,4
+MAHARASHTRA||HINGOLI,grouped_by_state_640,4
+MAHARASHTRA||PARBHANI,grouped_by_state_640,4
+MAHARASHTRA||JALNA,grouped_by_state_640,4
+MAHARASHTRA||AURANGABAD,grouped_by_state_640,4
+MAHARASHTRA||NASHIK,grouped_by_state_640,4
+MAHARASHTRA||THANE,grouped_by_state_640,4
+MAHARASHTRA||MUMBAI SUBURBAN,grouped_by_state_640,4
+MAHARASHTRA||MUMBAI,grouped_by_state_640,4
+MAHARASHTRA||RAIGARH,grouped_by_state_640,4
+MAHARASHTRA||PUNE,grouped_by_state_640,4
+MAHARASHTRA||AHMADNAGAR,grouped_by_state_640,4
+MAHARASHTRA||BID,grouped_by_state_640,4
+MAHARASHTRA||LATUR,grouped_by_state_640,4
+MAHARASHTRA||OSMANABAD,grouped_by_state_640,4
+MAHARASHTRA||SOLAPUR,grouped_by_state_640,4
+MAHARASHTRA||SATARA,grouped_by_state_640,4
+MAHARASHTRA||RATNAGIRI,grouped_by_state_640,4
+MAHARASHTRA||SINDHUDURG,grouped_by_state_640,4
+MAHARASHTRA||KOLHAPUR,grouped_by_state_640,4
+MAHARASHTRA||SANGLI,grouped_by_state_640,4
+GOA||NORTH GOA,grouped_by_state_640,4
+GOA||SOUTH GOA,grouped_by_state_640,4
+PUNJAB||GURDASPUR,grouped_by_state_640,5
+PUNJAB||KAPURTHALA,grouped_by_state_640,5
+PUNJAB||JALANDHAR,grouped_by_state_640,5
+PUNJAB||HOSHIARPUR,grouped_by_state_640,5
+PUNJAB||SHAHID BHAGAT SINGH NAGAR,grouped_by_state_640,5
+PUNJAB||FATEHGARH SAHIB,grouped_by_state_640,5
+PUNJAB||LUDHIANA,grouped_by_state_640,5
+PUNJAB||MOGA,grouped_by_state_640,5
+PUNJAB||FIROZPUR,grouped_by_state_640,5
+PUNJAB||MUKTSAR,grouped_by_state_640,5
+PUNJAB||FARIDKOT,grouped_by_state_640,5
+PUNJAB||BATHINDA,grouped_by_state_640,5
+PUNJAB||MANSA,grouped_by_state_640,5
+PUNJAB||PATIALA,grouped_by_state_640,5
+PUNJAB||AMRITSAR,grouped_by_state_640,5
+PUNJAB||TARN TARAN,grouped_by_state_640,5
+PUNJAB||RUPNAGAR,grouped_by_state_640,5
+PUNJAB||SAHIBZADA AJIT SINGH NAGAR,grouped_by_state_640,5
+PUNJAB||SANGRUR,grouped_by_state_640,5
+PUNJAB||BARNALA,grouped_by_state_640,5
+CHANDIGARH||CHANDIGARH,grouped_by_state_640,5
+RAJASTHAN||GANGANAGAR,grouped_by_state_640,5
+RAJASTHAN||HANUMANGARH,grouped_by_state_640,5
+RAJASTHAN||BIKANER,grouped_by_state_640,5
+RAJASTHAN||CHURU,grouped_by_state_640,5
+RAJASTHAN||JHUNJHUNUN,grouped_by_state_640,5
+RAJASTHAN||ALWAR,grouped_by_state_640,5
+RAJASTHAN||BHARATPUR,grouped_by_state_640,5
+RAJASTHAN||DHAULPUR,grouped_by_state_640,5
+RAJASTHAN||KARAULI,grouped_by_state_640,5
+RAJASTHAN||SAWAI MADHOPUR,grouped_by_state_640,5
+RAJASTHAN||DAUSA,grouped_by_state_640,5
+RAJASTHAN||JAIPUR,grouped_by_state_640,5
+RAJASTHAN||SIKAR,grouped_by_state_640,5
+RAJASTHAN||NAGAUR,grouped_by_state_640,5
+RAJASTHAN||JODHPUR,grouped_by_state_640,5
+RAJASTHAN||JAISALMER,grouped_by_state_640,5
+RAJASTHAN||BARMER,grouped_by_state_640,5
+RAJASTHAN||JALOR,grouped_by_state_640,5
+RAJASTHAN||SIROHI,grouped_by_state_640,5
+RAJASTHAN||PALI,grouped_by_state_640,5
+RAJASTHAN||AJMER,grouped_by_state_640,5
+RAJASTHAN||TONK,grouped_by_state_640,5
+RAJASTHAN||BUNDI,grouped_by_state_640,5
+RAJASTHAN||BHILWARA,grouped_by_state_640,5
+RAJASTHAN||RAJSAMAND,grouped_by_state_640,5
+RAJASTHAN||DUNGARPUR,grouped_by_state_640,5
+RAJASTHAN||BANSWARA,grouped_by_state_640,5
+RAJASTHAN||CHITTAURGARH,grouped_by_state_640,5
+RAJASTHAN||KOTA,grouped_by_state_640,5
+RAJASTHAN||BARAN,grouped_by_state_640,5
+RAJASTHAN||JHALAWAR,grouped_by_state_640,5
+RAJASTHAN||UDAIPUR,grouped_by_state_640,5
+RAJASTHAN||PRATAPGARH,grouped_by_state_640,5
+NAGALAND||MON,grouped_by_state_640,5
+NAGALAND||MOKOKCHUNG,grouped_by_state_640,5
+NAGALAND||ZUNHEBOTO,grouped_by_state_640,5
+NAGALAND||WOKHA,grouped_by_state_640,5
+NAGALAND||DIMAPUR,grouped_by_state_640,5
+NAGALAND||PHEK,grouped_by_state_640,5
+NAGALAND||TUENSANG,grouped_by_state_640,5
+NAGALAND||LONGLENG,grouped_by_state_640,5
+NAGALAND||KIPHIRE,grouped_by_state_640,5
+NAGALAND||KOHIMA,grouped_by_state_640,5
+NAGALAND||PEREN,grouped_by_state_640,5
+MEGHALAYA||WEST GARO HILLS,grouped_by_state_640,5
+MEGHALAYA||EAST GARO HILLS,grouped_by_state_640,5
+MEGHALAYA||SOUTH GARO HILLS,grouped_by_state_640,5
+MEGHALAYA||WEST KHASI HILLS,grouped_by_state_640,5
+MEGHALAYA||RIBHOI,grouped_by_state_640,5
+MEGHALAYA||EAST KHASI HILLS,grouped_by_state_640,5
+MEGHALAYA||JAINTIA HILLS,grouped_by_state_640,5
+JHARKHAND||GARHWA,grouped_by_state_640,5
+JHARKHAND||CHATRA,grouped_by_state_640,5
+JHARKHAND||KODARMA,grouped_by_state_640,5
+JHARKHAND||GIRIDIH,grouped_by_state_640,5
+JHARKHAND||DEOGHAR,grouped_by_state_640,5
+JHARKHAND||GODDA,grouped_by_state_640,5
+JHARKHAND||SAHIBGANJ,grouped_by_state_640,5
+JHARKHAND||PAKUR,grouped_by_state_640,5
+JHARKHAND||DHANBAD,grouped_by_state_640,5
+JHARKHAND||BOKARO,grouped_by_state_640,5
+JHARKHAND||LOHARDAGA,grouped_by_state_640,5
+JHARKHAND||PURBI SINGHBHUM,grouped_by_state_640,5
+JHARKHAND||PALAMU,grouped_by_state_640,5
+JHARKHAND||LATEHAR,grouped_by_state_640,5
+JHARKHAND||HAZARIBAGH,grouped_by_state_640,5
+JHARKHAND||RAMGARH,grouped_by_state_640,5
+JHARKHAND||DUMKA,grouped_by_state_640,5
+JHARKHAND||JAMTARA,grouped_by_state_640,5
+JHARKHAND||RANCHI,grouped_by_state_640,5
+JHARKHAND||KHUNTI,grouped_by_state_640,5
+JHARKHAND||GUMLA,grouped_by_state_640,5
+JHARKHAND||SIMDEGA,grouped_by_state_640,5
+JHARKHAND||PASHCHIMI SINGHBHUM,grouped_by_state_640,5
+JHARKHAND||SARAIKELA KHARSAWAN,grouped_by_state_640,5
+TAMIL NADU||THIRUVALLUR,grouped_by_state_640,5
+TAMIL NADU||CHENNAI,grouped_by_state_640,5
+TAMIL NADU||KANCHEEPURAM,grouped_by_state_640,5
+TAMIL NADU||VELLORE,grouped_by_state_640,5
+TAMIL NADU||TIRUVANNAMALAI,grouped_by_state_640,5
+TAMIL NADU||VILUPPURAM,grouped_by_state_640,5
+TAMIL NADU||SALEM,grouped_by_state_640,5
+TAMIL NADU||NAMAKKAL,grouped_by_state_640,5
+TAMIL NADU||ERODE,grouped_by_state_640,5
+TAMIL NADU||THE NILGIRIS,grouped_by_state_640,5
+TAMIL NADU||DINDIGUL,grouped_by_state_640,5
+TAMIL NADU||KARUR,grouped_by_state_640,5
+TAMIL NADU||TIRUCHIRAPPALLI,grouped_by_state_640,5
+TAMIL NADU||PERAMBALUR,grouped_by_state_640,5
+TAMIL NADU||ARIYALUR,grouped_by_state_640,5
+TAMIL NADU||CUDDALORE,grouped_by_state_640,5
+TAMIL NADU||NAGAPATTINAM,grouped_by_state_640,5
+TAMIL NADU||THIRUVARUR,grouped_by_state_640,5
+TAMIL NADU||THANJAVUR,grouped_by_state_640,5
+TAMIL NADU||PUDUKKOTTAI,grouped_by_state_640,5
+TAMIL NADU||SIVAGANGA,grouped_by_state_640,5
+TAMIL NADU||MADURAI,grouped_by_state_640,5
+TAMIL NADU||THENI,grouped_by_state_640,5
+TAMIL NADU||VIRUDHUNAGAR,grouped_by_state_640,5
+TAMIL NADU||RAMANATHAPURAM,grouped_by_state_640,5
+TAMIL NADU||THOOTHUKKUDI,grouped_by_state_640,5
+TAMIL NADU||TIRUNELVELI,grouped_by_state_640,5
+TAMIL NADU||KANNIYAKUMARI,grouped_by_state_640,5
+TAMIL NADU||DHARMAPURI,grouped_by_state_640,5
+TAMIL NADU||KRISHNAGIRI,grouped_by_state_640,5
+TAMIL NADU||COIMBATORE,grouped_by_state_640,5
+TAMIL NADU||TIRUPPUR,grouped_by_state_640,5
+JAMMU AND KASHMIR||KUPWARA,grouped_by_state_628,1
+JAMMU AND KASHMIR||BADGAM,grouped_by_state_628,1
+JAMMU AND KASHMIR||LEH LADAKH,grouped_by_state_628,1
+JAMMU AND KASHMIR||KARGIL,grouped_by_state_628,1
+JAMMU AND KASHMIR||PUNCH,grouped_by_state_628,1
+JAMMU AND KASHMIR||RAJOURI,grouped_by_state_628,1
+JAMMU AND KASHMIR||KATHUA,grouped_by_state_628,1
+JAMMU AND KASHMIR||BARAMULA,grouped_by_state_628,1
+JAMMU AND KASHMIR||BANDIPORE,grouped_by_state_628,1
+JAMMU AND KASHMIR||SRINAGAR,grouped_by_state_628,1
+JAMMU AND KASHMIR||GANDERBAL,grouped_by_state_628,1
+JAMMU AND KASHMIR||PULWAMA,grouped_by_state_628,1
+JAMMU AND KASHMIR||SHUPIYAN,grouped_by_state_628,1
+JAMMU AND KASHMIR||ANANTNAG,grouped_by_state_628,1
+JAMMU AND KASHMIR||KULGAM,grouped_by_state_628,1
+JAMMU AND KASHMIR||DODA,grouped_by_state_628,1
+JAMMU AND KASHMIR||RAMBAN,grouped_by_state_628,1
+JAMMU AND KASHMIR||KISHTWAR,grouped_by_state_628,1
+JAMMU AND KASHMIR||UDHAMPUR,grouped_by_state_628,1
+JAMMU AND KASHMIR||REASI,grouped_by_state_628,1
+JAMMU AND KASHMIR||JAMMU,grouped_by_state_628,1
+JAMMU AND KASHMIR||SAMBA,grouped_by_state_628,1
+UTTAR PRADESH||SAHARANPUR,grouped_by_state_628,1
+UTTAR PRADESH||MUZAFFARNAGAR,grouped_by_state_628,1
+UTTAR PRADESH||BIJNOR,grouped_by_state_628,1
+UTTAR PRADESH||MORADABAD,grouped_by_state_628,1
+UTTAR PRADESH||RAMPUR,grouped_by_state_628,1
+UTTAR PRADESH||JYOTIBA PHULE NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||MEERUT,grouped_by_state_628,1
+UTTAR PRADESH||BAGHPAT,grouped_by_state_628,1
+UTTAR PRADESH||GHAZIABAD,grouped_by_state_628,1
+UTTAR PRADESH||GAUTAM BUDDHA NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||BULANDSHAHR,grouped_by_state_628,1
+UTTAR PRADESH||ALIGARH,grouped_by_state_628,1
+UTTAR PRADESH||MAHAMAYA NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||MATHURA,grouped_by_state_628,1
+UTTAR PRADESH||AGRA,grouped_by_state_628,1
+UTTAR PRADESH||FIROZABAD,grouped_by_state_628,1
+UTTAR PRADESH||MAINPURI,grouped_by_state_628,1
+UTTAR PRADESH||BUDAUN,grouped_by_state_628,1
+UTTAR PRADESH||BAREILLY,grouped_by_state_628,1
+UTTAR PRADESH||PILIBHIT,grouped_by_state_628,1
+UTTAR PRADESH||SHAHJAHANPUR,grouped_by_state_628,1
+UTTAR PRADESH||KHERI,grouped_by_state_628,1
+UTTAR PRADESH||SITAPUR,grouped_by_state_628,1
+UTTAR PRADESH||HARDOI,grouped_by_state_628,1
+UTTAR PRADESH||UNNAO,grouped_by_state_628,1
+UTTAR PRADESH||LUCKNOW,grouped_by_state_628,1
+UTTAR PRADESH||RAE BARELI,grouped_by_state_628,1
+UTTAR PRADESH||FARRUKHABAD,grouped_by_state_628,1
+UTTAR PRADESH||KANNAUJ,grouped_by_state_628,1
+UTTAR PRADESH||ETAWAH,grouped_by_state_628,1
+UTTAR PRADESH||AURAIYA,grouped_by_state_628,1
+UTTAR PRADESH||KANPUR DEHAT,grouped_by_state_628,1
+UTTAR PRADESH||KANPUR NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||JALAUN,grouped_by_state_628,1
+UTTAR PRADESH||JHANSI,grouped_by_state_628,1
+UTTAR PRADESH||LALITPUR,grouped_by_state_628,1
+UTTAR PRADESH||MAHOBA,grouped_by_state_628,1
+UTTAR PRADESH||BANDA,grouped_by_state_628,1
+UTTAR PRADESH||CHITRAKOOT,grouped_by_state_628,1
+UTTAR PRADESH||FATEHPUR,grouped_by_state_628,1
+UTTAR PRADESH||KAUSHAMBI,grouped_by_state_628,1
+UTTAR PRADESH||ALLAHABAD,grouped_by_state_628,1
+UTTAR PRADESH||BARA BANKI,grouped_by_state_628,1
+UTTAR PRADESH||FAIZABAD,grouped_by_state_628,1
+UTTAR PRADESH||AMBEDKAR NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||SULTANPUR,grouped_by_state_628,1
+UTTAR PRADESH||BAHRAICH,grouped_by_state_628,1
+UTTAR PRADESH||SHRAWASTI,grouped_by_state_628,1
+UTTAR PRADESH||BALRAMPUR,grouped_by_state_628,1
+UTTAR PRADESH||GONDA,grouped_by_state_628,1
+UTTAR PRADESH||SIDDHARTHNAGAR,grouped_by_state_628,1
+UTTAR PRADESH||BASTI,grouped_by_state_628,1
+UTTAR PRADESH||SANT KABIR NAGAR,grouped_by_state_628,1
+UTTAR PRADESH||MAHRAJGANJ,grouped_by_state_628,1
+UTTAR PRADESH||GORAKHPUR,grouped_by_state_628,1
+UTTAR PRADESH||KUSHINAGAR,grouped_by_state_628,1
+UTTAR PRADESH||DEORIA,grouped_by_state_628,1
+UTTAR PRADESH||AZAMGARH,grouped_by_state_628,1
+UTTAR PRADESH||MAU,grouped_by_state_628,1
+UTTAR PRADESH||BALLIA,grouped_by_state_628,1
+UTTAR PRADESH||JAUNPUR,grouped_by_state_628,1
+UTTAR PRADESH||GHAZIPUR,grouped_by_state_628,1
+UTTAR PRADESH||CHANDAULI,grouped_by_state_628,1
+UTTAR PRADESH||VARANASI,grouped_by_state_628,1
+UTTAR PRADESH||SANT RAVIDAS NAGAR BHADOHI,grouped_by_state_628,1
+UTTAR PRADESH||MIRZAPUR,grouped_by_state_628,1
+UTTAR PRADESH||SONBHADRA,grouped_by_state_628,1
+UTTAR PRADESH||ETAH,grouped_by_state_628,1
+UTTAR PRADESH||KANSHIRAM NAGAR,grouped_by_state_628,1
+NAGALAND||MON,grouped_by_state_628,1
+NAGALAND||MOKOKCHUNG,grouped_by_state_628,1
+NAGALAND||ZUNHEBOTO,grouped_by_state_628,1
+NAGALAND||WOKHA,grouped_by_state_628,1
+NAGALAND||DIMAPUR,grouped_by_state_628,1
+NAGALAND||PHEK,grouped_by_state_628,1
+NAGALAND||TUENSANG,grouped_by_state_628,1
+NAGALAND||LONGLENG,grouped_by_state_628,1
+NAGALAND||KIPHIRE,grouped_by_state_628,1
+NAGALAND||KOHIMA,grouped_by_state_628,1
+NAGALAND||PEREN,grouped_by_state_628,1
+MIZORAM||MAMIT,grouped_by_state_628,1
+MIZORAM||KOLASIB,grouped_by_state_628,1
+MIZORAM||AIZAWL,grouped_by_state_628,1
+MIZORAM||CHAMPHAI,grouped_by_state_628,1
+MIZORAM||SERCHHIP,grouped_by_state_628,1
+MIZORAM||LUNGLEI,grouped_by_state_628,1
+MIZORAM||LAWNGTLAI,grouped_by_state_628,1
+MIZORAM||SAIHA,grouped_by_state_628,1
+CHHATTISGARH||KORIYA,grouped_by_state_628,1
+CHHATTISGARH||SURGUJA,grouped_by_state_628,1
+CHHATTISGARH||JASHPUR,grouped_by_state_628,1
+CHHATTISGARH||KORBA,grouped_by_state_628,1
+CHHATTISGARH||JANJGIR CHAMPA,grouped_by_state_628,1
+CHHATTISGARH||KABEERDHAM,grouped_by_state_628,1
+CHHATTISGARH||RAJNANDGAON,grouped_by_state_628,1
+CHHATTISGARH||DURG,grouped_by_state_628,1
+CHHATTISGARH||RAIPUR,grouped_by_state_628,1
+CHHATTISGARH||MAHASAMUND,grouped_by_state_628,1
+CHHATTISGARH||DHAMTARI,grouped_by_state_628,1
+CHHATTISGARH||UTTAR BASTAR KANKER,grouped_by_state_628,1
+CHHATTISGARH||BASTAR,grouped_by_state_628,1
+CHHATTISGARH||NARAYANPUR,grouped_by_state_628,1
+CHHATTISGARH||DAKSHIN BASTAR DANTEWADA,grouped_by_state_628,1
+DADRA AND NAGAR HAVELI||DADRA AND NAGAR HAVELI,grouped_by_state_628,1
+CHANDIGARH||CHANDIGARH,grouped_by_state_628,2
+HARYANA||PANCHKULA,grouped_by_state_628,2
+HARYANA||AMBALA,grouped_by_state_628,2
+HARYANA||YAMUNANAGAR,grouped_by_state_628,2
+HARYANA||KURUKSHETRA,grouped_by_state_628,2
+HARYANA||KAITHAL,grouped_by_state_628,2
+HARYANA||KARNAL,grouped_by_state_628,2
+HARYANA||PANIPAT,grouped_by_state_628,2
+HARYANA||SONIPAT,grouped_by_state_628,2
+HARYANA||JIND,grouped_by_state_628,2
+HARYANA||FATEHABAD,grouped_by_state_628,2
+HARYANA||SIRSA,grouped_by_state_628,2
+HARYANA||HISAR,grouped_by_state_628,2
+HARYANA||BHIWANI,grouped_by_state_628,2
+HARYANA||ROHTAK,grouped_by_state_628,2
+HARYANA||JHAJJAR,grouped_by_state_628,2
+HARYANA||MAHENDRAGARH,grouped_by_state_628,2
+HARYANA||REWARI,grouped_by_state_628,2
+HARYANA||GURGAON,grouped_by_state_628,2
+HARYANA||MEWAT,grouped_by_state_628,2
+HARYANA||FARIDABAD,grouped_by_state_628,2
+HARYANA||PALWAL,grouped_by_state_628,2
+MANIPUR||SENAPATI,grouped_by_state_628,2
+MANIPUR||TAMENGLONG,grouped_by_state_628,2
+MANIPUR||CHURACHANDPUR,grouped_by_state_628,2
+MANIPUR||BISHNUPUR,grouped_by_state_628,2
+MANIPUR||THOUBAL,grouped_by_state_628,2
+MANIPUR||IMPHAL WEST,grouped_by_state_628,2
+MANIPUR||IMPHAL EAST,grouped_by_state_628,2
+MANIPUR||UKHRUL,grouped_by_state_628,2
+MANIPUR||CHANDEL,grouped_by_state_628,2
+ASSAM||KOKRAJHAR,grouped_by_state_628,2
+ASSAM||DHUBRI,grouped_by_state_628,2
+ASSAM||GOALPARA,grouped_by_state_628,2
+ASSAM||BARPETA,grouped_by_state_628,2
+ASSAM||MORIGAON,grouped_by_state_628,2
+ASSAM||NAGAON,grouped_by_state_628,2
+ASSAM||SONITPUR,grouped_by_state_628,2
+ASSAM||LAKHIMPUR,grouped_by_state_628,2
+ASSAM||DHEMAJI,grouped_by_state_628,2
+ASSAM||TINSUKIA,grouped_by_state_628,2
+ASSAM||DIBRUGARH,grouped_by_state_628,2
+ASSAM||SIVASAGAR,grouped_by_state_628,2
+ASSAM||JORHAT,grouped_by_state_628,2
+ASSAM||GOLAGHAT,grouped_by_state_628,2
+ASSAM||KARBI ANGLONG,grouped_by_state_628,2
+ASSAM||DIMA HASAO,grouped_by_state_628,2
+ASSAM||CACHAR,grouped_by_state_628,2
+ASSAM||KARIMGANJ,grouped_by_state_628,2
+ASSAM||HAILAKANDI,grouped_by_state_628,2
+ASSAM||BONGAIGAON,grouped_by_state_628,2
+ASSAM||CHIRANG,grouped_by_state_628,2
+ASSAM||KAMRUP,grouped_by_state_628,2
+ASSAM||KAMRUP METROPOLITAN,grouped_by_state_628,2
+ASSAM||NALBARI,grouped_by_state_628,2
+ASSAM||BAKSA,grouped_by_state_628,2
+ASSAM||DARRANG,grouped_by_state_628,2
+ASSAM||UDALGURI,grouped_by_state_628,2
+MADHYA PRADESH||SHEOPUR,grouped_by_state_628,2
+MADHYA PRADESH||MORENA,grouped_by_state_628,2
+MADHYA PRADESH||BHIND,grouped_by_state_628,2
+MADHYA PRADESH||GWALIOR,grouped_by_state_628,2
+MADHYA PRADESH||DATIA,grouped_by_state_628,2
+MADHYA PRADESH||SHIVPURI,grouped_by_state_628,2
+MADHYA PRADESH||TIKAMGARH,grouped_by_state_628,2
+MADHYA PRADESH||CHHATARPUR,grouped_by_state_628,2
+MADHYA PRADESH||PANNA,grouped_by_state_628,2
+MADHYA PRADESH||SAGAR,grouped_by_state_628,2
+MADHYA PRADESH||DAMOH,grouped_by_state_628,2
+MADHYA PRADESH||SATNA,grouped_by_state_628,2
+MADHYA PRADESH||REWA,grouped_by_state_628,2
+MADHYA PRADESH||UMARIA,grouped_by_state_628,2
+MADHYA PRADESH||NEEMUCH,grouped_by_state_628,2
+MADHYA PRADESH||MANDSAUR,grouped_by_state_628,2
+MADHYA PRADESH||RATLAM,grouped_by_state_628,2
+MADHYA PRADESH||UJJAIN,grouped_by_state_628,2
+MADHYA PRADESH||SHAJAPUR,grouped_by_state_628,2
+MADHYA PRADESH||DEWAS,grouped_by_state_628,2
+MADHYA PRADESH||DHAR,grouped_by_state_628,2
+MADHYA PRADESH||INDORE,grouped_by_state_628,2
+MADHYA PRADESH||KHARGONE WEST NIMAR,grouped_by_state_628,2
+MADHYA PRADESH||BARWANI,grouped_by_state_628,2
+MADHYA PRADESH||RAJGARH,grouped_by_state_628,2
+MADHYA PRADESH||VIDISHA,grouped_by_state_628,2
+MADHYA PRADESH||BHOPAL,grouped_by_state_628,2
+MADHYA PRADESH||SEHORE,grouped_by_state_628,2
+MADHYA PRADESH||RAISEN,grouped_by_state_628,2
+MADHYA PRADESH||BETUL,grouped_by_state_628,2
+MADHYA PRADESH||HARDA,grouped_by_state_628,2
+MADHYA PRADESH||HOSHANGABAD,grouped_by_state_628,2
+MADHYA PRADESH||KATNI,grouped_by_state_628,2
+MADHYA PRADESH||JABALPUR,grouped_by_state_628,2
+MADHYA PRADESH||NARSIMHAPUR,grouped_by_state_628,2
+MADHYA PRADESH||DINDORI,grouped_by_state_628,2
+MADHYA PRADESH||MANDLA,grouped_by_state_628,2
+MADHYA PRADESH||CHHINDWARA,grouped_by_state_628,2
+MADHYA PRADESH||SEONI,grouped_by_state_628,2
+MADHYA PRADESH||BALAGHAT,grouped_by_state_628,2
+MADHYA PRADESH||GUNA,grouped_by_state_628,2
+MADHYA PRADESH||ASHOKNAGAR,grouped_by_state_628,2
+MADHYA PRADESH||SHAHDOL,grouped_by_state_628,2
+MADHYA PRADESH||ANUPPUR,grouped_by_state_628,2
+MADHYA PRADESH||SIDHI,grouped_by_state_628,2
+MADHYA PRADESH||SINGRAULI,grouped_by_state_628,2
+MADHYA PRADESH||JHABUA,grouped_by_state_628,2
+MADHYA PRADESH||ALIRAJPUR,grouped_by_state_628,2
+MADHYA PRADESH||KHANDWA EAST NIMAR,grouped_by_state_628,2
+MADHYA PRADESH||BURHANPUR,grouped_by_state_628,2
+KERALA||KASARAGOD,grouped_by_state_628,2
+KERALA||KANNUR,grouped_by_state_628,2
+KERALA||WAYANAD,grouped_by_state_628,2
+KERALA||KOZHIKODE,grouped_by_state_628,2
+KERALA||MALAPPURAM,grouped_by_state_628,2
+KERALA||PALAKKAD,grouped_by_state_628,2
+KERALA||THRISSUR,grouped_by_state_628,2
+KERALA||ERNAKULAM,grouped_by_state_628,2
+KERALA||IDUKKI,grouped_by_state_628,2
+KERALA||KOTTAYAM,grouped_by_state_628,2
+KERALA||ALAPPUZHA,grouped_by_state_628,2
+KERALA||PATHANAMTHITTA,grouped_by_state_628,2
+KERALA||KOLLAM,grouped_by_state_628,2
+KERALA||THIRUVANANTHAPURAM,grouped_by_state_628,2
+PUDUCHERRY||YANAM,grouped_by_state_628,2
+PUDUCHERRY||PUDUCHERRY,grouped_by_state_628,2
+PUDUCHERRY||MAHE,grouped_by_state_628,2
+PUDUCHERRY||KARAIKAL,grouped_by_state_628,2
+HIMACHAL PRADESH||CHAMBA,grouped_by_state_628,3
+HIMACHAL PRADESH||KANGRA,grouped_by_state_628,3
+HIMACHAL PRADESH||LAHUL AND SPITI,grouped_by_state_628,3
+HIMACHAL PRADESH||KULLU,grouped_by_state_628,3
+HIMACHAL PRADESH||MANDI,grouped_by_state_628,3
+HIMACHAL PRADESH||UNA,grouped_by_state_628,3
+HIMACHAL PRADESH||SOLAN,grouped_by_state_628,3
+HIMACHAL PRADESH||SIRMAUR,grouped_by_state_628,3
+HIMACHAL PRADESH||SHIMLA,grouped_by_state_628,3
+HIMACHAL PRADESH||KINNAUR,grouped_by_state_628,3
+BIHAR||PASHCHIM CHAMPARAN,grouped_by_state_628,3
+BIHAR||PURBA CHAMPARAN,grouped_by_state_628,3
+BIHAR||SHEOHAR,grouped_by_state_628,3
+BIHAR||SITAMARHI,grouped_by_state_628,3
+BIHAR||MADHUBANI,grouped_by_state_628,3
+BIHAR||SUPAUL,grouped_by_state_628,3
+BIHAR||ARARIA,grouped_by_state_628,3
+BIHAR||KISHANGANJ,grouped_by_state_628,3
+BIHAR||PURNIA,grouped_by_state_628,3
+BIHAR||KATIHAR,grouped_by_state_628,3
+BIHAR||MADHEPURA,grouped_by_state_628,3
+BIHAR||SAHARSA,grouped_by_state_628,3
+BIHAR||DARBHANGA,grouped_by_state_628,3
+BIHAR||MUZAFFARPUR,grouped_by_state_628,3
+BIHAR||GOPALGANJ,grouped_by_state_628,3
+BIHAR||SIWAN,grouped_by_state_628,3
+BIHAR||SARAN,grouped_by_state_628,3
+BIHAR||VAISHALI,grouped_by_state_628,3
+BIHAR||SAMASTIPUR,grouped_by_state_628,3
+BIHAR||BEGUSARAI,grouped_by_state_628,3
+BIHAR||KHAGARIA,grouped_by_state_628,3
+BIHAR||BHAGALPUR,grouped_by_state_628,3
+BIHAR||BANKA,grouped_by_state_628,3
+BIHAR||MUNGER,grouped_by_state_628,3
+BIHAR||LAKHISARAI,grouped_by_state_628,3
+BIHAR||SHEIKHPURA,grouped_by_state_628,3
+BIHAR||NALANDA,grouped_by_state_628,3
+BIHAR||PATNA,grouped_by_state_628,3
+BIHAR||BHOJPUR,grouped_by_state_628,3
+BIHAR||BUXAR,grouped_by_state_628,3
+BIHAR||KAIMUR BHABUA,grouped_by_state_628,3
+BIHAR||ROHTAS,grouped_by_state_628,3
+BIHAR||GAYA,grouped_by_state_628,3
+BIHAR||NAWADA,grouped_by_state_628,3
+BIHAR||JAMUI,grouped_by_state_628,3
+BIHAR||JEHANABAD,grouped_by_state_628,3
+BIHAR||ARWAL,grouped_by_state_628,3
+TRIPURA||WEST TRIPURA,grouped_by_state_628,3
+TRIPURA||SOUTH TRIPURA,grouped_by_state_628,3
+TRIPURA||DHALAI,grouped_by_state_628,3
+TRIPURA||NORTH TRIPURA,grouped_by_state_628,3
+WEST BENGAL||DARJILING,grouped_by_state_628,3
+WEST BENGAL||JALPAIGURI,grouped_by_state_628,3
+WEST BENGAL||KOCH BIHAR,grouped_by_state_628,3
+WEST BENGAL||UTTAR DINAJPUR,grouped_by_state_628,3
+WEST BENGAL||DAKSHIN DINAJPUR,grouped_by_state_628,3
+WEST BENGAL||MALDAH,grouped_by_state_628,3
+WEST BENGAL||MURSHIDABAD,grouped_by_state_628,3
+WEST BENGAL||BIRBHUM,grouped_by_state_628,3
+WEST BENGAL||BARDDHAMAN,grouped_by_state_628,3
+WEST BENGAL||NADIA,grouped_by_state_628,3
+WEST BENGAL||NORTH TWENTY FOUR PARGANAS,grouped_by_state_628,3
+WEST BENGAL||HUGLI,grouped_by_state_628,3
+WEST BENGAL||BANKURA,grouped_by_state_628,3
+WEST BENGAL||PURULIYA,grouped_by_state_628,3
+WEST BENGAL||HAORA,grouped_by_state_628,3
+WEST BENGAL||KOLKATA,grouped_by_state_628,3
+WEST BENGAL||SOUTH TWENTY FOUR PARGANAS,grouped_by_state_628,3
+WEST BENGAL||PASCHIM MEDINIPUR,grouped_by_state_628,3
+WEST BENGAL||PURBA MEDINIPUR,grouped_by_state_628,3
+ANDHRA PRADESH||ADILABAD,grouped_by_state_628,3
+ANDHRA PRADESH||NIZAMABAD,grouped_by_state_628,3
+ANDHRA PRADESH||KARIMNAGAR,grouped_by_state_628,3
+ANDHRA PRADESH||MEDAK,grouped_by_state_628,3
+ANDHRA PRADESH||HYDERABAD,grouped_by_state_628,3
+ANDHRA PRADESH||RANGAREDDY,grouped_by_state_628,3
+ANDHRA PRADESH||MAHBUBNAGAR,grouped_by_state_628,3
+ANDHRA PRADESH||NALGONDA,grouped_by_state_628,3
+ANDHRA PRADESH||WARANGAL,grouped_by_state_628,3
+ANDHRA PRADESH||KHAMMAM,grouped_by_state_628,3
+ANDHRA PRADESH||SRIKAKULAM,grouped_by_state_628,3
+ANDHRA PRADESH||VIZIANAGARAM,grouped_by_state_628,3
+ANDHRA PRADESH||VISAKHAPATNAM,grouped_by_state_628,3
+ANDHRA PRADESH||EAST GODAVARI,grouped_by_state_628,3
+ANDHRA PRADESH||WEST GODAVARI,grouped_by_state_628,3
+ANDHRA PRADESH||KRISHNA,grouped_by_state_628,3
+ANDHRA PRADESH||GUNTUR,grouped_by_state_628,3
+ANDHRA PRADESH||PRAKASAM,grouped_by_state_628,3
+ANDHRA PRADESH||SRI POTTI SRIRAMULU NELLORE,grouped_by_state_628,3
+ANDHRA PRADESH||Y S R,grouped_by_state_628,3
+ANDHRA PRADESH||KURNOOL,grouped_by_state_628,3
+ANDHRA PRADESH||ANANTAPUR,grouped_by_state_628,3
+ANDHRA PRADESH||CHITTOOR,grouped_by_state_628,3
+KARNATAKA||BELGAUM,grouped_by_state_628,3
+KARNATAKA||BAGALKOT,grouped_by_state_628,3
+KARNATAKA||BIDAR,grouped_by_state_628,3
+KARNATAKA||RAICHUR,grouped_by_state_628,3
+KARNATAKA||KOPPAL,grouped_by_state_628,3
+KARNATAKA||GADAG,grouped_by_state_628,3
+KARNATAKA||DHARWAD,grouped_by_state_628,3
+KARNATAKA||UTTARA KANNADA,grouped_by_state_628,3
+KARNATAKA||HAVERI,grouped_by_state_628,3
+KARNATAKA||BELLARY,grouped_by_state_628,3
+KARNATAKA||CHITRADURGA,grouped_by_state_628,3
+KARNATAKA||DAVANAGERE,grouped_by_state_628,3
+KARNATAKA||SHIMOGA,grouped_by_state_628,3
+KARNATAKA||UDUPI,grouped_by_state_628,3
+KARNATAKA||CHIKMAGALUR,grouped_by_state_628,3
+KARNATAKA||TUMKUR,grouped_by_state_628,3
+KARNATAKA||BANGALORE,grouped_by_state_628,3
+KARNATAKA||MANDYA,grouped_by_state_628,3
+KARNATAKA||HASSAN,grouped_by_state_628,3
+KARNATAKA||DAKSHINA KANNADA,grouped_by_state_628,3
+KARNATAKA||KODAGU,grouped_by_state_628,3
+KARNATAKA||MYSORE,grouped_by_state_628,3
+KARNATAKA||CHAMARAJANAGAR,grouped_by_state_628,3
+KARNATAKA||GULBARGA,grouped_by_state_628,3
+KARNATAKA||YADGIR,grouped_by_state_628,3
+KARNATAKA||KOLAR,grouped_by_state_628,3
+KARNATAKA||CHIKKABALLAPURA,grouped_by_state_628,3
+KARNATAKA||BANGALORE RURAL,grouped_by_state_628,3
+KARNATAKA||RAMANAGARA,grouped_by_state_628,3
+ANDAMAN AND NICOBAR ISLANDS||NICOBARS,grouped_by_state_628,3
+ANDAMAN AND NICOBAR ISLANDS||NORTH AND MIDDLE ANDAMAN,grouped_by_state_628,3
+ANDAMAN AND NICOBAR ISLANDS||SOUTH ANDAMAN,grouped_by_state_628,3
+UTTARAKHAND||UTTARKASHI,grouped_by_state_628,4
+UTTARAKHAND||CHAMOLI,grouped_by_state_628,4
+UTTARAKHAND||RUDRAPRAYAG,grouped_by_state_628,4
+UTTARAKHAND||TEHRI GARHWAL,grouped_by_state_628,4
+UTTARAKHAND||DEHRADUN,grouped_by_state_628,4
+UTTARAKHAND||GARHWAL,grouped_by_state_628,4
+UTTARAKHAND||PITHORAGARH,grouped_by_state_628,4
+UTTARAKHAND||BAGESHWAR,grouped_by_state_628,4
+UTTARAKHAND||ALMORA,grouped_by_state_628,4
+UTTARAKHAND||CHAMPAWAT,grouped_by_state_628,4
+UTTARAKHAND||NAINITAL,grouped_by_state_628,4
+UTTARAKHAND||UDHAM SINGH NAGAR,grouped_by_state_628,4
+UTTARAKHAND||HARDWAR,grouped_by_state_628,4
+SIKKIM||NORTH DISTRICT,grouped_by_state_628,4
+SIKKIM||WEST DISTRICT,grouped_by_state_628,4
+SIKKIM||SOUTH DISTRICT,grouped_by_state_628,4
+SIKKIM||EAST DISTRICT,grouped_by_state_628,4
+ARUNACHAL PRADESH||TAWANG,grouped_by_state_628,4
+ARUNACHAL PRADESH||WEST KAMENG,grouped_by_state_628,4
+ARUNACHAL PRADESH||EAST KAMENG,grouped_by_state_628,4
+ARUNACHAL PRADESH||PAPUM PARE,grouped_by_state_628,4
+ARUNACHAL PRADESH||UPPER SUBANSIRI,grouped_by_state_628,4
+ARUNACHAL PRADESH||WEST SIANG,grouped_by_state_628,4
+ARUNACHAL PRADESH||EAST SIANG,grouped_by_state_628,4
+ARUNACHAL PRADESH||UPPER SIANG,grouped_by_state_628,4
+ARUNACHAL PRADESH||CHANGLANG,grouped_by_state_628,4
+ARUNACHAL PRADESH||TIRAP,grouped_by_state_628,4
+ARUNACHAL PRADESH||LOWER SUBANSIRI,grouped_by_state_628,4
+ARUNACHAL PRADESH||KURUNG KUMEY,grouped_by_state_628,4
+ARUNACHAL PRADESH||DIBANG VALLEY,grouped_by_state_628,4
+ARUNACHAL PRADESH||LOWER DIBANG VALLEY,grouped_by_state_628,4
+ARUNACHAL PRADESH||LOHIT,grouped_by_state_628,4
+ARUNACHAL PRADESH||ANJAW,grouped_by_state_628,4
+ODISHA||BARGARH,grouped_by_state_628,4
+ODISHA||JHARSUGUDA,grouped_by_state_628,4
+ODISHA||SAMBALPUR,grouped_by_state_628,4
+ODISHA||DEBAGARH,grouped_by_state_628,4
+ODISHA||SUNDARGARH,grouped_by_state_628,4
+ODISHA||KENDUJHAR,grouped_by_state_628,4
+ODISHA||MAYURBHANJ,grouped_by_state_628,4
+ODISHA||BALESHWAR,grouped_by_state_628,4
+ODISHA||BHADRAK,grouped_by_state_628,4
+ODISHA||KENDRAPARA,grouped_by_state_628,4
+ODISHA||JAGATSINGHAPUR,grouped_by_state_628,4
+ODISHA||CUTTACK,grouped_by_state_628,4
+ODISHA||JAJAPUR,grouped_by_state_628,4
+ODISHA||DHENKANAL,grouped_by_state_628,4
+ODISHA||ANUGUL,grouped_by_state_628,4
+ODISHA||NAYAGARH,grouped_by_state_628,4
+ODISHA||KHORDHA,grouped_by_state_628,4
+ODISHA||PURI,grouped_by_state_628,4
+ODISHA||GANJAM,grouped_by_state_628,4
+ODISHA||GAJAPATI,grouped_by_state_628,4
+ODISHA||KANDHAMAL,grouped_by_state_628,4
+ODISHA||BAUDH,grouped_by_state_628,4
+ODISHA||SUBARNAPUR,grouped_by_state_628,4
+ODISHA||BALANGIR,grouped_by_state_628,4
+ODISHA||NUAPADA,grouped_by_state_628,4
+ODISHA||KALAHANDI,grouped_by_state_628,4
+ODISHA||RAYAGADA,grouped_by_state_628,4
+ODISHA||NABARANGAPUR,grouped_by_state_628,4
+ODISHA||KORAPUT,grouped_by_state_628,4
+ODISHA||MALKANGIRI,grouped_by_state_628,4
+GUJARAT||KACHCHH,grouped_by_state_628,4
+GUJARAT||BANAS KANTHA,grouped_by_state_628,4
+GUJARAT||PATAN,grouped_by_state_628,4
+GUJARAT||MAHESANA,grouped_by_state_628,4
+GUJARAT||SABAR KANTHA,grouped_by_state_628,4
+GUJARAT||GANDHINAGAR,grouped_by_state_628,4
+GUJARAT||AHMADABAD,grouped_by_state_628,4
+GUJARAT||SURENDRANAGAR,grouped_by_state_628,4
+GUJARAT||RAJKOT,grouped_by_state_628,4
+GUJARAT||JAMNAGAR,grouped_by_state_628,4
+GUJARAT||PORBANDAR,grouped_by_state_628,4
+GUJARAT||JUNAGADH,grouped_by_state_628,4
+GUJARAT||AMRELI,grouped_by_state_628,4
+GUJARAT||BHAVNAGAR,grouped_by_state_628,4
+GUJARAT||ANAND,grouped_by_state_628,4
+GUJARAT||KHEDA,grouped_by_state_628,4
+GUJARAT||PANCH MAHALS,grouped_by_state_628,4
+GUJARAT||DOHAD,grouped_by_state_628,4
+GUJARAT||VADODARA,grouped_by_state_628,4
+GUJARAT||NARMADA,grouped_by_state_628,4
+GUJARAT||BHARUCH,grouped_by_state_628,4
+GUJARAT||THE DANGS,grouped_by_state_628,4
+GUJARAT||NAVSARI,grouped_by_state_628,4
+GUJARAT||VALSAD,grouped_by_state_628,4
+GUJARAT||SURAT,grouped_by_state_628,4
+GUJARAT||TAPI,grouped_by_state_628,4
+DAMAN AND DIU||DIU,grouped_by_state_628,4
+DAMAN AND DIU||DAMAN,grouped_by_state_628,4
+MAHARASHTRA||NANDURBAR,grouped_by_state_628,4
+MAHARASHTRA||DHULE,grouped_by_state_628,4
+MAHARASHTRA||JALGAON,grouped_by_state_628,4
+MAHARASHTRA||BULDANA,grouped_by_state_628,4
+MAHARASHTRA||AKOLA,grouped_by_state_628,4
+MAHARASHTRA||WASHIM,grouped_by_state_628,4
+MAHARASHTRA||AMRAVATI,grouped_by_state_628,4
+MAHARASHTRA||WARDHA,grouped_by_state_628,4
+MAHARASHTRA||NAGPUR,grouped_by_state_628,4
+MAHARASHTRA||BHANDARA,grouped_by_state_628,4
+MAHARASHTRA||GONDIYA,grouped_by_state_628,4
+MAHARASHTRA||GADCHIROLI,grouped_by_state_628,4
+MAHARASHTRA||CHANDRAPUR,grouped_by_state_628,4
+MAHARASHTRA||YAVATMAL,grouped_by_state_628,4
+MAHARASHTRA||NANDED,grouped_by_state_628,4
+MAHARASHTRA||HINGOLI,grouped_by_state_628,4
+MAHARASHTRA||PARBHANI,grouped_by_state_628,4
+MAHARASHTRA||JALNA,grouped_by_state_628,4
+MAHARASHTRA||NASHIK,grouped_by_state_628,4
+MAHARASHTRA||THANE,grouped_by_state_628,4
+MAHARASHTRA||MUMBAI SUBURBAN,grouped_by_state_628,4
+MAHARASHTRA||MUMBAI,grouped_by_state_628,4
+MAHARASHTRA||PUNE,grouped_by_state_628,4
+MAHARASHTRA||AHMADNAGAR,grouped_by_state_628,4
+MAHARASHTRA||BID,grouped_by_state_628,4
+MAHARASHTRA||LATUR,grouped_by_state_628,4
+MAHARASHTRA||OSMANABAD,grouped_by_state_628,4
+MAHARASHTRA||SOLAPUR,grouped_by_state_628,4
+MAHARASHTRA||SATARA,grouped_by_state_628,4
+MAHARASHTRA||RATNAGIRI,grouped_by_state_628,4
+MAHARASHTRA||SINDHUDURG,grouped_by_state_628,4
+MAHARASHTRA||KOLHAPUR,grouped_by_state_628,4
+MAHARASHTRA||SANGLI,grouped_by_state_628,4
+GOA||NORTH GOA,grouped_by_state_628,4
+GOA||SOUTH GOA,grouped_by_state_628,4
+PUNJAB||GURDASPUR,grouped_by_state_628,5
+PUNJAB||KAPURTHALA,grouped_by_state_628,5
+PUNJAB||JALANDHAR,grouped_by_state_628,5
+PUNJAB||HOSHIARPUR,grouped_by_state_628,5
+PUNJAB||SHAHID BHAGAT SINGH NAGAR,grouped_by_state_628,5
+PUNJAB||FATEHGARH SAHIB,grouped_by_state_628,5
+PUNJAB||LUDHIANA,grouped_by_state_628,5
+PUNJAB||MOGA,grouped_by_state_628,5
+PUNJAB||FIROZPUR,grouped_by_state_628,5
+PUNJAB||MUKTSAR,grouped_by_state_628,5
+PUNJAB||FARIDKOT,grouped_by_state_628,5
+PUNJAB||BATHINDA,grouped_by_state_628,5
+PUNJAB||MANSA,grouped_by_state_628,5
+PUNJAB||PATIALA,grouped_by_state_628,5
+PUNJAB||AMRITSAR,grouped_by_state_628,5
+PUNJAB||TARN TARAN,grouped_by_state_628,5
+PUNJAB||RUPNAGAR,grouped_by_state_628,5
+PUNJAB||SAHIBZADA AJIT SINGH NAGAR,grouped_by_state_628,5
+PUNJAB||SANGRUR,grouped_by_state_628,5
+PUNJAB||BARNALA,grouped_by_state_628,5
+NCT OF DELHI||NORTH WEST,grouped_by_state_628,5
+NCT OF DELHI||NORTH,grouped_by_state_628,5
+NCT OF DELHI||NORTH EAST,grouped_by_state_628,5
+NCT OF DELHI||EAST,grouped_by_state_628,5
+NCT OF DELHI||NEW DELHI,grouped_by_state_628,5
+NCT OF DELHI||CENTRAL,grouped_by_state_628,5
+NCT OF DELHI||WEST,grouped_by_state_628,5
+NCT OF DELHI||SOUTH WEST,grouped_by_state_628,5
+NCT OF DELHI||SOUTH,grouped_by_state_628,5
+RAJASTHAN||GANGANAGAR,grouped_by_state_628,5
+RAJASTHAN||HANUMANGARH,grouped_by_state_628,5
+RAJASTHAN||BIKANER,grouped_by_state_628,5
+RAJASTHAN||CHURU,grouped_by_state_628,5
+RAJASTHAN||JHUNJHUNUN,grouped_by_state_628,5
+RAJASTHAN||ALWAR,grouped_by_state_628,5
+RAJASTHAN||BHARATPUR,grouped_by_state_628,5
+RAJASTHAN||DHAULPUR,grouped_by_state_628,5
+RAJASTHAN||KARAULI,grouped_by_state_628,5
+RAJASTHAN||SAWAI MADHOPUR,grouped_by_state_628,5
+RAJASTHAN||DAUSA,grouped_by_state_628,5
+RAJASTHAN||JAIPUR,grouped_by_state_628,5
+RAJASTHAN||SIKAR,grouped_by_state_628,5
+RAJASTHAN||NAGAUR,grouped_by_state_628,5
+RAJASTHAN||JODHPUR,grouped_by_state_628,5
+RAJASTHAN||JAISALMER,grouped_by_state_628,5
+RAJASTHAN||BARMER,grouped_by_state_628,5
+RAJASTHAN||JALOR,grouped_by_state_628,5
+RAJASTHAN||SIROHI,grouped_by_state_628,5
+RAJASTHAN||PALI,grouped_by_state_628,5
+RAJASTHAN||AJMER,grouped_by_state_628,5
+RAJASTHAN||TONK,grouped_by_state_628,5
+RAJASTHAN||BUNDI,grouped_by_state_628,5
+RAJASTHAN||BHILWARA,grouped_by_state_628,5
+RAJASTHAN||RAJSAMAND,grouped_by_state_628,5
+RAJASTHAN||DUNGARPUR,grouped_by_state_628,5
+RAJASTHAN||BANSWARA,grouped_by_state_628,5
+RAJASTHAN||CHITTAURGARH,grouped_by_state_628,5
+RAJASTHAN||KOTA,grouped_by_state_628,5
+RAJASTHAN||BARAN,grouped_by_state_628,5
+RAJASTHAN||JHALAWAR,grouped_by_state_628,5
+RAJASTHAN||UDAIPUR,grouped_by_state_628,5
+MEGHALAYA||WEST GARO HILLS,grouped_by_state_628,5
+MEGHALAYA||EAST GARO HILLS,grouped_by_state_628,5
+MEGHALAYA||SOUTH GARO HILLS,grouped_by_state_628,5
+MEGHALAYA||WEST KHASI HILLS,grouped_by_state_628,5
+MEGHALAYA||RIBHOI,grouped_by_state_628,5
+MEGHALAYA||EAST KHASI HILLS,grouped_by_state_628,5
+MEGHALAYA||JAINTIA HILLS,grouped_by_state_628,5
+JHARKHAND||GARHWA,grouped_by_state_628,5
+JHARKHAND||CHATRA,grouped_by_state_628,5
+JHARKHAND||KODARMA,grouped_by_state_628,5
+JHARKHAND||GIRIDIH,grouped_by_state_628,5
+JHARKHAND||DEOGHAR,grouped_by_state_628,5
+JHARKHAND||GODDA,grouped_by_state_628,5
+JHARKHAND||SAHIBGANJ,grouped_by_state_628,5
+JHARKHAND||PAKUR,grouped_by_state_628,5
+JHARKHAND||DHANBAD,grouped_by_state_628,5
+JHARKHAND||BOKARO,grouped_by_state_628,5
+JHARKHAND||LOHARDAGA,grouped_by_state_628,5
+JHARKHAND||PURBI SINGHBHUM,grouped_by_state_628,5
+JHARKHAND||PALAMU,grouped_by_state_628,5
+JHARKHAND||LATEHAR,grouped_by_state_628,5
+JHARKHAND||HAZARIBAGH,grouped_by_state_628,5
+JHARKHAND||RAMGARH,grouped_by_state_628,5
+JHARKHAND||DUMKA,grouped_by_state_628,5
+JHARKHAND||JAMTARA,grouped_by_state_628,5
+JHARKHAND||RANCHI,grouped_by_state_628,5
+JHARKHAND||KHUNTI,grouped_by_state_628,5
+JHARKHAND||GUMLA,grouped_by_state_628,5
+JHARKHAND||SIMDEGA,grouped_by_state_628,5
+JHARKHAND||PASHCHIMI SINGHBHUM,grouped_by_state_628,5
+JHARKHAND||SARAIKELA KHARSAWAN,grouped_by_state_628,5
+LAKSHADWEEP||LAKSHADWEEP,grouped_by_state_628,5
+TAMIL NADU||THIRUVALLUR,grouped_by_state_628,5
+TAMIL NADU||CHENNAI,grouped_by_state_628,5
+TAMIL NADU||KANCHEEPURAM,grouped_by_state_628,5
+TAMIL NADU||VELLORE,grouped_by_state_628,5
+TAMIL NADU||TIRUVANNAMALAI,grouped_by_state_628,5
+TAMIL NADU||VILUPPURAM,grouped_by_state_628,5
+TAMIL NADU||SALEM,grouped_by_state_628,5
+TAMIL NADU||NAMAKKAL,grouped_by_state_628,5
+TAMIL NADU||ERODE,grouped_by_state_628,5
+TAMIL NADU||THE NILGIRIS,grouped_by_state_628,5
+TAMIL NADU||DINDIGUL,grouped_by_state_628,5
+TAMIL NADU||KARUR,grouped_by_state_628,5
+TAMIL NADU||TIRUCHIRAPPALLI,grouped_by_state_628,5
+TAMIL NADU||PERAMBALUR,grouped_by_state_628,5
+TAMIL NADU||ARIYALUR,grouped_by_state_628,5
+TAMIL NADU||CUDDALORE,grouped_by_state_628,5
+TAMIL NADU||NAGAPATTINAM,grouped_by_state_628,5
+TAMIL NADU||THIRUVARUR,grouped_by_state_628,5
+TAMIL NADU||THANJAVUR,grouped_by_state_628,5
+TAMIL NADU||PUDUKKOTTAI,grouped_by_state_628,5
+TAMIL NADU||SIVAGANGA,grouped_by_state_628,5
+TAMIL NADU||MADURAI,grouped_by_state_628,5
+TAMIL NADU||THENI,grouped_by_state_628,5
+TAMIL NADU||VIRUDHUNAGAR,grouped_by_state_628,5
+TAMIL NADU||RAMANATHAPURAM,grouped_by_state_628,5
+TAMIL NADU||THOOTHUKKUDI,grouped_by_state_628,5
+TAMIL NADU||TIRUNELVELI,grouped_by_state_628,5
+TAMIL NADU||KANNIYAKUMARI,grouped_by_state_628,5
+TAMIL NADU||DHARMAPURI,grouped_by_state_628,5
+TAMIL NADU||KRISHNAGIRI,grouped_by_state_628,5
+TAMIL NADU||COIMBATORE,grouped_by_state_628,5
+TAMIL NADU||TIRUPPUR,grouped_by_state_628,5
+JAMMU AND KASHMIR||LEH LADAKH,random_rep1_seed42_640,1
+JAMMU AND KASHMIR||KATHUA,random_rep1_seed42_640,1
+JAMMU AND KASHMIR||GANDERBAL,random_rep1_seed42_640,1
+HIMACHAL PRADESH||LAHUL AND SPITI,random_rep1_seed42_640,1
+HIMACHAL PRADESH||BILASPUR,random_rep1_seed42_640,1
+HIMACHAL PRADESH||SOLAN,random_rep1_seed42_640,1
+HIMACHAL PRADESH||SIRMAUR,random_rep1_seed42_640,1
+PUNJAB||FATEHGARH SAHIB,random_rep1_seed42_640,1
+PUNJAB||MOGA,random_rep1_seed42_640,1
+PUNJAB||FARIDKOT,random_rep1_seed42_640,1
+PUNJAB||TARN TARAN,random_rep1_seed42_640,1
+UTTARAKHAND||UTTARKASHI,random_rep1_seed42_640,1
+UTTARAKHAND||CHAMOLI,random_rep1_seed42_640,1
+UTTARAKHAND||GARHWAL,random_rep1_seed42_640,1
+UTTARAKHAND||ALMORA,random_rep1_seed42_640,1
+UTTARAKHAND||NAINITAL,random_rep1_seed42_640,1
+HARYANA||AMBALA,random_rep1_seed42_640,1
+HARYANA||YAMUNANAGAR,random_rep1_seed42_640,1
+HARYANA||KAITHAL,random_rep1_seed42_640,1
+HARYANA||JIND,random_rep1_seed42_640,1
+HARYANA||FATEHABAD,random_rep1_seed42_640,1
+HARYANA||SIRSA,random_rep1_seed42_640,1
+HARYANA||ROHTAK,random_rep1_seed42_640,1
+HARYANA||JHAJJAR,random_rep1_seed42_640,1
+HARYANA||MEWAT,random_rep1_seed42_640,1
+NCT OF DELHI||NORTH,random_rep1_seed42_640,1
+RAJASTHAN||CHURU,random_rep1_seed42_640,1
+RAJASTHAN||DAUSA,random_rep1_seed42_640,1
+RAJASTHAN||JAIPUR,random_rep1_seed42_640,1
+RAJASTHAN||SIKAR,random_rep1_seed42_640,1
+RAJASTHAN||AJMER,random_rep1_seed42_640,1
+UTTAR PRADESH||SAHARANPUR,random_rep1_seed42_640,1
+UTTAR PRADESH||MUZAFFARNAGAR,random_rep1_seed42_640,1
+UTTAR PRADESH||BIJNOR,random_rep1_seed42_640,1
+UTTAR PRADESH||RAMPUR,random_rep1_seed42_640,1
+UTTAR PRADESH||AGRA,random_rep1_seed42_640,1
+UTTAR PRADESH||UNNAO,random_rep1_seed42_640,1
+UTTAR PRADESH||FARRUKHABAD,random_rep1_seed42_640,1
+UTTAR PRADESH||ALLAHABAD,random_rep1_seed42_640,1
+UTTAR PRADESH||FAIZABAD,random_rep1_seed42_640,1
+UTTAR PRADESH||AMBEDKAR NAGAR,random_rep1_seed42_640,1
+UTTAR PRADESH||SONBHADRA,random_rep1_seed42_640,1
+BIHAR||PURBA CHAMPARAN,random_rep1_seed42_640,1
+BIHAR||SHEOHAR,random_rep1_seed42_640,1
+BIHAR||ARARIA,random_rep1_seed42_640,1
+BIHAR||KISHANGANJ,random_rep1_seed42_640,1
+BIHAR||KATIHAR,random_rep1_seed42_640,1
+BIHAR||MUZAFFARPUR,random_rep1_seed42_640,1
+BIHAR||SARAN,random_rep1_seed42_640,1
+BIHAR||SAMASTIPUR,random_rep1_seed42_640,1
+BIHAR||BEGUSARAI,random_rep1_seed42_640,1
+BIHAR||BUXAR,random_rep1_seed42_640,1
+BIHAR||GAYA,random_rep1_seed42_640,1
+BIHAR||JEHANABAD,random_rep1_seed42_640,1
+ARUNACHAL PRADESH||TAWANG,random_rep1_seed42_640,1
+ARUNACHAL PRADESH||PAPUM PARE,random_rep1_seed42_640,1
+ARUNACHAL PRADESH||LOWER DIBANG VALLEY,random_rep1_seed42_640,1
+ARUNACHAL PRADESH||ANJAW,random_rep1_seed42_640,1
+NAGALAND||MON,random_rep1_seed42_640,1
+NAGALAND||MOKOKCHUNG,random_rep1_seed42_640,1
+NAGALAND||PHEK,random_rep1_seed42_640,1
+MANIPUR||BISHNUPUR,random_rep1_seed42_640,1
+MANIPUR||THOUBAL,random_rep1_seed42_640,1
+MANIPUR||UKHRUL,random_rep1_seed42_640,1
+MIZORAM||KOLASIB,random_rep1_seed42_640,1
+MIZORAM||LAWNGTLAI,random_rep1_seed42_640,1
+TRIPURA||NORTH TRIPURA,random_rep1_seed42_640,1
+MEGHALAYA||JAINTIA HILLS,random_rep1_seed42_640,1
+ASSAM||KOKRAJHAR,random_rep1_seed42_640,1
+ASSAM||BARPETA,random_rep1_seed42_640,1
+ASSAM||NAGAON,random_rep1_seed42_640,1
+ASSAM||SIVASAGAR,random_rep1_seed42_640,1
+ASSAM||KAMRUP,random_rep1_seed42_640,1
+WEST BENGAL||DARJILING,random_rep1_seed42_640,1
+WEST BENGAL||BARDDHAMAN,random_rep1_seed42_640,1
+WEST BENGAL||NADIA,random_rep1_seed42_640,1
+WEST BENGAL||BANKURA,random_rep1_seed42_640,1
+JHARKHAND||LOHARDAGA,random_rep1_seed42_640,1
+JHARKHAND||PALAMU,random_rep1_seed42_640,1
+JHARKHAND||DUMKA,random_rep1_seed42_640,1
+JHARKHAND||PASHCHIMI SINGHBHUM,random_rep1_seed42_640,1
+ODISHA||BARGARH,random_rep1_seed42_640,1
+ODISHA||BAUDH,random_rep1_seed42_640,1
+ODISHA||MALKANGIRI,random_rep1_seed42_640,1
+CHHATTISGARH||DHAMTARI,random_rep1_seed42_640,1
+CHHATTISGARH||NARAYANPUR,random_rep1_seed42_640,1
+MADHYA PRADESH||SHEOPUR,random_rep1_seed42_640,1
+MADHYA PRADESH||BHIND,random_rep1_seed42_640,1
+MADHYA PRADESH||GWALIOR,random_rep1_seed42_640,1
+MADHYA PRADESH||SHIVPURI,random_rep1_seed42_640,1
+MADHYA PRADESH||SATNA,random_rep1_seed42_640,1
+MADHYA PRADESH||UMARIA,random_rep1_seed42_640,1
+MADHYA PRADESH||RATLAM,random_rep1_seed42_640,1
+MADHYA PRADESH||DEWAS,random_rep1_seed42_640,1
+MADHYA PRADESH||INDORE,random_rep1_seed42_640,1
+GUJARAT||JUNAGADH,random_rep1_seed42_640,1
+GUJARAT||KHEDA,random_rep1_seed42_640,1
+MAHARASHTRA||NANDURBAR,random_rep1_seed42_640,1
+MAHARASHTRA||WARDHA,random_rep1_seed42_640,1
+MAHARASHTRA||JALNA,random_rep1_seed42_640,1
+MAHARASHTRA||NASHIK,random_rep1_seed42_640,1
+MAHARASHTRA||MUMBAI,random_rep1_seed42_640,1
+MAHARASHTRA||LATUR,random_rep1_seed42_640,1
+MAHARASHTRA||SOLAPUR,random_rep1_seed42_640,1
+MAHARASHTRA||RATNAGIRI,random_rep1_seed42_640,1
+ANDHRA PRADESH||SRIKAKULAM,random_rep1_seed42_640,1
+ANDHRA PRADESH||EAST GODAVARI,random_rep1_seed42_640,1
+ANDHRA PRADESH||SRI POTTI SRIRAMULU NELLORE,random_rep1_seed42_640,1
+ANDHRA PRADESH||CHITTOOR,random_rep1_seed42_640,1
+KARNATAKA||BIDAR,random_rep1_seed42_640,1
+KARNATAKA||CHIKMAGALUR,random_rep1_seed42_640,1
+KARNATAKA||TUMKUR,random_rep1_seed42_640,1
+KARNATAKA||MANDYA,random_rep1_seed42_640,1
+KARNATAKA||CHAMARAJANAGAR,random_rep1_seed42_640,1
+KARNATAKA||RAMANAGARA,random_rep1_seed42_640,1
+LAKSHADWEEP||LAKSHADWEEP,random_rep1_seed42_640,1
+KERALA||KANNUR,random_rep1_seed42_640,1
+KERALA||THRISSUR,random_rep1_seed42_640,1
+KERALA||ERNAKULAM,random_rep1_seed42_640,1
+KERALA||ALAPPUZHA,random_rep1_seed42_640,1
+KERALA||PATHANAMTHITTA,random_rep1_seed42_640,1
+TAMIL NADU||ERODE,random_rep1_seed42_640,1
+TAMIL NADU||SIVAGANGA,random_rep1_seed42_640,1
+TAMIL NADU||THENI,random_rep1_seed42_640,1
+TAMIL NADU||TIRUNELVELI,random_rep1_seed42_640,1
+PUDUCHERRY||MAHE,random_rep1_seed42_640,1
+PUDUCHERRY||KARAIKAL,random_rep1_seed42_640,1
+ANDAMAN AND NICOBAR ISLANDS||NORTH AND MIDDLE ANDAMAN,random_rep1_seed42_640,1
+JAMMU AND KASHMIR||KUPWARA,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||BARAMULA,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||SRINAGAR,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||PULWAMA,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||DODA,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||UDHAMPUR,random_rep1_seed42_640,2
+HIMACHAL PRADESH||CHAMBA,random_rep1_seed42_640,2
+HIMACHAL PRADESH||KANGRA,random_rep1_seed42_640,2
+HIMACHAL PRADESH||UNA,random_rep1_seed42_640,2
+HIMACHAL PRADESH||KINNAUR,random_rep1_seed42_640,2
+PUNJAB||FIROZPUR,random_rep1_seed42_640,2
+PUNJAB||MUKTSAR,random_rep1_seed42_640,2
+CHANDIGARH||CHANDIGARH,random_rep1_seed42_640,2
+UTTARAKHAND||PITHORAGARH,random_rep1_seed42_640,2
+UTTARAKHAND||UDHAM SINGH NAGAR,random_rep1_seed42_640,2
+HARYANA||PANCHKULA,random_rep1_seed42_640,2
+HARYANA||KARNAL,random_rep1_seed42_640,2
+HARYANA||SONIPAT,random_rep1_seed42_640,2
+HARYANA||HISAR,random_rep1_seed42_640,2
+HARYANA||MAHENDRAGARH,random_rep1_seed42_640,2
+HARYANA||REWARI,random_rep1_seed42_640,2
+HARYANA||PALWAL,random_rep1_seed42_640,2
+NCT OF DELHI||NORTH WEST,random_rep1_seed42_640,2
+NCT OF DELHI||EAST,random_rep1_seed42_640,2
+NCT OF DELHI||NEW DELHI,random_rep1_seed42_640,2
+RAJASTHAN||BHARATPUR,random_rep1_seed42_640,2
+RAJASTHAN||BARMER,random_rep1_seed42_640,2
+RAJASTHAN||SIROHI,random_rep1_seed42_640,2
+RAJASTHAN||PALI,random_rep1_seed42_640,2
+UTTAR PRADESH||MEERUT,random_rep1_seed42_640,2
+UTTAR PRADESH||GAUTAM BUDDHA NAGAR,random_rep1_seed42_640,2
+UTTAR PRADESH||MATHURA,random_rep1_seed42_640,2
+UTTAR PRADESH||BUDAUN,random_rep1_seed42_640,2
+UTTAR PRADESH||SITAPUR,random_rep1_seed42_640,2
+UTTAR PRADESH||KANPUR NAGAR,random_rep1_seed42_640,2
+UTTAR PRADESH||JHANSI,random_rep1_seed42_640,2
+UTTAR PRADESH||HAMIRPUR,random_rep1_seed42_640,2
+UTTAR PRADESH||SULTANPUR,random_rep1_seed42_640,2
+UTTAR PRADESH||BALRAMPUR,random_rep1_seed42_640,2
+UTTAR PRADESH||GONDA,random_rep1_seed42_640,2
+UTTAR PRADESH||BASTI,random_rep1_seed42_640,2
+UTTAR PRADESH||KUSHINAGAR,random_rep1_seed42_640,2
+UTTAR PRADESH||BALLIA,random_rep1_seed42_640,2
+UTTAR PRADESH||VARANASI,random_rep1_seed42_640,2
+BIHAR||PURNIA,random_rep1_seed42_640,2
+BIHAR||MADHEPURA,random_rep1_seed42_640,2
+BIHAR||SAHARSA,random_rep1_seed42_640,2
+BIHAR||SHEIKHPURA,random_rep1_seed42_640,2
+BIHAR||NALANDA,random_rep1_seed42_640,2
+BIHAR||AURANGABAD,random_rep1_seed42_640,2
+BIHAR||NAWADA,random_rep1_seed42_640,2
+ARUNACHAL PRADESH||UPPER SUBANSIRI,random_rep1_seed42_640,2
+ARUNACHAL PRADESH||WEST SIANG,random_rep1_seed42_640,2
+ARUNACHAL PRADESH||EAST SIANG,random_rep1_seed42_640,2
+ARUNACHAL PRADESH||DIBANG VALLEY,random_rep1_seed42_640,2
+NAGALAND||DIMAPUR,random_rep1_seed42_640,2
+NAGALAND||KIPHIRE,random_rep1_seed42_640,2
+MANIPUR||SENAPATI,random_rep1_seed42_640,2
+MANIPUR||IMPHAL EAST,random_rep1_seed42_640,2
+MIZORAM||SERCHHIP,random_rep1_seed42_640,2
+TRIPURA||SOUTH TRIPURA,random_rep1_seed42_640,2
+TRIPURA||DHALAI,random_rep1_seed42_640,2
+MEGHALAYA||WEST GARO HILLS,random_rep1_seed42_640,2
+ASSAM||SONITPUR,random_rep1_seed42_640,2
+ASSAM||JORHAT,random_rep1_seed42_640,2
+ASSAM||GOLAGHAT,random_rep1_seed42_640,2
+ASSAM||BONGAIGAON,random_rep1_seed42_640,2
+ASSAM||KAMRUP METROPOLITAN,random_rep1_seed42_640,2
+ASSAM||NALBARI,random_rep1_seed42_640,2
+WEST BENGAL||JALPAIGURI,random_rep1_seed42_640,2
+WEST BENGAL||KOCH BIHAR,random_rep1_seed42_640,2
+WEST BENGAL||UTTAR DINAJPUR,random_rep1_seed42_640,2
+WEST BENGAL||BIRBHUM,random_rep1_seed42_640,2
+WEST BENGAL||NORTH TWENTY FOUR PARGANAS,random_rep1_seed42_640,2
+JHARKHAND||CHATRA,random_rep1_seed42_640,2
+JHARKHAND||GODDA,random_rep1_seed42_640,2
+JHARKHAND||BOKARO,random_rep1_seed42_640,2
+JHARKHAND||RAMGARH,random_rep1_seed42_640,2
+JHARKHAND||JAMTARA,random_rep1_seed42_640,2
+JHARKHAND||RANCHI,random_rep1_seed42_640,2
+ODISHA||MAYURBHANJ,random_rep1_seed42_640,2
+ODISHA||BHADRAK,random_rep1_seed42_640,2
+ODISHA||RAYAGADA,random_rep1_seed42_640,2
+ODISHA||NABARANGAPUR,random_rep1_seed42_640,2
+CHHATTISGARH||KORBA,random_rep1_seed42_640,2
+CHHATTISGARH||JANJGIR CHAMPA,random_rep1_seed42_640,2
+CHHATTISGARH||DURG,random_rep1_seed42_640,2
+CHHATTISGARH||RAIPUR,random_rep1_seed42_640,2
+MADHYA PRADESH||DATIA,random_rep1_seed42_640,2
+MADHYA PRADESH||PANNA,random_rep1_seed42_640,2
+MADHYA PRADESH||REWA,random_rep1_seed42_640,2
+MADHYA PRADESH||MANDSAUR,random_rep1_seed42_640,2
+MADHYA PRADESH||UJJAIN,random_rep1_seed42_640,2
+MADHYA PRADESH||DHAR,random_rep1_seed42_640,2
+MADHYA PRADESH||BHOPAL,random_rep1_seed42_640,2
+MADHYA PRADESH||BETUL,random_rep1_seed42_640,2
+MADHYA PRADESH||HARDA,random_rep1_seed42_640,2
+MADHYA PRADESH||JABALPUR,random_rep1_seed42_640,2
+MADHYA PRADESH||NARSIMHAPUR,random_rep1_seed42_640,2
+MADHYA PRADESH||DINDORI,random_rep1_seed42_640,2
+MADHYA PRADESH||KHANDWA EAST NIMAR,random_rep1_seed42_640,2
+GUJARAT||KACHCHH,random_rep1_seed42_640,2
+GUJARAT||BANAS KANTHA,random_rep1_seed42_640,2
+GUJARAT||MAHESANA,random_rep1_seed42_640,2
+GUJARAT||PANCH MAHALS,random_rep1_seed42_640,2
+GUJARAT||VADODARA,random_rep1_seed42_640,2
+GUJARAT||BHARUCH,random_rep1_seed42_640,2
+GUJARAT||THE DANGS,random_rep1_seed42_640,2
+MAHARASHTRA||YAVATMAL,random_rep1_seed42_640,2
+MAHARASHTRA||AURANGABAD,random_rep1_seed42_640,2
+MAHARASHTRA||SATARA,random_rep1_seed42_640,2
+MAHARASHTRA||SINDHUDURG,random_rep1_seed42_640,2
+ANDHRA PRADESH||RANGAREDDY,random_rep1_seed42_640,2
+ANDHRA PRADESH||GUNTUR,random_rep1_seed42_640,2
+KARNATAKA||BANGALORE,random_rep1_seed42_640,2
+KARNATAKA||HASSAN,random_rep1_seed42_640,2
+KARNATAKA||MYSORE,random_rep1_seed42_640,2
+KARNATAKA||KOLAR,random_rep1_seed42_640,2
+KERALA||KOLLAM,random_rep1_seed42_640,2
+TAMIL NADU||KANCHEEPURAM,random_rep1_seed42_640,2
+TAMIL NADU||TIRUVANNAMALAI,random_rep1_seed42_640,2
+TAMIL NADU||SALEM,random_rep1_seed42_640,2
+TAMIL NADU||ARIYALUR,random_rep1_seed42_640,2
+TAMIL NADU||RAMANATHAPURAM,random_rep1_seed42_640,2
+TAMIL NADU||THOOTHUKKUDI,random_rep1_seed42_640,2
+TAMIL NADU||COIMBATORE,random_rep1_seed42_640,2
+TAMIL NADU||TIRUPPUR,random_rep1_seed42_640,2
+PUDUCHERRY||YANAM,random_rep1_seed42_640,2
+JAMMU AND KASHMIR||KARGIL,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||RAJOURI,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||SHUPIYAN,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||RAMBAN,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||KISHTWAR,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||REASI,random_rep1_seed42_640,3
+HIMACHAL PRADESH||KULLU,random_rep1_seed42_640,3
+HIMACHAL PRADESH||MANDI,random_rep1_seed42_640,3
+PUNJAB||HOSHIARPUR,random_rep1_seed42_640,3
+PUNJAB||BATHINDA,random_rep1_seed42_640,3
+PUNJAB||MANSA,random_rep1_seed42_640,3
+PUNJAB||AMRITSAR,random_rep1_seed42_640,3
+PUNJAB||RUPNAGAR,random_rep1_seed42_640,3
+UTTARAKHAND||RUDRAPRAYAG,random_rep1_seed42_640,3
+UTTARAKHAND||HARDWAR,random_rep1_seed42_640,3
+HARYANA||PANIPAT,random_rep1_seed42_640,3
+NCT OF DELHI||CENTRAL,random_rep1_seed42_640,3
+RAJASTHAN||ALWAR,random_rep1_seed42_640,3
+RAJASTHAN||SAWAI MADHOPUR,random_rep1_seed42_640,3
+RAJASTHAN||JAISALMER,random_rep1_seed42_640,3
+RAJASTHAN||TONK,random_rep1_seed42_640,3
+RAJASTHAN||BANSWARA,random_rep1_seed42_640,3
+RAJASTHAN||KOTA,random_rep1_seed42_640,3
+UTTAR PRADESH||BULANDSHAHR,random_rep1_seed42_640,3
+UTTAR PRADESH||ALIGARH,random_rep1_seed42_640,3
+UTTAR PRADESH||BAREILLY,random_rep1_seed42_640,3
+UTTAR PRADESH||KHERI,random_rep1_seed42_640,3
+UTTAR PRADESH||HARDOI,random_rep1_seed42_640,3
+UTTAR PRADESH||RAE BARELI,random_rep1_seed42_640,3
+UTTAR PRADESH||KANPUR DEHAT,random_rep1_seed42_640,3
+UTTAR PRADESH||MAHOBA,random_rep1_seed42_640,3
+UTTAR PRADESH||BANDA,random_rep1_seed42_640,3
+UTTAR PRADESH||PRATAPGARH,random_rep1_seed42_640,3
+UTTAR PRADESH||KAUSHAMBI,random_rep1_seed42_640,3
+UTTAR PRADESH||BARA BANKI,random_rep1_seed42_640,3
+UTTAR PRADESH||SHRAWASTI,random_rep1_seed42_640,3
+UTTAR PRADESH||SANT KABIR NAGAR,random_rep1_seed42_640,3
+UTTAR PRADESH||AZAMGARH,random_rep1_seed42_640,3
+UTTAR PRADESH||JAUNPUR,random_rep1_seed42_640,3
+UTTAR PRADESH||GHAZIPUR,random_rep1_seed42_640,3
+UTTAR PRADESH||CHANDAULI,random_rep1_seed42_640,3
+BIHAR||SUPAUL,random_rep1_seed42_640,3
+BIHAR||KHAGARIA,random_rep1_seed42_640,3
+BIHAR||MUNGER,random_rep1_seed42_640,3
+BIHAR||LAKHISARAI,random_rep1_seed42_640,3
+BIHAR||PATNA,random_rep1_seed42_640,3
+BIHAR||JAMUI,random_rep1_seed42_640,3
+ARUNACHAL PRADESH||WEST KAMENG,random_rep1_seed42_640,3
+ARUNACHAL PRADESH||KURUNG KUMEY,random_rep1_seed42_640,3
+NAGALAND||WOKHA,random_rep1_seed42_640,3
+MANIPUR||TAMENGLONG,random_rep1_seed42_640,3
+MIZORAM||MAMIT,random_rep1_seed42_640,3
+MIZORAM||CHAMPHAI,random_rep1_seed42_640,3
+MIZORAM||SAIHA,random_rep1_seed42_640,3
+MEGHALAYA||RIBHOI,random_rep1_seed42_640,3
+ASSAM||DHUBRI,random_rep1_seed42_640,3
+ASSAM||GOALPARA,random_rep1_seed42_640,3
+ASSAM||DIBRUGARH,random_rep1_seed42_640,3
+ASSAM||KARIMGANJ,random_rep1_seed42_640,3
+ASSAM||CHIRANG,random_rep1_seed42_640,3
+WEST BENGAL||MALDAH,random_rep1_seed42_640,3
+WEST BENGAL||MURSHIDABAD,random_rep1_seed42_640,3
+WEST BENGAL||HAORA,random_rep1_seed42_640,3
+WEST BENGAL||KOLKATA,random_rep1_seed42_640,3
+WEST BENGAL||PURBA MEDINIPUR,random_rep1_seed42_640,3
+JHARKHAND||DEOGHAR,random_rep1_seed42_640,3
+JHARKHAND||PAKUR,random_rep1_seed42_640,3
+JHARKHAND||DHANBAD,random_rep1_seed42_640,3
+JHARKHAND||PURBI SINGHBHUM,random_rep1_seed42_640,3
+JHARKHAND||KHUNTI,random_rep1_seed42_640,3
+JHARKHAND||GUMLA,random_rep1_seed42_640,3
+ODISHA||JHARSUGUDA,random_rep1_seed42_640,3
+ODISHA||KENDUJHAR,random_rep1_seed42_640,3
+ODISHA||CUTTACK,random_rep1_seed42_640,3
+ODISHA||JAJAPUR,random_rep1_seed42_640,3
+ODISHA||DHENKANAL,random_rep1_seed42_640,3
+ODISHA||ANUGUL,random_rep1_seed42_640,3
+ODISHA||GAJAPATI,random_rep1_seed42_640,3
+ODISHA||NUAPADA,random_rep1_seed42_640,3
+CHHATTISGARH||KORIYA,random_rep1_seed42_640,3
+CHHATTISGARH||BILASPUR,random_rep1_seed42_640,3
+CHHATTISGARH||RAJNANDGAON,random_rep1_seed42_640,3
+CHHATTISGARH||UTTAR BASTAR KANKER,random_rep1_seed42_640,3
+MADHYA PRADESH||TIKAMGARH,random_rep1_seed42_640,3
+MADHYA PRADESH||SAGAR,random_rep1_seed42_640,3
+MADHYA PRADESH||NEEMUCH,random_rep1_seed42_640,3
+MADHYA PRADESH||SEHORE,random_rep1_seed42_640,3
+MADHYA PRADESH||MANDLA,random_rep1_seed42_640,3
+MADHYA PRADESH||GUNA,random_rep1_seed42_640,3
+MADHYA PRADESH||ALIRAJPUR,random_rep1_seed42_640,3
+GUJARAT||AHMADABAD,random_rep1_seed42_640,3
+GUJARAT||PORBANDAR,random_rep1_seed42_640,3
+GUJARAT||AMRELI,random_rep1_seed42_640,3
+GUJARAT||BHAVNAGAR,random_rep1_seed42_640,3
+DAMAN AND DIU||DAMAN,random_rep1_seed42_640,3
+DADRA AND NAGAR HAVELI||DADRA AND NAGAR HAVELI,random_rep1_seed42_640,3
+MAHARASHTRA||DHULE,random_rep1_seed42_640,3
+MAHARASHTRA||BULDANA,random_rep1_seed42_640,3
+MAHARASHTRA||GONDIYA,random_rep1_seed42_640,3
+MAHARASHTRA||GADCHIROLI,random_rep1_seed42_640,3
+MAHARASHTRA||HINGOLI,random_rep1_seed42_640,3
+MAHARASHTRA||PARBHANI,random_rep1_seed42_640,3
+MAHARASHTRA||MUMBAI SUBURBAN,random_rep1_seed42_640,3
+ANDHRA PRADESH||ADILABAD,random_rep1_seed42_640,3
+ANDHRA PRADESH||MAHBUBNAGAR,random_rep1_seed42_640,3
+ANDHRA PRADESH||WARANGAL,random_rep1_seed42_640,3
+ANDHRA PRADESH||WEST GODAVARI,random_rep1_seed42_640,3
+ANDHRA PRADESH||KRISHNA,random_rep1_seed42_640,3
+ANDHRA PRADESH||PRAKASAM,random_rep1_seed42_640,3
+ANDHRA PRADESH||Y S R,random_rep1_seed42_640,3
+KARNATAKA||BELGAUM,random_rep1_seed42_640,3
+KARNATAKA||DAKSHINA KANNADA,random_rep1_seed42_640,3
+KARNATAKA||GULBARGA,random_rep1_seed42_640,3
+KARNATAKA||CHIKKABALLAPURA,random_rep1_seed42_640,3
+GOA||NORTH GOA,random_rep1_seed42_640,3
+KERALA||KASARAGOD,random_rep1_seed42_640,3
+KERALA||WAYANAD,random_rep1_seed42_640,3
+KERALA||IDUKKI,random_rep1_seed42_640,3
+TAMIL NADU||THIRUVALLUR,random_rep1_seed42_640,3
+TAMIL NADU||CHENNAI,random_rep1_seed42_640,3
+TAMIL NADU||DINDIGUL,random_rep1_seed42_640,3
+TAMIL NADU||KARUR,random_rep1_seed42_640,3
+TAMIL NADU||TIRUCHIRAPPALLI,random_rep1_seed42_640,3
+TAMIL NADU||CUDDALORE,random_rep1_seed42_640,3
+TAMIL NADU||NAGAPATTINAM,random_rep1_seed42_640,3
+TAMIL NADU||THIRUVARUR,random_rep1_seed42_640,3
+TAMIL NADU||KRISHNAGIRI,random_rep1_seed42_640,3
+ANDAMAN AND NICOBAR ISLANDS||SOUTH ANDAMAN,random_rep1_seed42_640,3
+JAMMU AND KASHMIR||BANDIPORE,random_rep1_seed42_640,4
+PUNJAB||JALANDHAR,random_rep1_seed42_640,4
+PUNJAB||SHAHID BHAGAT SINGH NAGAR,random_rep1_seed42_640,4
+PUNJAB||SAHIBZADA AJIT SINGH NAGAR,random_rep1_seed42_640,4
+PUNJAB||BARNALA,random_rep1_seed42_640,4
+UTTARAKHAND||DEHRADUN,random_rep1_seed42_640,4
+NCT OF DELHI||SOUTH WEST,random_rep1_seed42_640,4
+NCT OF DELHI||SOUTH,random_rep1_seed42_640,4
+RAJASTHAN||BIKANER,random_rep1_seed42_640,4
+RAJASTHAN||NAGAUR,random_rep1_seed42_640,4
+RAJASTHAN||JODHPUR,random_rep1_seed42_640,4
+RAJASTHAN||JALOR,random_rep1_seed42_640,4
+RAJASTHAN||BUNDI,random_rep1_seed42_640,4
+RAJASTHAN||RAJSAMAND,random_rep1_seed42_640,4
+RAJASTHAN||DUNGARPUR,random_rep1_seed42_640,4
+RAJASTHAN||CHITTAURGARH,random_rep1_seed42_640,4
+RAJASTHAN||BARAN,random_rep1_seed42_640,4
+RAJASTHAN||UDAIPUR,random_rep1_seed42_640,4
+UTTAR PRADESH||JYOTIBA PHULE NAGAR,random_rep1_seed42_640,4
+UTTAR PRADESH||GHAZIABAD,random_rep1_seed42_640,4
+UTTAR PRADESH||MAHAMAYA NAGAR,random_rep1_seed42_640,4
+UTTAR PRADESH||FIROZABAD,random_rep1_seed42_640,4
+UTTAR PRADESH||MAINPURI,random_rep1_seed42_640,4
+UTTAR PRADESH||PILIBHIT,random_rep1_seed42_640,4
+UTTAR PRADESH||SHAHJAHANPUR,random_rep1_seed42_640,4
+UTTAR PRADESH||JALAUN,random_rep1_seed42_640,4
+UTTAR PRADESH||FATEHPUR,random_rep1_seed42_640,4
+UTTAR PRADESH||BAHRAICH,random_rep1_seed42_640,4
+UTTAR PRADESH||SIDDHARTHNAGAR,random_rep1_seed42_640,4
+UTTAR PRADESH||MAHRAJGANJ,random_rep1_seed42_640,4
+UTTAR PRADESH||SANT RAVIDAS NAGAR BHADOHI,random_rep1_seed42_640,4
+UTTAR PRADESH||MIRZAPUR,random_rep1_seed42_640,4
+BIHAR||PASHCHIM CHAMPARAN,random_rep1_seed42_640,4
+BIHAR||VAISHALI,random_rep1_seed42_640,4
+BIHAR||BHAGALPUR,random_rep1_seed42_640,4
+BIHAR||BANKA,random_rep1_seed42_640,4
+BIHAR||KAIMUR BHABUA,random_rep1_seed42_640,4
+BIHAR||ROHTAS,random_rep1_seed42_640,4
+BIHAR||ARWAL,random_rep1_seed42_640,4
+ARUNACHAL PRADESH||EAST KAMENG,random_rep1_seed42_640,4
+ARUNACHAL PRADESH||TIRAP,random_rep1_seed42_640,4
+ARUNACHAL PRADESH||LOWER SUBANSIRI,random_rep1_seed42_640,4
+ARUNACHAL PRADESH||LOHIT,random_rep1_seed42_640,4
+NAGALAND||ZUNHEBOTO,random_rep1_seed42_640,4
+NAGALAND||TUENSANG,random_rep1_seed42_640,4
+NAGALAND||LONGLENG,random_rep1_seed42_640,4
+MANIPUR||CHANDEL,random_rep1_seed42_640,4
+MIZORAM||AIZAWL,random_rep1_seed42_640,4
+MIZORAM||LUNGLEI,random_rep1_seed42_640,4
+MEGHALAYA||EAST GARO HILLS,random_rep1_seed42_640,4
+MEGHALAYA||SOUTH GARO HILLS,random_rep1_seed42_640,4
+MEGHALAYA||EAST KHASI HILLS,random_rep1_seed42_640,4
+ASSAM||MORIGAON,random_rep1_seed42_640,4
+ASSAM||LAKHIMPUR,random_rep1_seed42_640,4
+ASSAM||DHEMAJI,random_rep1_seed42_640,4
+ASSAM||DIMA HASAO,random_rep1_seed42_640,4
+ASSAM||HAILAKANDI,random_rep1_seed42_640,4
+ASSAM||BAKSA,random_rep1_seed42_640,4
+ASSAM||DARRANG,random_rep1_seed42_640,4
+ASSAM||UDALGURI,random_rep1_seed42_640,4
+WEST BENGAL||SOUTH TWENTY FOUR PARGANAS,random_rep1_seed42_640,4
+JHARKHAND||KODARMA,random_rep1_seed42_640,4
+JHARKHAND||GIRIDIH,random_rep1_seed42_640,4
+JHARKHAND||SAHIBGANJ,random_rep1_seed42_640,4
+JHARKHAND||LATEHAR,random_rep1_seed42_640,4
+JHARKHAND||HAZARIBAGH,random_rep1_seed42_640,4
+JHARKHAND||SARAIKELA KHARSAWAN,random_rep1_seed42_640,4
+ODISHA||SAMBALPUR,random_rep1_seed42_640,4
+ODISHA||SUNDARGARH,random_rep1_seed42_640,4
+ODISHA||BALESHWAR,random_rep1_seed42_640,4
+ODISHA||NAYAGARH,random_rep1_seed42_640,4
+ODISHA||PURI,random_rep1_seed42_640,4
+ODISHA||KALAHANDI,random_rep1_seed42_640,4
+CHHATTISGARH||SURGUJA,random_rep1_seed42_640,4
+CHHATTISGARH||RAIGARH,random_rep1_seed42_640,4
+CHHATTISGARH||MAHASAMUND,random_rep1_seed42_640,4
+CHHATTISGARH||DAKSHIN BASTAR DANTEWADA,random_rep1_seed42_640,4
+CHHATTISGARH||BIJAPUR,random_rep1_seed42_640,4
+MADHYA PRADESH||CHHATARPUR,random_rep1_seed42_640,4
+MADHYA PRADESH||KHARGONE WEST NIMAR,random_rep1_seed42_640,4
+MADHYA PRADESH||BARWANI,random_rep1_seed42_640,4
+MADHYA PRADESH||RAJGARH,random_rep1_seed42_640,4
+MADHYA PRADESH||VIDISHA,random_rep1_seed42_640,4
+MADHYA PRADESH||RAISEN,random_rep1_seed42_640,4
+MADHYA PRADESH||HOSHANGABAD,random_rep1_seed42_640,4
+MADHYA PRADESH||KATNI,random_rep1_seed42_640,4
+MADHYA PRADESH||BALAGHAT,random_rep1_seed42_640,4
+MADHYA PRADESH||SINGRAULI,random_rep1_seed42_640,4
+MADHYA PRADESH||JHABUA,random_rep1_seed42_640,4
+GUJARAT||PATAN,random_rep1_seed42_640,4
+GUJARAT||GANDHINAGAR,random_rep1_seed42_640,4
+GUJARAT||ANAND,random_rep1_seed42_640,4
+GUJARAT||NARMADA,random_rep1_seed42_640,4
+GUJARAT||VALSAD,random_rep1_seed42_640,4
+DAMAN AND DIU||DIU,random_rep1_seed42_640,4
+MAHARASHTRA||AKOLA,random_rep1_seed42_640,4
+MAHARASHTRA||WASHIM,random_rep1_seed42_640,4
+MAHARASHTRA||BHANDARA,random_rep1_seed42_640,4
+MAHARASHTRA||THANE,random_rep1_seed42_640,4
+MAHARASHTRA||RAIGARH,random_rep1_seed42_640,4
+MAHARASHTRA||AHMADNAGAR,random_rep1_seed42_640,4
+MAHARASHTRA||BID,random_rep1_seed42_640,4
+MAHARASHTRA||OSMANABAD,random_rep1_seed42_640,4
+MAHARASHTRA||KOLHAPUR,random_rep1_seed42_640,4
+MAHARASHTRA||SANGLI,random_rep1_seed42_640,4
+ANDHRA PRADESH||NIZAMABAD,random_rep1_seed42_640,4
+ANDHRA PRADESH||KARIMNAGAR,random_rep1_seed42_640,4
+ANDHRA PRADESH||NALGONDA,random_rep1_seed42_640,4
+ANDHRA PRADESH||VISAKHAPATNAM,random_rep1_seed42_640,4
+ANDHRA PRADESH||KURNOOL,random_rep1_seed42_640,4
+ANDHRA PRADESH||ANANTAPUR,random_rep1_seed42_640,4
+KARNATAKA||KOPPAL,random_rep1_seed42_640,4
+KARNATAKA||HAVERI,random_rep1_seed42_640,4
+KARNATAKA||UDUPI,random_rep1_seed42_640,4
+KARNATAKA||KODAGU,random_rep1_seed42_640,4
+KARNATAKA||YADGIR,random_rep1_seed42_640,4
+KARNATAKA||BANGALORE RURAL,random_rep1_seed42_640,4
+GOA||SOUTH GOA,random_rep1_seed42_640,4
+KERALA||MALAPPURAM,random_rep1_seed42_640,4
+KERALA||PALAKKAD,random_rep1_seed42_640,4
+TAMIL NADU||VELLORE,random_rep1_seed42_640,4
+TAMIL NADU||VILUPPURAM,random_rep1_seed42_640,4
+TAMIL NADU||NAMAKKAL,random_rep1_seed42_640,4
+TAMIL NADU||THE NILGIRIS,random_rep1_seed42_640,4
+TAMIL NADU||THANJAVUR,random_rep1_seed42_640,4
+TAMIL NADU||PUDUKKOTTAI,random_rep1_seed42_640,4
+TAMIL NADU||KANNIYAKUMARI,random_rep1_seed42_640,4
+TAMIL NADU||DHARMAPURI,random_rep1_seed42_640,4
+JAMMU AND KASHMIR||BADGAM,random_rep1_seed42_640,5
+JAMMU AND KASHMIR||PUNCH,random_rep1_seed42_640,5
+JAMMU AND KASHMIR||ANANTNAG,random_rep1_seed42_640,5
+JAMMU AND KASHMIR||KULGAM,random_rep1_seed42_640,5
+JAMMU AND KASHMIR||JAMMU,random_rep1_seed42_640,5
+JAMMU AND KASHMIR||SAMBA,random_rep1_seed42_640,5
+HIMACHAL PRADESH||HAMIRPUR,random_rep1_seed42_640,5
+HIMACHAL PRADESH||SHIMLA,random_rep1_seed42_640,5
+PUNJAB||GURDASPUR,random_rep1_seed42_640,5
+PUNJAB||KAPURTHALA,random_rep1_seed42_640,5
+PUNJAB||LUDHIANA,random_rep1_seed42_640,5
+PUNJAB||PATIALA,random_rep1_seed42_640,5
+PUNJAB||SANGRUR,random_rep1_seed42_640,5
+UTTARAKHAND||TEHRI GARHWAL,random_rep1_seed42_640,5
+UTTARAKHAND||BAGESHWAR,random_rep1_seed42_640,5
+UTTARAKHAND||CHAMPAWAT,random_rep1_seed42_640,5
+HARYANA||KURUKSHETRA,random_rep1_seed42_640,5
+HARYANA||BHIWANI,random_rep1_seed42_640,5
+HARYANA||GURGAON,random_rep1_seed42_640,5
+HARYANA||FARIDABAD,random_rep1_seed42_640,5
+NCT OF DELHI||NORTH EAST,random_rep1_seed42_640,5
+NCT OF DELHI||WEST,random_rep1_seed42_640,5
+RAJASTHAN||GANGANAGAR,random_rep1_seed42_640,5
+RAJASTHAN||HANUMANGARH,random_rep1_seed42_640,5
+RAJASTHAN||JHUNJHUNUN,random_rep1_seed42_640,5
+RAJASTHAN||DHAULPUR,random_rep1_seed42_640,5
+RAJASTHAN||KARAULI,random_rep1_seed42_640,5
+RAJASTHAN||BHILWARA,random_rep1_seed42_640,5
+RAJASTHAN||JHALAWAR,random_rep1_seed42_640,5
+RAJASTHAN||PRATAPGARH,random_rep1_seed42_640,5
+UTTAR PRADESH||MORADABAD,random_rep1_seed42_640,5
+UTTAR PRADESH||BAGHPAT,random_rep1_seed42_640,5
+UTTAR PRADESH||LUCKNOW,random_rep1_seed42_640,5
+UTTAR PRADESH||KANNAUJ,random_rep1_seed42_640,5
+UTTAR PRADESH||ETAWAH,random_rep1_seed42_640,5
+UTTAR PRADESH||AURAIYA,random_rep1_seed42_640,5
+UTTAR PRADESH||LALITPUR,random_rep1_seed42_640,5
+UTTAR PRADESH||CHITRAKOOT,random_rep1_seed42_640,5
+UTTAR PRADESH||GORAKHPUR,random_rep1_seed42_640,5
+UTTAR PRADESH||DEORIA,random_rep1_seed42_640,5
+UTTAR PRADESH||MAU,random_rep1_seed42_640,5
+UTTAR PRADESH||ETAH,random_rep1_seed42_640,5
+UTTAR PRADESH||KANSHIRAM NAGAR,random_rep1_seed42_640,5
+BIHAR||SITAMARHI,random_rep1_seed42_640,5
+BIHAR||MADHUBANI,random_rep1_seed42_640,5
+BIHAR||DARBHANGA,random_rep1_seed42_640,5
+BIHAR||GOPALGANJ,random_rep1_seed42_640,5
+BIHAR||SIWAN,random_rep1_seed42_640,5
+BIHAR||BHOJPUR,random_rep1_seed42_640,5
+SIKKIM||NORTH DISTRICT,random_rep1_seed42_640,5
+SIKKIM||WEST DISTRICT,random_rep1_seed42_640,5
+SIKKIM||SOUTH DISTRICT,random_rep1_seed42_640,5
+SIKKIM||EAST DISTRICT,random_rep1_seed42_640,5
+ARUNACHAL PRADESH||UPPER SIANG,random_rep1_seed42_640,5
+ARUNACHAL PRADESH||CHANGLANG,random_rep1_seed42_640,5
+NAGALAND||KOHIMA,random_rep1_seed42_640,5
+NAGALAND||PEREN,random_rep1_seed42_640,5
+MANIPUR||CHURACHANDPUR,random_rep1_seed42_640,5
+MANIPUR||IMPHAL WEST,random_rep1_seed42_640,5
+TRIPURA||WEST TRIPURA,random_rep1_seed42_640,5
+MEGHALAYA||WEST KHASI HILLS,random_rep1_seed42_640,5
+ASSAM||TINSUKIA,random_rep1_seed42_640,5
+ASSAM||KARBI ANGLONG,random_rep1_seed42_640,5
+ASSAM||CACHAR,random_rep1_seed42_640,5
+WEST BENGAL||DAKSHIN DINAJPUR,random_rep1_seed42_640,5
+WEST BENGAL||HUGLI,random_rep1_seed42_640,5
+WEST BENGAL||PURULIYA,random_rep1_seed42_640,5
+WEST BENGAL||PASCHIM MEDINIPUR,random_rep1_seed42_640,5
+JHARKHAND||GARHWA,random_rep1_seed42_640,5
+JHARKHAND||SIMDEGA,random_rep1_seed42_640,5
+ODISHA||DEBAGARH,random_rep1_seed42_640,5
+ODISHA||KENDRAPARA,random_rep1_seed42_640,5
+ODISHA||JAGATSINGHAPUR,random_rep1_seed42_640,5
+ODISHA||KHORDHA,random_rep1_seed42_640,5
+ODISHA||GANJAM,random_rep1_seed42_640,5
+ODISHA||KANDHAMAL,random_rep1_seed42_640,5
+ODISHA||SUBARNAPUR,random_rep1_seed42_640,5
+ODISHA||BALANGIR,random_rep1_seed42_640,5
+ODISHA||KORAPUT,random_rep1_seed42_640,5
+CHHATTISGARH||JASHPUR,random_rep1_seed42_640,5
+CHHATTISGARH||KABEERDHAM,random_rep1_seed42_640,5
+CHHATTISGARH||BASTAR,random_rep1_seed42_640,5
+MADHYA PRADESH||MORENA,random_rep1_seed42_640,5
+MADHYA PRADESH||DAMOH,random_rep1_seed42_640,5
+MADHYA PRADESH||SHAJAPUR,random_rep1_seed42_640,5
+MADHYA PRADESH||CHHINDWARA,random_rep1_seed42_640,5
+MADHYA PRADESH||SEONI,random_rep1_seed42_640,5
+MADHYA PRADESH||ASHOKNAGAR,random_rep1_seed42_640,5
+MADHYA PRADESH||SHAHDOL,random_rep1_seed42_640,5
+MADHYA PRADESH||ANUPPUR,random_rep1_seed42_640,5
+MADHYA PRADESH||SIDHI,random_rep1_seed42_640,5
+MADHYA PRADESH||BURHANPUR,random_rep1_seed42_640,5
+GUJARAT||SABAR KANTHA,random_rep1_seed42_640,5
+GUJARAT||SURENDRANAGAR,random_rep1_seed42_640,5
+GUJARAT||RAJKOT,random_rep1_seed42_640,5
+GUJARAT||JAMNAGAR,random_rep1_seed42_640,5
+GUJARAT||DOHAD,random_rep1_seed42_640,5
+GUJARAT||NAVSARI,random_rep1_seed42_640,5
+GUJARAT||SURAT,random_rep1_seed42_640,5
+GUJARAT||TAPI,random_rep1_seed42_640,5
+MAHARASHTRA||JALGAON,random_rep1_seed42_640,5
+MAHARASHTRA||AMRAVATI,random_rep1_seed42_640,5
+MAHARASHTRA||NAGPUR,random_rep1_seed42_640,5
+MAHARASHTRA||CHANDRAPUR,random_rep1_seed42_640,5
+MAHARASHTRA||NANDED,random_rep1_seed42_640,5
+MAHARASHTRA||PUNE,random_rep1_seed42_640,5
+ANDHRA PRADESH||MEDAK,random_rep1_seed42_640,5
+ANDHRA PRADESH||HYDERABAD,random_rep1_seed42_640,5
+ANDHRA PRADESH||KHAMMAM,random_rep1_seed42_640,5
+ANDHRA PRADESH||VIZIANAGARAM,random_rep1_seed42_640,5
+KARNATAKA||BAGALKOT,random_rep1_seed42_640,5
+KARNATAKA||BIJAPUR,random_rep1_seed42_640,5
+KARNATAKA||RAICHUR,random_rep1_seed42_640,5
+KARNATAKA||GADAG,random_rep1_seed42_640,5
+KARNATAKA||DHARWAD,random_rep1_seed42_640,5
+KARNATAKA||UTTARA KANNADA,random_rep1_seed42_640,5
+KARNATAKA||BELLARY,random_rep1_seed42_640,5
+KARNATAKA||CHITRADURGA,random_rep1_seed42_640,5
+KARNATAKA||DAVANAGERE,random_rep1_seed42_640,5
+KARNATAKA||SHIMOGA,random_rep1_seed42_640,5
+KERALA||KOZHIKODE,random_rep1_seed42_640,5
+KERALA||KOTTAYAM,random_rep1_seed42_640,5
+KERALA||THIRUVANANTHAPURAM,random_rep1_seed42_640,5
+TAMIL NADU||PERAMBALUR,random_rep1_seed42_640,5
+TAMIL NADU||MADURAI,random_rep1_seed42_640,5
+TAMIL NADU||VIRUDHUNAGAR,random_rep1_seed42_640,5
+PUDUCHERRY||PUDUCHERRY,random_rep1_seed42_640,5
+ANDAMAN AND NICOBAR ISLANDS||NICOBARS,random_rep1_seed42_640,5

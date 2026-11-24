@@ -1,0 +1,93 @@
+scheme=random configs=['a640', 'a628'] models=['dummy_mean', 'ridge', 'elastic_net', 'knn', 'decision_tree', 'random_forest', 'extra_trees', 'gradient_boosting', 'hist_gradient_boosting', 'svr_rbf']
+[A_primary_640] n=640 features=43 states=35
+  [A_primary_640/random] dummy_mean               MAE 2.4122 ± 0.2658  R2 -0.0075  rho nan
+  [A_primary_640/random] ridge                    MAE 1.6728 ± 0.1512  R2 0.4775  rho 0.6902
+  [A_primary_640/random] elastic_net              MAE 1.6646 ± 0.1498  R2 0.4861  rho 0.6945
+  [A_primary_640/random] knn                      MAE 1.3350 ± 0.1007  R2 0.6590  rho 0.7863
+  [A_primary_640/random] decision_tree            MAE 1.9089 ± 0.2831  R2 0.2442  rho 0.5643
+  [A_primary_640/random] random_forest            MAE 1.5105 ± 0.1281  R2 0.5882  rho 0.7470
+  [A_primary_640/random] extra_trees              MAE 1.3587 ± 0.0947  R2 0.6687  rho 0.7865
+  [A_primary_640/random] gradient_boosting        MAE 1.4475 ± 0.1725  R2 0.6014  rho 0.7359
+  [A_primary_640/random] hist_gradient_boosting   MAE 1.4152 ± 0.1705  R2 0.6292  rho 0.7564
+  [A_primary_640/random] svr_rbf                  MAE 1.3257 ± 0.0983  R2 0.6661  rho 0.7834
+[A_restricted_628] n=628 features=43 states=35
+  [A_restricted_628/random] dummy_mean               MAE 2.4269 ± 0.2700  R2 -0.0014  rho nan
+  [A_restricted_628/random] ridge                    MAE 1.6859 ± 0.0981  R2 0.4779  rho 0.6973
+  [A_restricted_628/random] elastic_net              MAE 1.6828 ± 0.0861  R2 0.4823  rho 0.6958
+  [A_restricted_628/random] knn                      MAE 1.3480 ± 0.0408  R2 0.6580  rho 0.7789
+  [A_restricted_628/random] decision_tree            MAE 1.8717 ± 0.0344  R2 0.2825  rho 0.5584
+  [A_restricted_628/random] random_forest            MAE 1.4924 ± 0.1287  R2 0.6063  rho 0.7508
+  [A_restricted_628/random] extra_trees              MAE 1.3698 ± 0.0721  R2 0.6634  rho 0.7831
+  [A_restricted_628/random] gradient_boosting        MAE 1.4419 ± 0.1366  R2 0.6180  rho 0.7492
+  [A_restricted_628/random] hist_gradient_boosting   MAE 1.4715 ± 0.1395  R2 0.6015  rho 0.7395
+  [A_restricted_628/random] svr_rbf                  MAE 1.3390 ± 0.0522  R2 0.6396  rho 0.7767
+
+This run: 570.5s. Accumulated rows: 20
+   configuration                  model  mae_mean   r2_mean  spearman_mean
+   A_primary_640                svr_rbf  1.325684  0.666091       0.783371
+   A_primary_640                    knn  1.335001  0.659003       0.786283
+   A_primary_640            extra_trees  1.358668  0.668703       0.786485
+   A_primary_640 hist_gradient_boosting  1.415199  0.629231       0.756388
+   A_primary_640      gradient_boosting  1.447491  0.601420       0.735925
+   A_primary_640          random_forest  1.510517  0.588164       0.746987
+   A_primary_640            elastic_net  1.664583  0.486130       0.694486
+   A_primary_640                  ridge  1.672845  0.477500       0.690165
+   A_primary_640          decision_tree  1.908894  0.244163       0.564270
+   A_primary_640             dummy_mean  2.412246 -0.007512            NaN
+A_restricted_628                svr_rbf  1.338974  0.639570       0.776718
+A_restricted_628                    knn  1.348022  0.658010       0.778911
+A_restricted_628            extra_trees  1.369813  0.663381       0.783055
+A_restricted_628      gradient_boosting  1.441853  0.617991       0.749164
+A_restricted_628 hist_gradient_boosting  1.471541  0.601470       0.739458
+A_restricted_628          random_forest  1.492439  0.606330       0.750774
+A_restricted_628            elastic_net  1.682843  0.482345       0.695836
+A_restricted_628                  ridge  1.685851  0.477899       0.697301
+A_restricted_628          decision_tree  1.871723  0.282515       0.558447
+A_restricted_628             dummy_mean  2.426940 -0.001429            NaN
+STAGE1_EXIT=0
+scheme=random configs=['b628'] models=['dummy_mean', 'ridge', 'elastic_net', 'knn', 'decision_tree', 'random_forest', 'extra_trees', 'gradient_boosting', 'hist_gradient_boosting', 'svr_rbf']
+[B_augmented_628] n=628 features=77 states=35
+  [B_augmented_628/random] dummy_mean               MAE 2.4269 ± 0.2700  R2 -0.0014  rho nan
+  [B_augmented_628/random] ridge                    MAE 1.4363 ± 0.0747  R2 0.6096  rho 0.7459
+  [B_augmented_628/random] elastic_net              MAE 1.4468 ± 0.0859  R2 0.6087  rho 0.7423
+  [B_augmented_628/random] knn                      MAE 1.2632 ± 0.0437  R2 0.6891  rho 0.8090
+  [B_augmented_628/random] decision_tree            MAE 1.7855 ± 0.0898  R2 0.4124  rho 0.6097
+  [B_augmented_628/random] random_forest            MAE 1.3456 ± 0.1192  R2 0.6780  rho 0.7944
+  [B_augmented_628/random] extra_trees              MAE 1.2329 ± 0.0994  R2 0.7195  rho 0.8136
+  [B_augmented_628/random] gradient_boosting        MAE 1.2614 ± 0.1006  R2 0.7029  rho 0.8017
+  [B_augmented_628/random] hist_gradient_boosting   MAE 1.2710 ± 0.0976  R2 0.7034  rho 0.7999
+  [B_augmented_628/random] svr_rbf                  MAE 1.1401 ± 0.0321  R2 0.7316  rho 0.8319
+
+This run: 373.1s. Accumulated rows: 30
+   configuration                  model  mae_mean   r2_mean  spearman_mean
+   A_primary_640                svr_rbf  1.325684  0.666091       0.783371
+   A_primary_640                    knn  1.335001  0.659003       0.786283
+   A_primary_640            extra_trees  1.358668  0.668703       0.786485
+   A_primary_640 hist_gradient_boosting  1.415199  0.629231       0.756388
+   A_primary_640      gradient_boosting  1.447491  0.601420       0.735925
+   A_primary_640          random_forest  1.510517  0.588164       0.746987
+   A_primary_640            elastic_net  1.664583  0.486130       0.694486
+   A_primary_640                  ridge  1.672845  0.477500       0.690165
+   A_primary_640          decision_tree  1.908894  0.244163       0.564270
+   A_primary_640             dummy_mean  2.412246 -0.007512            NaN
+A_restricted_628                svr_rbf  1.338974  0.639570       0.776718
+A_restricted_628                    knn  1.348022  0.658010       0.778911
+A_restricted_628            extra_trees  1.369813  0.663381       0.783055
+A_restricted_628      gradient_boosting  1.441853  0.617991       0.749164
+A_restricted_628 hist_gradient_boosting  1.471541  0.601470       0.739458
+A_restricted_628          random_forest  1.492439  0.606330       0.750774
+A_restricted_628            elastic_net  1.682843  0.482345       0.695836
+A_restricted_628                  ridge  1.685851  0.477899       0.697301
+A_restricted_628          decision_tree  1.871723  0.282515       0.558447
+A_restricted_628             dummy_mean  2.426940 -0.001429            NaN
+ B_augmented_628                svr_rbf  1.140113  0.731592       0.831892
+ B_augmented_628            extra_trees  1.232898  0.719533       0.813565
+ B_augmented_628      gradient_boosting  1.261372  0.702880       0.801704
+ B_augmented_628                    knn  1.263209  0.689110       0.808970
+ B_augmented_628 hist_gradient_boosting  1.271001  0.703415       0.799876
+ B_augmented_628          random_forest  1.345567  0.677951       0.794404
+ B_augmented_628                  ridge  1.436310  0.609591       0.745937
+ B_augmented_628            elastic_net  1.446815  0.608746       0.742294
+ B_augmented_628          decision_tree  1.785470  0.412434       0.609684
+ B_augmented_628             dummy_mean  2.426940 -0.001429            NaN
+STAGE2_EXIT=0

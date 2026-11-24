@@ -1,0 +1,12 @@
+C:\Users\Sachin\AppData\Local\Python\pythoncore-3.14-64\python.exe: can't open file "C:\\Users\\Sachin\\OneDrive\\Documents\\Samrud's ML proj\\tests\\test_phase4_contracts.py": [Errno 2] No such file or directory
+PASS test_frozen_evaluation_definitions_are_unchanged
+PASS test_inner_search_is_deterministic
+PASS test_inner_validation_targets_cannot_reach_that_split_weights
+PASS test_outer_folds_reproduce_the_frozen_phase3_ridge
+PASS test_outer_test_targets_cannot_reach_any_fold_decision
+PASS test_registered_arms_are_exactly_the_five_proposed
+PASS test_weight_values_match_registration
+PASS test_weights_are_normalised_and_bounded
+PASS test_weights_reach_the_estimator_as_a_row_aligned_vector
+
+9/9 passed

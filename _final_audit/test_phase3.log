@@ -1,0 +1,23 @@
+PASS  test_a_and_b_share_districts_and_folds
+PASS  test_every_configuration_and_model_is_present
+PASS  test_feature_sets_match_the_approved_manifest
+PASS  test_fold_count_and_coverage
+PASS  test_fold_means_match_summary
+PASS  test_fold_metrics_correspond_to_saved_fold_assignments
+PASS  test_grouped_folds_never_split_states
+PASS  test_inner_tuning_folds_stay_inside_outer_training
+PASS  test_metric_arithmetic
+PASS  test_negative_r2_is_retained
+PASS  test_no_identifier_or_target_columns_are_used
+PASS  test_notebooks_are_valid_and_contain_no_error_outputs
+PASS  test_out_of_fold_predictions_are_complete_and_unique
+PASS  test_outer_folds_are_deterministic
+PASS  test_pooled_metrics_match_out_of_fold_predictions
+PASS  test_random_cv_is_reported_separately_from_primary
+PASS  test_required_deliverables_exist
+PASS  test_ridge_result_is_reproducible
+PASS  test_scaling_is_fitted_on_the_training_fold_only
+PASS  test_seeds_and_versions_are_recorded
+PASS  test_selection_is_one_model_per_configuration_by_grouped_mae
+------------------------------------------------------------
+21/21 passed

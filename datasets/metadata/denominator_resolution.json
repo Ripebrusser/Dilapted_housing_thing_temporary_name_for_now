@@ -1,0 +1,241 @@
+{
+  "alternative_denominator": {
+    "d1_households_labeled_sum": 330835767,
+    "d1_rural_plus_urban_sum": 330835767,
+    "d1_rural_sum": 220695914,
+    "d1_urban_sum": 110139853,
+    "d5_no_hh_sum": 247577528,
+    "published_total_households_2011": 246740228,
+    "alt_over_d5": 1.336291583782192,
+    "alt_over_published": 1.3408262190630706,
+    "exact_equals_d5_count": 0,
+    "within_0_5pct_of_d5": 0,
+    "n_districts": 640,
+    "corr_alt_vs_d5": 0.9876244733662513,
+    "median_abs_pct_diff_vs_d5": 32.11582757412543
+  },
+  "household_asset_probe": {
+    "LPG_or_PNG_Households": {
+      "national_sum": 70422883,
+      "share_of_published_households": 28.54,
+      "published_2011_share_pct": 58.0,
+      "share_of_d1_households_labeled": 21.29,
+      "share_of_alt_denominator": 21.29
+    },
+    "Housholds_with_Electric_Lighting": {
+      "national_sum": 165897294,
+      "share_of_published_households": 67.24,
+      "published_2011_share_pct": 67.0,
+      "share_of_d1_households_labeled": 50.14,
+      "share_of_alt_denominator": 50.14
+    },
+    "Households_with_Television": {
+      "national_sum": 116493624,
+      "share_of_published_households": 47.21,
+      "published_2011_share_pct": 47.0,
+      "share_of_d1_households_labeled": 35.21,
+      "share_of_alt_denominator": 35.21
+    },
+    "Having_latrine_facility_within_the_premises_Total_Households": {
+      "national_sum": 115737458,
+      "share_of_published_households": 46.91,
+      "published_2011_share_pct": 47.0,
+      "share_of_d1_households_labeled": 34.98,
+      "share_of_alt_denominator": 34.98
+    }
+  },
+  "shared_name_resolution": [
+    {
+      "district_name": "AURANGABAD",
+      "d1_candidates": [
+        {
+          "state": "BIHAR",
+          "population": 2540073,
+          "no_hh": 457812
+        },
+        {
+          "state": "MAHARASHTRA",
+          "population": 3701282,
+          "no_hh": 457812
+        }
+      ],
+      "d5_population": 2317966,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "BIHAR||AURANGABAD",
+        "MAHARASHTRA||AURANGABAD"
+      ]
+    },
+    {
+      "district_name": "BIJAPUR",
+      "d1_candidates": [
+        {
+          "state": "CHHATTISGARH",
+          "population": 255230,
+          "no_hh": 316219
+        },
+        {
+          "state": "KARNATAKA",
+          "population": 2177331,
+          "no_hh": 316219
+        }
+      ],
+      "d5_population": 1704953,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "CHHATTISGARH||BIJAPUR",
+        "KARNATAKA||BIJAPUR"
+      ]
+    },
+    {
+      "district_name": "BILASPUR",
+      "d1_candidates": [
+        {
+          "state": "HIMACHAL PRADESH",
+          "population": 381956,
+          "no_hh": 462408
+        },
+        {
+          "state": "CHHATTISGARH",
+          "population": 2663629,
+          "no_hh": 462408
+        }
+      ],
+      "d5_population": 2008888,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "HIMACHAL PRADESH||BILASPUR",
+        "CHHATTISGARH||BILASPUR"
+      ]
+    },
+    {
+      "district_name": "HAMIRPUR",
+      "d1_candidates": [
+        {
+          "state": "HIMACHAL PRADESH",
+          "population": 454768,
+          "no_hh": 174104
+        },
+        {
+          "state": "UTTAR PRADESH",
+          "population": 1104285,
+          "no_hh": 174104
+        }
+      ],
+      "d5_population": 925867,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "HIMACHAL PRADESH||HAMIRPUR",
+        "UTTAR PRADESH||HAMIRPUR"
+      ]
+    },
+    {
+      "district_name": "PRATAPGARH",
+      "d1_candidates": [
+        {
+          "state": "RAJASTHAN",
+          "population": 867848,
+          "no_hh": 520045
+        },
+        {
+          "state": "UTTAR PRADESH",
+          "population": 3209141,
+          "no_hh": 520045
+        }
+      ],
+      "d5_population": 3105706,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "RAJASTHAN||PRATAPGARH",
+        "UTTAR PRADESH||PRATAPGARH"
+      ]
+    },
+    {
+      "district_name": "RAIGARH",
+      "d1_candidates": [
+        {
+          "state": "CHHATTISGARH",
+          "population": 1493984,
+          "no_hh": 436366
+        },
+        {
+          "state": "MAHARASHTRA",
+          "population": 2634200,
+          "no_hh": 436366
+        }
+      ],
+      "d5_population": 1910307,
+      "matched_district": null,
+      "unmatched_d1_districts": [
+        "CHHATTISGARH||RAIGARH",
+        "MAHARASHTRA||RAIGARH"
+      ]
+    }
+  ],
+  "geography_vintage": {
+    "years": [
+      "2016"
+    ],
+    "n_states": 36,
+    "state_names": [
+      "ANDAMAN & NICOBAR ISLANDS",
+      "ANDHRA PRADESH",
+      "ARUNACHAL PRADESH",
+      "ASSAM",
+      "BIHAR",
+      "CHANDIGARH",
+      "CHHATTISGARH",
+      "DADRA & NAGAR HAVELI",
+      "DAMAN & DIU",
+      "GOA",
+      "GUJARAT",
+      "HARYANA",
+      "HIMACHAL PRADESH",
+      "JAMMU & KASHMIR",
+      "JHARKHAND",
+      "KARNATAKA",
+      "KERALA",
+      "LAKSHADWEEP",
+      "MADHYA PRADESH",
+      "MAHARASHTRA",
+      "MANIPUR",
+      "MEGHALAYA",
+      "MIZORAM",
+      "NAGALAND",
+      "NCT OF DELHI",
+      "ODISHA",
+      "PUDUCHERRY",
+      "PUNJAB",
+      "RAJASTHAN",
+      "SIKKIM",
+      "TAMIL NADU",
+      "TELANGANA",
+      "TRIPURA",
+      "UTTAR PRADESH",
+      "UTTARAKHAND",
+      "WEST BENGAL"
+    ],
+    "has_telangana": true,
+    "delhi_entry": [
+      {
+        "geo_code": "7",
+        "name": "NCT OF DELHI"
+      }
+    ],
+    "district_rows_named_new_delhi": []
+  },
+  "T4_validation": {
+    "n": 640,
+    "national_pooled_pct": 3.991,
+    "median_abs_diff_pp": 1.116,
+    "share_within_0_5pp": 0.148,
+    "corr": 0.9847,
+    "distribution": {
+      "min": 0.127,
+      "median": 3.297,
+      "mean": 3.763,
+      "max": 13.871,
+      "sd": 2.457
+    }
+  }
+}

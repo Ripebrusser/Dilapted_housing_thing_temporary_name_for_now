@@ -1,0 +1,19 @@
+PASS  test_area_prefix_stripped
+PASS  test_crosswalk_covers_all_districts
+PASS  test_d1_d2_districts_match_completely
+PASS  test_d1_households_is_not_the_household_universe
+PASS  test_d2_condition_components_sum_to_100
+PASS  test_d2_is_percentage_normalised
+PASS  test_district_alias
+PASS  test_district_codes_align_between_d1_and_d2
+PASS  test_district_codes_are_globally_unique_in_d1
+PASS  test_district_keys_unique_and_complete
+PASS  test_every_d2_district_has_a_total_row
+PASS  test_household_assets_are_household_counts
+PASS  test_metadata_artifacts_exist
+PASS  test_six_district_names_are_duplicated_across_states
+PASS  test_slum_dataset_is_state_level_and_incomplete
+PASS  test_state_aliases_collapse
+PASS  test_target_columns_present_and_compatible
+------------------------------------------------------------
+17/17 passed

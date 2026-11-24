@@ -1,0 +1,30 @@
+PHASE 1 GEOGRAPHIC MATCHING REPORT
+======================================================================
+
+D1 district rows ................ 640
+D2 matched (state+district) ...... 640
+D2 unmatched ..................... 0
+D5 matched (district name only) .. 640
+geography.csv matched ............ 629
+
+D2 rows per district key:
+  keys: 640, patterns: {'Rural|Total|Urban': 628, 'Total|Urban': 9, 'Rural|Total': 3}
+  keys missing a Total row: []
+  keys without exactly 3 rows: ['ANDAMAN AND NICOBAR ISLANDS||NICOBARS', 'ANDHRA PRADESH||HYDERABAD', 'HIMACHAL PRADESH||KINNAUR', 'HIMACHAL PRADESH||LAHUL AND SPITI', 'MAHARASHTRA||MUMBAI', 'MAHARASHTRA||MUMBAI SUBURBAN', 'NCT OF DELHI||CENTRAL', 'NCT OF DELHI||NEW DELHI', 'PUDUCHERRY||MAHE', 'PUDUCHERRY||YANAM', 'TAMIL NADU||CHENNAI', 'WEST BENGAL||KOLKATA']
+  D2 keys absent from D1: []
+
+D5 (PCA 2011) universe:
+  n_district_rows: 1268
+  n_unique_district_names: 634
+  names_with_nonstandard_row_counts: []
+  rows_per_name_distribution: {'2': 634}
+  areas: {'Urban': 634, 'Rural': 634}
+  districts_with_single_area: []
+  has_state_column: False
+  has_district_code: False
+
+D1 districts not matched inside D5: []
+D1 districts not matched in geography.csv: [['NCT OF DELHI', 'New Delhi'], ['ANDHRA PRADESH', 'Adilabad'], ['ANDHRA PRADESH', 'Nizamabad'], ['ANDHRA PRADESH', 'Karimnagar'], ['ANDHRA PRADESH', 'Medak'], ['ANDHRA PRADESH', 'Hyderabad'], ['ANDHRA PRADESH', 'Rangareddy'], ['ANDHRA PRADESH', 'Mahbubnagar'], ['ANDHRA PRADESH', 'Nalgonda'], ['ANDHRA PRADESH', 'Warangal'], ['ANDHRA PRADESH', 'Khammam']]
+
+D5 denominator cross-check vs D1 Households:
+  {'n': 640, 'exact_matches': 0, 'median_rel_diff_pct': -24.09261523762942, 'p95_abs_rel_diff_pct': 44.357405641844764, 'max_abs_diff': 1088986.0}
